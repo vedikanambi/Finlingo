@@ -1,6 +1,20 @@
 # FinLingo++
 
+> **AI-powered financial and legal contract simplifier with risk classification and regulatory faithfulness verification.**
+
 MSc AI practicum, National College of Ireland — Vedika Thirumalai Nambi (24222437)
+
+---
+
+## What is FinLingo++?
+
+Financial and legal contracts are notoriously difficult to understand — dense language, buried obligations, and regulatory jargon that most people can't parse without a lawyer. FinLingo++ addresses this by automatically breaking a contract into its individual clauses, rewriting each one in plain English, flagging risk categories (e.g. liability, privacy, indemnification), and verifying that the simplified version is actually faithful to the underlying regulatory text.
+
+The system combines a retrieval-augmented pipeline with fine-tuned transformer adapters for risk classification (Stage 5) and faithfulness verification (Stage 6), achieving **macro-F1 0.793** on risk classification and **precision 0.828 / recall 0.791** on source-premise verification. It runs as both a CLI tool and a React web app backed by a FastAPI server.
+
+---
+
+## Pipeline overview
 
 Takes a financial/legal contract, breaks it into clauses, rewrites each one in
 plain English, tags a risk category, and checks the rewrite against real
