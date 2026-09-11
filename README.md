@@ -2,8 +2,6 @@
 
 > **AI-powered financial and legal contract simplifier with risk classification and regulatory faithfulness verification.**
 
-MSc AI practicum, National College of Ireland — Vedika Thirumalai Nambi (24222437)
-
 ---
 
 ## What is FinLingo++?
