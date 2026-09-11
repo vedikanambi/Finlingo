@@ -1,0 +1,834 @@
+{
+  "rq1": {
+    "sari": 49.88536,
+    "bertscore_f1": 0.894994,
+    "mean_fk_grade": 9.893275,
+    "pct_fk_le_8": 0.32967,
+    "pct_fk_le_9": 0.450549,
+    "n_examples": 91
+  },
+  "rq2": {
+    "macro_precision": 0.7612698412698413,
+    "macro_recall": 0.5366855366855366,
+    "macro_f1": 0.5627683843263553,
+    "accuracy": 0.5604395604395604,
+    "confusion_matrix": [
+      [
+        13,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        3,
+        1,
+        0,
+        1,
+        11,
+        2
+      ],
+      [
+        0,
+        0,
+        5,
+        0,
+        0,
+        6,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        4,
+        0,
+        9,
+        1
+      ],
+      [
+        0,
+        2,
+        1,
+        0,
+        5,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        21,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "labels": [
+      "Auto-Renewal",
+      "Hidden Fee",
+      "Liability Waiver",
+      "Data Sharing",
+      "Penalty Clause",
+      "Safe",
+      "__OTHER__"
+    ],
+    "proposal_labels": [
+      "Auto-Renewal",
+      "Hidden Fee",
+      "Liability Waiver",
+      "Data Sharing",
+      "Penalty Clause",
+      "Safe"
+    ],
+    "per_class": {
+      "Auto-Renewal": {
+        "precision": 1.0,
+        "recall": 0.9285714285714286,
+        "f1-score": 0.9629629629629629,
+        "support": 14.0
+      },
+      "Hidden Fee": {
+        "precision": 0.6,
+        "recall": 0.16666666666666666,
+        "f1-score": 0.2608695652173913,
+        "support": 18.0
+      },
+      "Liability Waiver": {
+        "precision": 0.7142857142857143,
+        "recall": 0.38461538461538464,
+        "f1-score": 0.5,
+        "support": 13.0
+      },
+      "Data Sharing": {
+        "precision": 1.0,
+        "recall": 0.2857142857142857,
+        "f1-score": 0.4444444444444444,
+        "support": 14.0
+      },
+      "Penalty Clause": {
+        "precision": 0.8333333333333334,
+        "recall": 0.5,
+        "f1-score": 0.625,
+        "support": 10.0
+      },
+      "Safe": {
+        "precision": 0.42,
+        "recall": 0.9545454545454546,
+        "f1-score": 0.5833333333333334,
+        "support": 22.0
+      },
+      "micro avg": {
+        "precision": 0.6,
+        "recall": 0.5604395604395604,
+        "f1-score": 0.5795454545454546,
+        "support": 91.0
+      },
+      "macro avg": {
+        "precision": 0.7612698412698413,
+        "recall": 0.5366855366855366,
+        "f1-score": 0.5627683843263553,
+        "support": 91.0
+      },
+      "weighted avg": {
+        "precision": 0.7215279958137101,
+        "recall": 0.5604395604395604,
+        "f1-score": 0.5492603209994514,
+        "support": 91.0
+      }
+    },
+    "n_invalid_or_abstained": 6,
+    "invalid_or_abstention_rate": 0.06593406593406594,
+    "n_examples": 91
+  },
+  "risk_confidence_calibration": {
+    "ece": 0.284615384615385,
+    "brier_top_label": 0.3143956043956044,
+    "bins": [
+      {
+        "lower": 0.0,
+        "upper": 0.1,
+        "count": 6,
+        "accuracy": 0.0,
+        "mean_confidence": 0.0
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "count": 85,
+        "accuracy": 0.6,
+        "mean_confidence": 0.9047058823529416
+      }
+    ],
+    "n_examples": 91
+  },
+  "risk_score_validation": {
+    "mae": null,
+    "quadratic_weighted_kappa": null,
+    "n_examples": 0
+  },
+  "retrieval": {
+    "before_reranking": {
+      "recall@8": 0.10989010989010989,
+      "precision@8": 0.013736263736263736,
+      "mrr": 0.017072213500784927,
+      "ndcg@8": 0.03773111616523809,
+      "hit_at_1": 0.0,
+      "n_examples": 182
+    },
+    "after_reranking": {
+      "recall@5": 0.06593406593406594,
+      "precision@5": 0.013186813186813189,
+      "mrr": 0.03608058608058608,
+      "ndcg@5": 0.04338966064702629,
+      "hit_at_1": 0.02197802197802198,
+      "n_examples": 182
+    }
+  },
+  "paired_items": {
+    "risk_correct": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "evidence_classification_correct": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "configuration": {
+    "retrieval_method": "faiss",
+    "retrieval_query_mode": "simplified",
+    "use_reranker": true,
+    "use_verifier": true,
+    "tau": 0.75,
+    "attribution_tau": 0.75,
+    "primary_premise": "retrieved_chunk",
+    "n_records": 182,
+    "n_unique_clauses": 91,
+    "human_reviewed_records": 0,
+    "dataset_revisions": {
+      "dvgodoy/CUAD_v1_Contract_Understanding_clause_classification": "2647c92f634569acbdfbd694ad5488293c55b3f7",
+      "urialon/converted_contract_nli": "c8c6e2fa95912a7ce76409d5b007ce949edcf7b5",
+      "stanfordnlp/snli": "cdb5c3d5eed6ead6e5a341c8e56e669bb666725b",
+      "PatronusAI/financebench": "e04404e3a97f69f79c14d42f24981a1c9c3bcd18",
+      "Mouwiya/cfpb-consumer-complaints": "038f8f8b18879c9384abfee5d0b685b00c03b3cf",
+      "gbharti/finance-alpaca": "c88d3d5e7e2c7cab9f11a56f27bd5ba3ed68f075"
+    },
+    "model_revisions": {
+      "BAAI/bge-small-en-v1.5": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+      "ProsusAI/finbert": "4556d13015211d73dccd3fdd39d39232506f3e43",
+      "Qwen/Qwen2.5-1.5B-Instruct": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "Qwen/Qwen2.5-3B-Instruct": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+      "answerdotai/ModernBERT-large": "45bb4654a4d5aaff24dd11d4781fa46d39bf8c13",
+      "cross-encoder/ms-marco-MiniLM-L-12-v2": "7b0235231ca2674cb8ca8f022859a6eba2b1c968",
+      "cross-encoder/ms-marco-MiniLM-L-6-v2": "c5ee24cb16019beea0893ab7796b1df96625c6b8",
+      "roberta-large": "722cf37b1afa9454edce342e7895e588b6ff1d59",
+      "tasksource/ModernBERT-large-nli": "ca476cb923a8637073d4ceb0f19f7fc236e260d4"
+    },
+    "evidence_label_sources": [
+      "gpt_provisional"
+    ],
+    "final_evaluation": false,
+    "final_validation": null
+  },
+  "rq3": {
+    "primary_definition": "P(entailment | generated sentence, retrieved regulatory chunk)",
+    "primary_tau": {
+      "precision": 1.0,
+      "recall": 0.005555555555555556,
+      "f1": 0.011049723756906077,
+      "unsupported_precision": 0.011049723756906077,
+      "unsupported_recall": 1.0,
+      "unsupported_f1": 0.02185792349726776,
+      "accuracy": 0.016483516483516484,
+      "predicted_hallucination_rate": 0.9945054945054945,
+      "ground_truth_hallucination_rate": 0.01098901098901099,
+      "missed_unsupported_rate": 0.0,
+      "confusion_matrix": [
+        [
+          2,
+          0
+        ],
+        [
+          179,
+          1
+        ]
+      ],
+      "n_examples": 182
+    },
+    "tau_sweep": {
+      "0.65": {
+        "precision": 1.0,
+        "recall": 0.005555555555555556,
+        "f1": 0.011049723756906077,
+        "unsupported_precision": 0.011049723756906077,
+        "unsupported_recall": 1.0,
+        "unsupported_f1": 0.02185792349726776,
+        "accuracy": 0.016483516483516484,
+        "predicted_hallucination_rate": 0.9945054945054945,
+        "ground_truth_hallucination_rate": 0.01098901098901099,
+        "missed_unsupported_rate": 0.0,
+        "confusion_matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            179,
+            1
+          ]
+        ],
+        "n_examples": 182
+      },
+      "0.7": {
+        "precision": 1.0,
+        "recall": 0.005555555555555556,
+        "f1": 0.011049723756906077,
+        "unsupported_precision": 0.011049723756906077,
+        "unsupported_recall": 1.0,
+        "unsupported_f1": 0.02185792349726776,
+        "accuracy": 0.016483516483516484,
+        "predicted_hallucination_rate": 0.9945054945054945,
+        "ground_truth_hallucination_rate": 0.01098901098901099,
+        "missed_unsupported_rate": 0.0,
+        "confusion_matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            179,
+            1
+          ]
+        ],
+        "n_examples": 182
+      },
+      "0.75": {
+        "precision": 1.0,
+        "recall": 0.005555555555555556,
+        "f1": 0.011049723756906077,
+        "unsupported_precision": 0.011049723756906077,
+        "unsupported_recall": 1.0,
+        "unsupported_f1": 0.02185792349726776,
+        "accuracy": 0.016483516483516484,
+        "predicted_hallucination_rate": 0.9945054945054945,
+        "ground_truth_hallucination_rate": 0.01098901098901099,
+        "missed_unsupported_rate": 0.0,
+        "confusion_matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            179,
+            1
+          ]
+        ],
+        "n_examples": 182
+      },
+      "0.8": {
+        "precision": 1.0,
+        "recall": 0.005555555555555556,
+        "f1": 0.011049723756906077,
+        "unsupported_precision": 0.011049723756906077,
+        "unsupported_recall": 1.0,
+        "unsupported_f1": 0.02185792349726776,
+        "accuracy": 0.016483516483516484,
+        "predicted_hallucination_rate": 0.9945054945054945,
+        "ground_truth_hallucination_rate": 0.01098901098901099,
+        "missed_unsupported_rate": 0.0,
+        "confusion_matrix": [
+          [
+            2,
+            0
+          ],
+          [
+            179,
+            1
+          ]
+        ],
+        "n_examples": 182
+      }
+    },
+    "source_clause_preservation_metrics": {
+      "precision": 0.90625,
+      "recall": 0.6373626373626373,
+      "f1": 0.7483870967741936,
+      "unsupported_precision": 0.7203389830508474,
+      "unsupported_recall": 0.9340659340659341,
+      "unsupported_f1": 0.8133971291866029,
+      "accuracy": 0.7857142857142857,
+      "predicted_hallucination_rate": 0.6483516483516484,
+      "ground_truth_hallucination_rate": 0.5,
+      "missed_unsupported_rate": 0.06593406593406594,
+      "confusion_matrix": [
+        [
+          85,
+          6
+        ],
+        [
+          33,
+          58
+        ]
+      ],
+      "n_examples": 182
+    },
+    "retrieved_chunk_grounding_metrics": {
+      "precision": 1.0,
+      "recall": 0.005555555555555556,
+      "f1": 0.011049723756906077,
+      "unsupported_precision": 0.011049723756906077,
+      "unsupported_recall": 1.0,
+      "unsupported_f1": 0.02185792349726776,
+      "accuracy": 0.016483516483516484,
+      "predicted_hallucination_rate": 0.9945054945054945,
+      "ground_truth_hallucination_rate": 0.01098901098901099,
+      "missed_unsupported_rate": 0.0,
+      "confusion_matrix": [
+        [
+          2,
+          0
+        ],
+        [
+          179,
+          1
+        ]
+      ],
+      "n_examples": 182
+    },
+    "retrieval_conditioned_chunk_grounding_metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "unsupported_precision": 0.0,
+      "unsupported_recall": 0.0,
+      "unsupported_f1": 0.0,
+      "accuracy": 0.0,
+      "predicted_hallucination_rate": 1.0,
+      "ground_truth_hallucination_rate": 0.0,
+      "missed_unsupported_rate": 0.0,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          12,
+          0
+        ]
+      ],
+      "n_examples": 12
+    },
+    "chunk_retrieval_coverage": {
+      "value": 0.06593406593406594,
+      "n_retrieved": 12,
+      "n_total": 182,
+      "definition": "Fraction of records where the regulatory chunk judged (by the silver adjudicator) to actually ground the hypothesis was present in the post-rerank evidence set the verifier scored against. Low coverage means the primary chunk-grounded metric is bottlenecked by retrieval recall, not verifier calibration -- retrieval_conditioned_chunk_grounding_metrics isolates verifier performance on the subset where the correct premise was available."
+    },
+    "attribution": {
+      "accuracy": 0.0,
+      "coverage": 0.005555555555555556,
+      "n_examples": 180
+    },
+    "generated_output": {
+      "mean_primary_faithfulness": 0.4195651897590362,
+      "unsupported_flag_rate": 0.9969879518072289,
+      "sentence_count": 332,
+      "definition": "Operational fraction of generated sentences below tau. This is not labelled as a true hallucination rate without independent human ground truth."
+    },
+    "validated_missed_unsupported_rate": 0.0,
+    "mean_latency_ms": 2666.4257835172075,
+    "entailment_score_ci": {
+      "mean": 0.41981571994640016,
+      "lower": 0.41471680417493145,
+      "upper": 0.42668993827160245
+    }
+  },
+  "target_checks": {
+    "sari_gt_40": {
+      "value": 49.88536,
+      "threshold": 40.0,
+      "operator": "gt",
+      "passed": true
+    },
+    "bertscore_f1_gt_0_88": {
+      "value": 0.894994,
+      "threshold": 0.88,
+      "operator": "gt",
+      "passed": true
+    },
+    "mean_fk_grade_le_9": {
+      "value": 9.893275,
+      "threshold": 9.0,
+      "operator": "le",
+      "passed": false
+    },
+    "risk_macro_f1_gt_target": {
+      "value": 0.5627683843263553,
+      "threshold": 0.75,
+      "operator": "gt",
+      "passed": false
+    },
+    "faithfulness_precision_gt_target": {
+      "value": 1.0,
+      "threshold": 0.9,
+      "operator": "gt",
+      "passed": true
+    },
+    "faithfulness_recall_gt_target": {
+      "value": 0.005555555555555556,
+      "threshold": 0.8,
+      "operator": "gt",
+      "passed": false
+    },
+    "attribution_accuracy_gt_target": {
+      "value": 0.0,
+      "threshold": 0.75,
+      "operator": "gt",
+      "passed": false
+    },
+    "validated_missed_unsupported_rate_lt_target": {
+      "value": 0.0,
+      "threshold": 0.08,
+      "operator": "lt",
+      "passed": true
+    }
+  },
+  "runtime_manifest": {
+    "python": "3.14.4",
+    "git_commit": null,
+    "random_seed": 42,
+    "dataset_revisions": {
+      "dvgodoy/CUAD_v1_Contract_Understanding_clause_classification": "2647c92f634569acbdfbd694ad5488293c55b3f7",
+      "urialon/converted_contract_nli": "c8c6e2fa95912a7ce76409d5b007ce949edcf7b5",
+      "stanfordnlp/snli": "cdb5c3d5eed6ead6e5a341c8e56e669bb666725b",
+      "PatronusAI/financebench": "e04404e3a97f69f79c14d42f24981a1c9c3bcd18",
+      "Mouwiya/cfpb-consumer-complaints": "038f8f8b18879c9384abfee5d0b685b00c03b3cf",
+      "gbharti/finance-alpaca": "c88d3d5e7e2c7cab9f11a56f27bd5ba3ed68f075"
+    },
+    "model_revisions": {
+      "BAAI/bge-small-en-v1.5": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+      "ProsusAI/finbert": "4556d13015211d73dccd3fdd39d39232506f3e43",
+      "Qwen/Qwen2.5-1.5B-Instruct": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "Qwen/Qwen2.5-3B-Instruct": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+      "answerdotai/ModernBERT-large": "45bb4654a4d5aaff24dd11d4781fa46d39bf8c13",
+      "cross-encoder/ms-marco-MiniLM-L-12-v2": "7b0235231ca2674cb8ca8f022859a6eba2b1c968",
+      "cross-encoder/ms-marco-MiniLM-L-6-v2": "c5ee24cb16019beea0893ab7796b1df96625c6b8",
+      "roberta-large": "722cf37b1afa9454edce342e7895e588b6ff1d59",
+      "tasksource/ModernBERT-large-nli": "ca476cb923a8637073d4ceb0f19f7fc236e260d4"
+    },
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "transformers": "5.10.2",
+      "peft": "0.19.1",
+      "bitsandbytes": "0.49.2",
+      "datasets": "5.0.0",
+      "sentence-transformers": "5.5.1",
+      "faiss-cpu": "1.14.3",
+      "openai": "2.41.0",
+      "fastapi": "0.139.0",
+      "pydantic": "2.13.1",
+      "bert-score": "0.3.13",
+      "scikit-learn": "1.8.0"
+    },
+    "hardware": {
+      "platform": "Windows-11-10.0.26200-SP0",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+      "torch_version": "2.11.0+cu128",
+      "cuda_available": true,
+      "cuda_version": "12.8",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+    }
+  },
+  "human_review": {
+    "review_file": null,
+    "status": null,
+    "human_reviewed_records": 0,
+    "provisional_records": 182
+  }
+}

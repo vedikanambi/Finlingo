@@ -1,0 +1,1318 @@
+{
+  "rq4_failure_modes": {
+    "baseline_clean": {
+      "pipeline": {
+        "risk": {
+          "macro_precision": 0.3333333333333333,
+          "macro_recall": 0.22916666666666666,
+          "macro_f1": 0.25757575757575757,
+          "accuracy": 0.5,
+          "confusion_matrix": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe",
+            "__OTHER__"
+          ],
+          "proposal_labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe"
+          ],
+          "per_class": {
+            "Auto-Renewal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "Hidden Fee": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Liability Waiver": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Data Sharing": {
+              "precision": 1.0,
+              "recall": 0.375,
+              "f1-score": 0.5454545454545454,
+              "support": 8.0
+            },
+            "Penalty Clause": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Safe": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.5,
+            "macro avg": {
+              "precision": 0.3333333333333333,
+              "recall": 0.22916666666666666,
+              "f1-score": 0.25757575757575757,
+              "support": 10.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1-score": 0.6363636363636364,
+              "support": 10.0
+            }
+          },
+          "n_invalid_or_abstained": 0,
+          "invalid_or_abstention_rate": 0.0,
+          "n_examples": 10
+        },
+        "mean_fk_grade": 6.7271,
+        "pct_fk_le_8": 0.8,
+        "mean_generated_source_faithfulness": 0.5865720256410257,
+        "generated_unsupported_flag_rate": 0.05128205128205128,
+        "retrieval": {
+          "recall@15": 0.0,
+          "precision@15": 0.0,
+          "mrr": 0.0,
+          "ndcg@15": 0.0,
+          "hit_at_1": 0.0,
+          "n_examples": 10
+        },
+        "n_unique_clauses": 10,
+        "delta_vs_clean": {
+          "risk_macro_f1": 0.0,
+          "mean_fk_grade": 0.0,
+          "mean_source_faithfulness": 0.0
+        }
+      },
+      "fixed_hypothesis_verifier": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.8888888888888888,
+        "unsupported_precision": 0.0,
+        "unsupported_recall": 0.0,
+        "unsupported_f1": 0.0,
+        "accuracy": 0.8,
+        "predicted_hallucination_rate": 0.2,
+        "ground_truth_hallucination_rate": 0.0,
+        "missed_unsupported_rate": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            8
+          ]
+        ],
+        "n_examples": 10
+      }
+    },
+    "scanned_ocr_noise_proxy": {
+      "pipeline": {
+        "risk": {
+          "macro_precision": 0.3333333333333333,
+          "macro_recall": 0.2708333333333333,
+          "macro_f1": 0.2948717948717949,
+          "accuracy": 0.7,
+          "confusion_matrix": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe",
+            "__OTHER__"
+          ],
+          "proposal_labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe"
+          ],
+          "per_class": {
+            "Auto-Renewal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "Hidden Fee": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Liability Waiver": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Data Sharing": {
+              "precision": 1.0,
+              "recall": 0.625,
+              "f1-score": 0.7692307692307693,
+              "support": 8.0
+            },
+            "Penalty Clause": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Safe": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.7,
+            "macro avg": {
+              "precision": 0.3333333333333333,
+              "recall": 0.2708333333333333,
+              "f1-score": 0.2948717948717949,
+              "support": 10.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 0.7,
+              "f1-score": 0.8153846153846154,
+              "support": 10.0
+            }
+          },
+          "n_invalid_or_abstained": 0,
+          "invalid_or_abstention_rate": 0.0,
+          "n_examples": 10
+        },
+        "mean_fk_grade": 7.408699999999999,
+        "pct_fk_le_8": 0.7,
+        "mean_generated_source_faithfulness": 0.6112825277777778,
+        "generated_unsupported_flag_rate": 0.0,
+        "retrieval": {
+          "recall@15": 0.0,
+          "precision@15": 0.0,
+          "mrr": 0.0,
+          "ndcg@15": 0.0,
+          "hit_at_1": 0.0,
+          "n_examples": 10
+        },
+        "n_unique_clauses": 10,
+        "delta_vs_clean": {
+          "risk_macro_f1": 0.03729603729603731,
+          "mean_fk_grade": 0.6815999999999987,
+          "mean_source_faithfulness": 0.024710502136752077
+        }
+      },
+      "fixed_hypothesis_verifier": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.8888888888888888,
+        "unsupported_precision": 0.0,
+        "unsupported_recall": 0.0,
+        "unsupported_f1": 0.0,
+        "accuracy": 0.8,
+        "predicted_hallucination_rate": 0.2,
+        "ground_truth_hallucination_rate": 0.0,
+        "missed_unsupported_rate": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            8
+          ]
+        ],
+        "n_examples": 10
+      }
+    },
+    "reordered_clause_sentences": {
+      "pipeline": {
+        "risk": {
+          "macro_precision": 0.3333333333333333,
+          "macro_recall": 0.22916666666666666,
+          "macro_f1": 0.25757575757575757,
+          "accuracy": 0.5,
+          "confusion_matrix": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe",
+            "__OTHER__"
+          ],
+          "proposal_labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe"
+          ],
+          "per_class": {
+            "Auto-Renewal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "Hidden Fee": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Liability Waiver": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Data Sharing": {
+              "precision": 1.0,
+              "recall": 0.375,
+              "f1-score": 0.5454545454545454,
+              "support": 8.0
+            },
+            "Penalty Clause": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Safe": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.5,
+            "macro avg": {
+              "precision": 0.3333333333333333,
+              "recall": 0.22916666666666666,
+              "f1-score": 0.25757575757575757,
+              "support": 10.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1-score": 0.6363636363636364,
+              "support": 10.0
+            }
+          },
+          "n_invalid_or_abstained": 0,
+          "invalid_or_abstention_rate": 0.0,
+          "n_examples": 10
+        },
+        "mean_fk_grade": 6.784699999999999,
+        "pct_fk_le_8": 0.6,
+        "mean_generated_source_faithfulness": 0.656086,
+        "generated_unsupported_flag_rate": 0.04878048780487805,
+        "retrieval": {
+          "recall@15": 0.0,
+          "precision@15": 0.0,
+          "mrr": 0.0,
+          "ndcg@15": 0.0,
+          "hit_at_1": 0.0,
+          "n_examples": 10
+        },
+        "n_unique_clauses": 10,
+        "delta_vs_clean": {
+          "risk_macro_f1": 0.0,
+          "mean_fk_grade": 0.057599999999998985,
+          "mean_source_faithfulness": 0.06951397435897422
+        }
+      },
+      "fixed_hypothesis_verifier": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.8888888888888888,
+        "unsupported_precision": 0.0,
+        "unsupported_recall": 0.0,
+        "unsupported_f1": 0.0,
+        "accuracy": 0.8,
+        "predicted_hallucination_rate": 0.2,
+        "ground_truth_hallucination_rate": 0.0,
+        "missed_unsupported_rate": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            8
+          ]
+        ],
+        "n_examples": 10
+      }
+    },
+    "technical_derivative_language": {
+      "pipeline": {
+        "risk": {
+          "macro_precision": 0.3333333333333333,
+          "macro_recall": 0.20833333333333334,
+          "macro_f1": 0.2333333333333333,
+          "accuracy": 0.4,
+          "confusion_matrix": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              6,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe",
+            "__OTHER__"
+          ],
+          "proposal_labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe"
+          ],
+          "per_class": {
+            "Auto-Renewal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "Hidden Fee": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Liability Waiver": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Data Sharing": {
+              "precision": 1.0,
+              "recall": 0.25,
+              "f1-score": 0.4,
+              "support": 8.0
+            },
+            "Penalty Clause": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Safe": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.4,
+            "macro avg": {
+              "precision": 0.3333333333333333,
+              "recall": 0.20833333333333334,
+              "f1-score": 0.2333333333333333,
+              "support": 10.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1-score": 0.52,
+              "support": 10.0
+            }
+          },
+          "n_invalid_or_abstained": 0,
+          "invalid_or_abstention_rate": 0.0,
+          "n_examples": 10
+        },
+        "mean_fk_grade": 7.3069999999999995,
+        "pct_fk_le_8": 0.8,
+        "mean_generated_source_faithfulness": 0.5977502173913044,
+        "generated_unsupported_flag_rate": 0.021739130434782608,
+        "retrieval": {
+          "recall@15": 0.0,
+          "precision@15": 0.0,
+          "mrr": 0.0,
+          "ndcg@15": 0.0,
+          "hit_at_1": 0.0,
+          "n_examples": 10
+        },
+        "n_unique_clauses": 10,
+        "delta_vs_clean": {
+          "risk_macro_f1": -0.02424242424242426,
+          "mean_fk_grade": 0.5798999999999994,
+          "mean_source_faithfulness": 0.011178191750278677
+        }
+      },
+      "fixed_hypothesis_verifier": {
+        "precision": 1.0,
+        "recall": 0.7,
+        "f1": 0.8235294117647058,
+        "unsupported_precision": 0.0,
+        "unsupported_recall": 0.0,
+        "unsupported_f1": 0.0,
+        "accuracy": 0.7,
+        "predicted_hallucination_rate": 0.3,
+        "ground_truth_hallucination_rate": 0.0,
+        "missed_unsupported_rate": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "n_examples": 10
+      }
+    },
+    "very_short_or_truncated": {
+      "pipeline": {
+        "risk": {
+          "macro_precision": 0.3333333333333333,
+          "macro_recall": 0.25,
+          "macro_f1": 0.27777777777777773,
+          "accuracy": 0.6,
+          "confusion_matrix": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe",
+            "__OTHER__"
+          ],
+          "proposal_labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe"
+          ],
+          "per_class": {
+            "Auto-Renewal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "Hidden Fee": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Liability Waiver": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Data Sharing": {
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1-score": 0.6666666666666666,
+              "support": 8.0
+            },
+            "Penalty Clause": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Safe": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.6,
+            "macro avg": {
+              "precision": 0.3333333333333333,
+              "recall": 0.25,
+              "f1-score": 0.27777777777777773,
+              "support": 10.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 0.6,
+              "f1-score": 0.7333333333333333,
+              "support": 10.0
+            }
+          },
+          "n_invalid_or_abstained": 0,
+          "invalid_or_abstention_rate": 0.0,
+          "n_examples": 10
+        },
+        "mean_fk_grade": 7.880400000000002,
+        "pct_fk_le_8": 0.6,
+        "mean_generated_source_faithfulness": 0.7159436923076922,
+        "generated_unsupported_flag_rate": 0.07692307692307693,
+        "retrieval": {
+          "recall@15": 0.0,
+          "precision@15": 0.0,
+          "mrr": 0.0,
+          "ndcg@15": 0.0,
+          "hit_at_1": 0.0,
+          "n_examples": 10
+        },
+        "n_unique_clauses": 10,
+        "delta_vs_clean": {
+          "risk_macro_f1": 0.020202020202020166,
+          "mean_fk_grade": 1.1533000000000015,
+          "mean_source_faithfulness": 0.12937166666666644
+        }
+      },
+      "fixed_hypothesis_verifier": {
+        "precision": 1.0,
+        "recall": 0.2,
+        "f1": 0.3333333333333333,
+        "unsupported_precision": 0.0,
+        "unsupported_recall": 0.0,
+        "unsupported_f1": 0.0,
+        "accuracy": 0.2,
+        "predicted_hallucination_rate": 0.8,
+        "ground_truth_hallucination_rate": 0.0,
+        "missed_unsupported_rate": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            2
+          ]
+        ],
+        "n_examples": 10
+      }
+    },
+    "unseen_jurisdiction": {
+      "pipeline": {
+        "risk": {
+          "macro_precision": 0.3333333333333333,
+          "macro_recall": 0.20833333333333334,
+          "macro_f1": 0.2333333333333333,
+          "accuracy": 0.4,
+          "confusion_matrix": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              6,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe",
+            "__OTHER__"
+          ],
+          "proposal_labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe"
+          ],
+          "per_class": {
+            "Auto-Renewal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "Hidden Fee": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Liability Waiver": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Data Sharing": {
+              "precision": 1.0,
+              "recall": 0.25,
+              "f1-score": 0.4,
+              "support": 8.0
+            },
+            "Penalty Clause": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Safe": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.4,
+            "macro avg": {
+              "precision": 0.3333333333333333,
+              "recall": 0.20833333333333334,
+              "f1-score": 0.2333333333333333,
+              "support": 10.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1-score": 0.52,
+              "support": 10.0
+            }
+          },
+          "n_invalid_or_abstained": 0,
+          "invalid_or_abstention_rate": 0.0,
+          "n_examples": 10
+        },
+        "mean_fk_grade": 6.7584,
+        "pct_fk_le_8": 1.0,
+        "mean_generated_source_faithfulness": 0.590515138888889,
+        "generated_unsupported_flag_rate": 0.027777777777777776,
+        "retrieval": {
+          "recall@15": 0.0,
+          "precision@15": 0.0,
+          "mrr": 0.0,
+          "ndcg@15": 0.0,
+          "hit_at_1": 0.0,
+          "n_examples": 10
+        },
+        "n_unique_clauses": 10,
+        "delta_vs_clean": {
+          "risk_macro_f1": -0.02424242424242426,
+          "mean_fk_grade": 0.031299999999999883,
+          "mean_source_faithfulness": 0.003943113247863228
+        }
+      },
+      "fixed_hypothesis_verifier": {
+        "precision": 1.0,
+        "recall": 0.7,
+        "f1": 0.8235294117647058,
+        "unsupported_precision": 0.0,
+        "unsupported_recall": 0.0,
+        "unsupported_f1": 0.0,
+        "accuracy": 0.7,
+        "predicted_hallucination_rate": 0.3,
+        "ground_truth_hallucination_rate": 0.0,
+        "missed_unsupported_rate": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "n_examples": 10
+      }
+    },
+    "cross_clause_dependency": {
+      "pipeline": {
+        "risk": {
+          "macro_precision": 0.3333333333333333,
+          "macro_recall": 0.20833333333333334,
+          "macro_f1": 0.2333333333333333,
+          "accuracy": 0.4,
+          "confusion_matrix": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              6,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe",
+            "__OTHER__"
+          ],
+          "proposal_labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe"
+          ],
+          "per_class": {
+            "Auto-Renewal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "Hidden Fee": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Liability Waiver": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Data Sharing": {
+              "precision": 1.0,
+              "recall": 0.25,
+              "f1-score": 0.4,
+              "support": 8.0
+            },
+            "Penalty Clause": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Safe": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.4,
+            "macro avg": {
+              "precision": 0.3333333333333333,
+              "recall": 0.20833333333333334,
+              "f1-score": 0.2333333333333333,
+              "support": 10.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1-score": 0.52,
+              "support": 10.0
+            }
+          },
+          "n_invalid_or_abstained": 0,
+          "invalid_or_abstention_rate": 0.0,
+          "n_examples": 10
+        },
+        "mean_fk_grade": 6.8188,
+        "pct_fk_le_8": 0.8,
+        "mean_generated_source_faithfulness": 0.6110528181818182,
+        "generated_unsupported_flag_rate": 0.06818181818181818,
+        "retrieval": {
+          "recall@15": 0.0,
+          "precision@15": 0.0,
+          "mrr": 0.0,
+          "ndcg@15": 0.0,
+          "hit_at_1": 0.0,
+          "n_examples": 10
+        },
+        "n_unique_clauses": 10,
+        "delta_vs_clean": {
+          "risk_macro_f1": -0.02424242424242426,
+          "mean_fk_grade": 0.09170000000000034,
+          "mean_source_faithfulness": 0.024480792540792495
+        }
+      },
+      "fixed_hypothesis_verifier": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.8888888888888888,
+        "unsupported_precision": 0.0,
+        "unsupported_recall": 0.0,
+        "unsupported_f1": 0.0,
+        "accuracy": 0.8,
+        "predicted_hallucination_rate": 0.2,
+        "ground_truth_hallucination_rate": 0.0,
+        "missed_unsupported_rate": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            8
+          ]
+        ],
+        "n_examples": 10
+      }
+    }
+  },
+  "tau": 0.376,
+  "notes": {
+    "ocr": "Text-level OCR corruption proxy; final thesis should also run representative scanned PDFs through S1.",
+    "ground_truth": "Retrieval deltas are available only for records with adjudicated evidence chunk IDs."
+  }
+}

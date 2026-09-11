@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-07-14T21:31:20.851943+00:00",
+  "adapter_id": "models/stage6_verifier_v3_financial",
+  "base_model": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+  "structural_proof": {
+    "lora_module_count": 648,
+    "lora_modules_sample": [
+      "base_model.model.deberta.encoder.layer.0.attention.self.query_proj.lora_dropout",
+      "base_model.model.deberta.encoder.layer.0.attention.self.query_proj.lora_dropout.default",
+      "base_model.model.deberta.encoder.layer.0.attention.self.query_proj.lora_A",
+      "base_model.model.deberta.encoder.layer.0.attention.self.query_proj.lora_A.default",
+      "base_model.model.deberta.encoder.layer.0.attention.self.query_proj.lora_B",
+      "base_model.model.deberta.encoder.layer.0.attention.self.query_proj.lora_B.default",
+      "base_model.model.deberta.encoder.layer.0.attention.self.query_proj.lora_embedding_A",
+      "base_model.model.deberta.encoder.layer.0.attention.self.query_proj.lora_embedding_B"
+    ],
+    "peft_config": {
+      "task_type": "SEQ_CLS",
+      "peft_type": "LORA",
+      "peft_version": "0.19.1",
+      "base_model_name_or_path": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+      "inference_mode": true,
+      "r": 16,
+      "lora_alpha": 32,
+      "lora_dropout": 0.05,
+      "fan_in_fan_out": false,
+      "bias": "none",
+      "use_rslora": false,
+      "modules_to_save": [
+        "classifier",
+        "pooler",
+        "classifier",
+        "score",
+        "classifier",
+        "score"
+      ],
+      "init_lora_weights": true,
+      "megatron_core": "megatron.core",
+      "use_dora": false,
+      "use_qalora": false,
+      "qalora_group_size": 16,
+      "lora_bias": false,
+      "ensure_weight_tying": false
+    },
+    "adapter_file_sha256": {
+      "adapter_config.json": "65f76e78d6017c699d271720ccae88cef5ca7c6dc64a4fecbf4f6f58c14cefd4",
+      "adapter_model.safetensors": "9757b3f64d906225a3707d7ba03245e9b6710c6911c6c7ded8c90a72ef24abd5",
+      "added_tokens.json": "a4b6bfe668f2b3cf6f0cd535e98a0663d2d0d4a4a15f13075ad3597d33985a23",
+      "special_tokens_map.json": "a627d4e20da5e9482f6a08f667ead8809ff9a22dbf6284b91dacd57f217b4555",
+      "tokenizer_config.json": "ab962510c46377aa3483d10ea99ba7de6159f52e87d6f7d25e9712bf70713020",
+      "trainer_state.json": "d5ca0b1066ef8fbcdc1eaf8ee636f4b5e7310d4038e7ad76c9f429304c8bcbea",
+      "training_args.bin": "41aece0761e651dff78f96e4db943c6bd55244ed874a17ea69b22f9154f83e00",
+      "training_manifest.json": "5c49a452453f567d063118a9fba4e449bd0d05ea69822fd643bef0138d1b2d97"
+    }
+  },
+  "behavioural_proof": {
+    "probe_pairs": 14,
+    "base_entailment": [
+      0.992608,
+      0.997557,
+      5.9e-05,
+      0.990908,
+      0.000118,
+      0.995366,
+      8e-05,
+      0.000163,
+      0.002561,
+      0.001574,
+      0.994106,
+      8.9e-05,
+      7.2e-05,
+      0.000139
+    ],
+    "adapter_entailment": [
+      0.981227,
+      0.994254,
+      7.1e-05,
+      0.983061,
+      0.000155,
+      0.991033,
+      0.000113,
+      0.00023,
+      0.003227,
+      0.002168,
+      0.98531,
+      0.000132,
+      9.3e-05,
+      0.000171
+    ],
+    "deltas": [
+      -0.011381,
+      -0.003303,
+      1.2e-05,
+      -0.007847,
+      3.6e-05,
+      -0.004333,
+      3.3e-05,
+      6.7e-05,
+      0.000666,
+      0.000594,
+      -0.008796,
+      4.3e-05,
+      2.1e-05,
+      3.3e-05
+    ],
+    "max_abs_delta": 0.011381,
+    "min_required_delta": 0.02
+  },
+  "attached": false,
+  "failure_reason": "Adapter outputs are indistinguishable from base (max |delta| 0.0114 < 0.02)"
+}

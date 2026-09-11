@@ -1,0 +1,28 @@
+﻿version: "1.0"
+
+mapping_mode: "exact_source_label"
+
+provisional_safe_categories:
+  - Parties
+  - Document Name
+  - Agreement Date
+  - Effective Date
+  - Governing Law
+
+policy: >-
+  These categories are only candidate sources for the Safe class. A record is
+  accepted as Safe only when the independent risk judge assigns Safe with the
+  configured minimum confidence and none of the five target risks is detected.
+
+excluded_from_safe:
+  - Revenue/Profit Sharing
+  - Warranty Duration
+  - Non-Transferable License
+  - Termination For Convenience
+  - Change Of Control
+  - Cap On Liability
+  - Uncapped Liability
+  - Covenant Not To Sue
+  - Renewal Term
+  - Notice Period To Terminate Renewal
+  - Liquidated Damages

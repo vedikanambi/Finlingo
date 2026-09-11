@@ -1,0 +1,33 @@
+# Fixed probe set for the Verifier-v3 adapter attachment proof.
+# Domain-shifted financial entailment pairs where fine-tuning is expected to
+# move probabilities relative to the general-NLI base checkpoint. Edit freely;
+# the proof only requires that adapter and base outputs measurably differ.
+pairs:
+  - premise: "The borrower shall pay an early settlement charge equal to two percent of the outstanding principal, together with a fixed administration fee of EUR 150."
+    hypothesis: "Repaying the loan early costs 2% of what you still owe plus a EUR 150 fee."
+  - premise: "This Agreement shall automatically renew for successive twelve month terms unless the Borrower provides written notice of non-renewal no fewer than sixty days prior to expiration."
+    hypothesis: "The contract renews by itself every year unless you cancel in writing at least 60 days before it ends."
+  - premise: "To the maximum extent permitted by law, the Lender shall not be liable for any indirect, incidental, or consequential loss arising out of this Agreement."
+    hypothesis: "The lender accepts full liability for all losses you suffer under this agreement."
+  - premise: "The Borrower consents to the disclosure of personal data to affiliated entities, credit reference agencies, and third-party service providers."
+    hypothesis: "Your personal data can be shared with credit agencies and outside service companies."
+  - premise: "In addition to the interest specified herein, the Borrower shall bear an account maintenance charge of EUR 12.50 per month."
+    hypothesis: "There are no monthly charges beyond the interest."
+  - premise: "The consumer has a right of withdrawal from the credit agreement within fourteen calendar days without giving any reason."
+    hypothesis: "You can cancel the credit agreement within two weeks without explaining why."
+  - premise: "Charges on missed payments must reflect actual costs reasonably incurred by the firm."
+    hypothesis: "Late fees may be set at any amount the firm chooses."
+  - premise: "The renewal shall be binding at the then-prevailing rates published by the Lender."
+    hypothesis: "After renewal you keep paying the original rate agreed at signing."
+  - premise: "The early settlement charge is capped at one percent of the outstanding principal."
+    hypothesis: "The early settlement charge is capped at two percent of the outstanding principal."
+  - premise: "The Borrower shall not be liable for any charge arising after the account is closed in writing."
+    hypothesis: "The Borrower remains liable for charges arising after the account is closed in writing."
+  - premise: "This Agreement shall automatically renew for successive terms unless either party gives notice, except where the Borrower has exercised the early repayment option in the preceding term."
+    hypothesis: "This Agreement automatically renews for successive terms unless either party gives notice."
+  - premise: "The Lender may vary the interest rate only where the variation is directly attributable to a change in the Bank of England base rate."
+    hypothesis: "The Lender may vary the interest rate at its own discretion for any reason."
+  - premise: "Data shall be retained for no longer than six years after termination of this Agreement, save where a longer period is required by applicable law."
+    hypothesis: "Data may be retained indefinitely regardless of applicable law."
+  - premise: "The consumer's right of withdrawal does not apply to credit agreements secured by a mortgage on residential property."
+    hypothesis: "The consumer has an unconditional right of withdrawal from every credit agreement, including those secured by a mortgage."

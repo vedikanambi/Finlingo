@@ -1,0 +1,41 @@
+﻿version: "1.0"
+
+mapping_mode: "exact_issue_or_sub_issue"
+
+labels:
+  Data Sharing:
+    issues:
+      - Improper use of your report
+    sub_issues:
+      - Reporting company used your report improperly
+      - Credit inquiries on your report that you don't recognize
+      - Personal information incorrect
+
+  Hidden Fee:
+    issues:
+      - Problem with fees
+      - Charged fees or interest you didn't expect
+    sub_issues:
+      - Fee problem
+      - Unexpected fees
+      - Charged too much interest
+      - Overdraft fees
+
+  Penalty Clause:
+    issues:
+      - Took or threatened to take negative or legal action
+    sub_issues:
+      - Threatened to sue you for very old debt
+      - Threatened to arrest you or take you to jail if you do not pay
+      - Collected or attempted to collect exempt funds
+      - Seized or attempted to seize your property
+
+safe_policy: >-
+  No CFPB narrative is automatically mapped to Safe. Safe examples require
+  explicit independent adjudication that none of the five target risks is
+  present.
+
+notes:
+  - CFPB mappings are provisional candidate mappings, not final ground truth.
+  - Narrative text must still pass independent risk adjudication.
+  - Broad products are never mapped directly to a risk.

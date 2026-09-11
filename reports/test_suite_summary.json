@@ -1,0 +1,140 @@
+{
+  "generated_by": "scripts/generate_test_summary.py",
+  "pytest_summary_line": "181 passed, 2 skipped, 0 failed",
+  "counting_method": "Counted directly from '.'/'s'/'F' progress characters -- this pytest config (addopts=-q --disable-warnings) does not print a final 'N passed in Ts' trailer line in this environment.",
+  "passed": 181,
+  "skipped": 2,
+  "failed": 0,
+  "skipped_tests": [
+    {
+      "file": "tests\\test_live_pipeline.py",
+      "line": 23,
+      "reason": "Set FINLINGO_RUN_LIVE_TESTS=1 to run the target-environment pipeline test",
+      "count": 1,
+      "environment_dependent": true,
+      "affects_reported_research_claim": false,
+      "note": "Opt-in smoke test against the live target environment/services; deliberately not part of the default suite and not a metric-producing test."
+    },
+    {
+      "file": "tests\\test_parser.py",
+      "line": 39,
+      "reason": "Tesseract is not installed",
+      "count": 1,
+      "environment_dependent": true,
+      "affects_reported_research_claim": false,
+      "note": "OCR is S1's fallback path for scanned documents; no reported RQ1-RQ4 benchmark record requires OCR (FLB is built from CUAD text, not scanned images), so this skip does not affect any reported metric -- but OCR fallback correctness itself is untested in this environment."
+    }
+  ],
+  "files_by_category": {
+    "parsing_ocr": [
+      "test_parser.py",
+      "test_parser_eval.py"
+    ],
+    "dataset_provenance": [
+      "test_corrected_cfpb_cache.py",
+      "test_dataset_normalisation.py",
+      "test_flb.py",
+      "test_regulatory_xml.py",
+      "test_silver_label_cache.py",
+      "test_silver_label_providers.py",
+      "test_silver_labels.py",
+      "test_streaming.py"
+    ],
+    "retrieval_reranking": [
+      "test_retrieval_reranker_deep_dive.py"
+    ],
+    "simplification": [
+      "test_simplification.py"
+    ],
+    "risk_classification": [
+      "test_adapter_requirements.py",
+      "test_risk_classifier.py"
+    ],
+    "faithfulness_calibration": [
+      "test_faithfulness.py",
+      "test_focused_tuning.py",
+      "test_modernbert_controlled_pairs.py",
+      "test_preflight_regressions.py"
+    ],
+    "evaluation_statistics": [
+      "test_circularity_guard.py",
+      "test_clustered_bootstrap.py",
+      "test_config_registry.py",
+      "test_consolidate_results.py",
+      "test_final_evaluation.py",
+      "test_metrics.py"
+    ],
+    "api_security": [
+      "test_config.py",
+      "test_upload_security.py"
+    ],
+    "report_generation": [
+      "test_import_google_form_review.py",
+      "test_report.py",
+      "test_review_routing.py",
+      "test_structured_response_normalization.py"
+    ],
+    "integration": [
+      "test_final_evidence_workflow.py",
+      "test_financebench.py",
+      "test_human_review.py",
+      "test_human_review_multi_reviewer.py",
+      "test_live_pipeline.py",
+      "test_rq4_reproducibility.py",
+      "test_submission_additions.py"
+    ]
+  },
+  "test_count_by_category": {
+    "parsing_ocr": 4,
+    "dataset_provenance": 52,
+    "retrieval_reranking": 5,
+    "simplification": 2,
+    "risk_classification": 7,
+    "faithfulness_calibration": 14,
+    "evaluation_statistics": 30,
+    "api_security": 5,
+    "report_generation": 23,
+    "integration": 41
+  },
+  "test_count_by_file": {
+    "test_adapter_requirements.py": 3,
+    "test_circularity_guard.py": 8,
+    "test_clustered_bootstrap.py": 6,
+    "test_config.py": 3,
+    "test_config_registry.py": 8,
+    "test_consolidate_results.py": 1,
+    "test_corrected_cfpb_cache.py": 6,
+    "test_dataset_normalisation.py": 2,
+    "test_faithfulness.py": 2,
+    "test_final_evaluation.py": 2,
+    "test_final_evidence_workflow.py": 5,
+    "test_financebench.py": 3,
+    "test_flb.py": 21,
+    "test_focused_tuning.py": 3,
+    "test_human_review.py": 1,
+    "test_human_review_multi_reviewer.py": 10,
+    "test_import_google_form_review.py": 3,
+    "test_live_pipeline.py": 1,
+    "test_metrics.py": 5,
+    "test_modernbert_controlled_pairs.py": 3,
+    "test_parser.py": 3,
+    "test_parser_eval.py": 1,
+    "test_preflight_regressions.py": 6,
+    "test_regulatory_xml.py": 1,
+    "test_report.py": 1,
+    "test_retrieval_reranker_deep_dive.py": 5,
+    "test_review_routing.py": 11,
+    "test_risk_classifier.py": 4,
+    "test_rq4_reproducibility.py": 8,
+    "test_silver_label_cache.py": 4,
+    "test_silver_label_providers.py": 11,
+    "test_silver_labels.py": 5,
+    "test_simplification.py": 2,
+    "test_streaming.py": 2,
+    "test_structured_response_normalization.py": 8,
+    "test_submission_additions.py": 13,
+    "test_upload_security.py": 2
+  },
+  "total_collected": 183,
+  "uncategorised_files_found_on_disk": []
+}

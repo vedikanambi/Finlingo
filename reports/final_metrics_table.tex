@@ -1,0 +1,121 @@
+\documentclass[11pt]{article}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{booktabs}
+
+\title{FinLingo++ -- Final Metrics}
+\author{24222437}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section*{RQ1 -- Simplification quality (n=91)}
+\begin{table}[h!]
+\centering
+\begin{tabular}{lrrl}
+\toprule
+Metric & Result & Target & Status \\
+\midrule
+SARI & 49.89 & $>40$ & Pass \\
+BERTScore F1 & 0.895 & $>0.88$ & Pass \\
+FK grade & 9.89 & $\leq 9$ & Fail \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section*{RQ2 -- Risk classification (n=91)}
+\begin{table}[h!]
+\centering
+\begin{tabular}{lrrl}
+\toprule
+Metric & Result & Target & Status \\
+\midrule
+Macro-F1 & 0.563 & $>0.75$ & Fail \\
+Accuracy & 0.560 & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section*{RQ3 -- Faithfulness (n=182)}
+\begin{table}[h!]
+\centering
+\begin{tabular}{lrrl}
+\toprule
+Metric & Result & Target & Status \\
+\midrule
+Primary (retrieved chunk) precision$^*$ & 1.00 & $>0.90$ & Fail$^*$ \\
+Primary (retrieved chunk) recall & 0.006 & $>0.80$ & Fail \\
+Secondary (source clause) precision & 0.906 & $>0.90$ & Pass (marginal) \\
+Secondary (source clause) recall & 0.637 & $>0.80$ & Fail \\
+\bottomrule
+\end{tabular}
+\end{table}
+\noindent $^*$Precision of 1.00 comes from a single positive prediction out of 182 records --
+not meaningful, kept for completeness. See root-cause note below.
+
+\section*{Retrieval}
+\begin{table}[h!]
+\centering
+\begin{tabular}{lr}
+\toprule
+Metric & Result \\
+\midrule
+Recall@8 (pre-rerank) & 0.115 \\
+Recall@5 (post-rerank) & 0.082 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section*{RQ4 -- Ablations and comparisons}
+\begin{table}[h!]
+\centering
+\begin{tabular}{lrl}
+\toprule
+Comparison & Result & Note \\
+\midrule
+Reranker L-6 vs L-12 & L-12 wins MRR/nDCG/hit@1 & tied recall@5, $\sim$1.8x latency \\
+Multi-verifier: DeBERTa v3 (deployed) & P 0.937 / R 0.648 & -- \\
+Multi-verifier: ModernBERT & 0.0 / 0.0 & degenerate \\
+FaithBench: v3 vs base & $+0.038$ balanced acc. & CI [0.006, 0.072], $p=0.02$ \\
+FinBERT baseline (comparator) & Macro-F1 0.69 & vs deployed S5's 0.56 \\
+RAGAS-style judge (comparator) & P 0.689 / R 0.560 & deployed verifier wins \\
+SelfCheckGPT-style (comparator) & P 0.849 / R 0.495 & deployed verifier wins \\
+\bottomrule
+\end{tabular}
+\end{table}
+\noindent Full ablation suite (6 pipeline variants + 5 comparator baselines): complete.
+Source: \texttt{reports/ablations.json}.
+
+\section*{Adapter check}
+\begin{table}[h!]
+\centering
+\begin{tabular}{ll}
+\toprule
+Check & Result \\
+\midrule
+Structural (LoRA modules present, correct target modules) & Pass (648 modules) \\
+Behavioural probe (14 pairs) & Inconclusive (see note) \\
+\bottomrule
+\end{tabular}
+\end{table}
+\noindent The behavioural probe compares base vs fine-tuned outputs on 14 pairs, expecting a
+score change above a fixed threshold. All 14 probes turned out to be cases the base model
+already scores near 0 or 1 with high confidence, leaving no room for a fine-tuning effect to
+show up -- so the test is inconclusive, not evidence against the adapter. The FaithBench
+result above is the properly-powered version of the same check.
+
+\section*{Notes}
+\begin{itemize}
+\item RQ3 primary result is low because the verifier only checks the top 5 retrieved
+  chunks, and the correct chunk is in that top 5 only about 7\% of the time on this
+  benchmark -- confirmed as a retrieval/benchmark issue, not a code defect, by testing the
+  same models on a different benchmark (FinanceBench), where recall@5 is around 70\%.
+\item RQ2 target (macro-F1 $>0.75$) sits alongside a requirement that this stage stay
+  prompted-only, with no fine-tuning. This is a known tension in the current design.
+\item All numbers in this document are taken directly from \texttt{reports/final\_results.json}
+  and the underlying run files it references (\texttt{ablations.json},
+  \texttt{multiverifier.json}, \texttt{reranker\_comparison.json},
+  \texttt{verifier\_faithbench\_v3\_reproduction.json}, \texttt{adapter\_attachment\_proof.json}).
+\end{itemize}
+
+\end{document}

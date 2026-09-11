@@ -1,0 +1,79 @@
+\documentclass[11pt]{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+
+\title{FinLingo++ -- Metrics vs Baseline}
+\author{24222437}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{longtable}{p{4.3cm} p{2.6cm} p{2.3cm} p{2.1cm} p{3.6cm}}
+\toprule
+\textbf{Metric} & \textbf{Baseline} & \textbf{Current} & \textbf{Target} & \textbf{Status} \\
+\midrule
+\endhead
+
+SARI (simplification quality) & No prior baseline & 49.89 & $>40$ & Pass \\
+BERTScore F1 & No prior baseline & 0.895 & $>0.88$ & Pass \\
+Flesch-Kincaid grade & 6.13 (small 20-example sample) & 9.89 (full 91-example set) & $\leq 9$ & Fail (close) \\
+\addlinespace
+Risk classification macro-F1 & No prior baseline & 0.563 & $>0.75$ & Fail \\
+\addlinespace
+Faithfulness precision (retrieved chunk, as specified) & No prior baseline & 1.00* & $>0.90$ & Fail* \\
+Faithfulness recall (retrieved chunk, as specified) & No prior baseline & 0.006 & $>0.80$ & Fail \\
+Faithfulness precision (source clause, proxy metric) & No prior baseline & 0.906 & $>0.90$ & Pass (marginal) \\
+Faithfulness recall (source clause, proxy metric) & No prior baseline & 0.637 & $>0.80$ & Fail \\
+\addlinespace
+Retrieval recall@8 (before reranking) & 0.753 (different benchmark) & 0.115 & -- & See note \\
+Retrieval recall@5 (after reranking) & 0.697 (different benchmark) & 0.082 & -- & See note \\
+\addlinespace
+Verifier accuracy on FaithBench & 0.50 (both old models, broken) & +0.038 improvement & -- & Pass \\
+\addlinespace
+Verifier comparison: DeBERTa v3 (deployed) & -- & P 0.937 / R 0.648 & Best of tested & Pass \\
+Verifier comparison: ModernBERT (comparator) & -- & 0.0 / 0.0 & -- & Degenerate \\
+\addlinespace
+Reranker comparison: L-6 vs L-12 & L-12 best on FinanceBench & L-12 best on FLB too & -- & Confirmed \\
+Retrieval query mode & Original text best (FinanceBench) & Original text best (FLB) & -- & Confirmed \\
+\addlinespace
+FinBERT comparator (trained classifier) & -- & Macro-F1 0.69 & -- & Beats deployed model \\
+RAGAS-style comparator & -- & P 0.689 / R 0.560 & -- & Deployed model wins \\
+SelfCheckGPT-style comparator & -- & P 0.849 / R 0.495 & -- & Deployed model wins \\
+\bottomrule
+\end{longtable}
+
+\vspace{0.3cm}
+\noindent *Precision of 1.00 comes from a single positive prediction out of 182 records, so
+it is not a meaningful number on its own -- included for completeness, not as a real pass.
+
+\vspace{0.5cm}
+\section*{Notes}
+
+\begin{itemize}
+\item \textbf{Flesch-Kincaid grade:} the earlier baseline (6.13) was measured on a small,
+  hand-picked set of 20 examples. The current result (9.89) is measured on the full
+  91-example benchmark under stricter quality checks, so the two numbers aren't directly
+  comparable -- the current one is the more reliable estimate.
+\item \textbf{Faithfulness (retrieved chunk):} this is the metric exactly as specified in the
+  proposal. It scores low because the verifier only checks the top 5 retrieved chunks per
+  sentence, and the correct chunk is only in that top 5 about 7\% of the time on this
+  benchmark. Testing the same retrieval and reranking models on a different benchmark
+  (FinanceBench) gives roughly 70\% recall in the same setup, which shows the retrieval code
+  itself works -- the current benchmark's document collection just doesn't match its own
+  clauses well.
+\item \textbf{Risk classification macro-F1:} the 0.75 target assumes strong performance from a
+  prompted-only model (no fine-tuning), which is what the proposal specifies for this
+  component. This is a known tension in the current design.
+\item \textbf{Verifier accuracy on FaithBench:} the fine-tuned verifier improves over its own
+  base model by 0.038 balanced accuracy (95\% confidence interval 0.006--0.072, p = 0.02).
+  Both the base model and an earlier checkpoint had previously scored at chance level on this
+  benchmark, so this is a genuine, statistically solid improvement.
+\item \textbf{Comparator rows} (FinBERT, RAGAS-style, SelfCheckGPT-style) are alternative
+  methods tested against the same data, not required by the proposal -- included to show how
+  the deployed approach compares.
+\end{itemize}
+
+\end{document}

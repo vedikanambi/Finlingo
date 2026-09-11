@@ -1,0 +1,32 @@
+FinLingo++ - results summary
+
+FinLingo++ takes a financial/legal contract, breaks it into clauses, rewrites
+each one in plain English, tags a risk category, and checks the rewrite
+against real regulatory text to see if it's faithful. The thesis report and
+configuration manual cover the system and the experiments in full.
+
+Benchmark: 91 clauses / 182 rows, drawn from CUAD and ContractNLI.
+
+Simplification quality (RQ1): SARI 54.36, BERTScore 0.898, FK grade 6.7-8.9.
+All three clear their targets (SARI > 40, BERTScore > 0.88, FK grade <= 9.0).
+
+Risk classification (RQ2): macro-F1 0.79 against a target of 0.75, from a
+fine-tuned classifier (legal-bert + LoRA). This beats the prompted baseline
+(0.56) and a frozen-embedding baseline (0.69).
+
+Faithfulness verification (RQ3): precision 0.32 and recall between 0 and 1
+depending on setup, against targets of 0.90 and 0.80. This does not clear
+the bar. Most of the benchmark's clauses are commercial contract terms with
+no matching regulatory citation to find, and the verifier itself doesn't
+discriminate well on long regulatory text. A calibration attempt and a LoRA
+fine-tune were both tried on real labelled data and both fell short - a
+genuine negative result, not a bug. The full root-cause analysis is in
+reports/proposal_gap_analysis.md.
+
+The deployed simplifier and risk classifier run on Qwen2.5-1.5B-Instruct
+rather than Mistral-7B, for GPU memory reasons (documented in
+reports/submission_manifest.json).
+
+Full numbers and write-up: reports/final_results.json (authoritative per-RQ
+numbers), reports/ablations.json (ablation study), reports/proposal_gap_analysis.md
+(what was tried and why), reports/methodology_and_limitations.md.

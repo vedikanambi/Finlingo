@@ -1,0 +1,25 @@
+{
+  "total_rows_in_sheet": 15,
+  "reviewer_count_detected": 3,
+  "agreement_method": "fleiss_kappa",
+  "source_double_reviewed": 15,
+  "source_kappa": 0.3211206896551724,
+  "evidence_double_reviewed": 15,
+  "evidence_kappa": 0.37788018433179715,
+  "risk_double_reviewed": 15,
+  "risk_kappa": 0.5161290322580644,
+  "risk_score_double_reviewed": 0,
+  "risk_score_quadratic_kappa": null,
+  "adjudicated": 0,
+  "adjudication_completion_fraction": 0.0,
+  "conflict_count": {
+    "source_supported": 7,
+    "evidence_supported": 6,
+    "risk_label": 6
+  },
+  "adjudicated_class_distribution": {},
+  "complete": false,
+  "source_cohen_kappa": null,
+  "evidence_cohen_kappa": null,
+  "risk_cohen_kappa": null
+}

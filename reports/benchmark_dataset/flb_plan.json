@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-07-21T18:25:50.382832+00:00",
+  "seed": 42,
+  "flb_balanced_target": 500,
+  "candidate_multiplier": 3,
+  "taxonomy_sha256": "57f49a7cd72e110482c030e973338c66aeb688718385d22b65672130ca5e139c",
+  "dataset_revisions": {
+    "dvgodoy/CUAD_v1_Contract_Understanding_clause_classification": "2647c92f634569acbdfbd694ad5488293c55b3f7",
+    "urialon/converted_contract_nli": "c8c6e2fa95912a7ce76409d5b007ce949edcf7b5",
+    "stanfordnlp/snli": "cdb5c3d5eed6ead6e5a341c8e56e669bb666725b",
+    "PatronusAI/financebench": "e04404e3a97f69f79c14d42f24981a1c9c3bcd18",
+    "Mouwiya/cfpb-consumer-complaints": "038f8f8b18879c9384abfee5d0b685b00c03b3cf",
+    "gbharti/finance-alpaca": "c88d3d5e7e2c7cab9f11a56f27bd5ba3ed68f075"
+  },
+  "class_counts_at_planning": {
+    "Auto-Renewal": 42,
+    "Hidden Fee": 55,
+    "Liability Waiver": 78,
+    "Data Sharing": 43,
+    "Penalty Clause": 30,
+    "Safe": 68
+  },
+  "balanced_quotas": {
+    "Auto-Renewal": 84,
+    "Hidden Fee": 84,
+    "Liability Waiver": 83,
+    "Data Sharing": 83,
+    "Penalty Clause": 83,
+    "Safe": 83
+  },
+  "achievable_quotas": {
+    "Auto-Renewal": 14,
+    "Hidden Fee": 18,
+    "Liability Waiver": 13,
+    "Data Sharing": 14,
+    "Penalty Clause": 10,
+    "Safe": 22
+  },
+  "achievable_total": 91,
+  "supply_limited_classes": {
+    "Auto-Renewal": {
+      "available": 42,
+      "balanced_quota": 84,
+      "achievable_quota": 14
+    },
+    "Hidden Fee": {
+      "available": 55,
+      "balanced_quota": 84,
+      "achievable_quota": 18
+    },
+    "Liability Waiver": {
+      "available": 78,
+      "balanced_quota": 83,
+      "achievable_quota": 13,
+      "quality_yield_capped": true
+    },
+    "Data Sharing": {
+      "available": 43,
+      "balanced_quota": 83,
+      "achievable_quota": 14
+    },
+    "Penalty Clause": {
+      "available": 30,
+      "balanced_quota": 83,
+      "achievable_quota": 10
+    },
+    "Safe": {
+      "available": 68,
+      "balanced_quota": 83,
+      "achievable_quota": 22
+    }
+  },
+  "min_per_class": 10,
+  "plan_feasible": true,
+  "infeasible_classes": {},
+  "accepted": true,
+  "note": "Accepted achievable plan; FLB_MODE=achievable builds exactly these quotas (FLB-Silver). FLB-Gold is the human-adjudicated review of these records via the evaluate --review-file workflow. RESTORED 2026-07-21: an unguarded `flb-plan` (no --accept) run overwrote this file mid-session with a fresh proposal (Liability Waiver achievable_quota recomputed as 26 from a re-scanned live HF stream supply count of 78, vs the ~39 counted at original planning time -- the supply audit is a partial/non-deterministic stream scan, not a fixed corpus size). Restored to the original frozen quotas (total=91) that every historical report in this submission was built and scored against, since those are the artefact of record. supply_limited_classes/class_counts_at_planning above reflect the re-scan, not the original planning run; only achievable_quotas/achievable_total/accepted were restored to their original values, which is all `load_accepted_plan` validates against seed/taxonomy_sha256."
+}

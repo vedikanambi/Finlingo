@@ -1,0 +1,198 @@
+{
+  "configurations": {
+    "canonical_rq1_rq3": {
+      "evaluation_scope": "end_to_end",
+      "configuration_name": "canonical_rq1_rq3",
+      "dataset_sha256": null,
+      "model_sha256": null,
+      "adapter_sha256": null,
+      "config_fingerprint": "d7ca6142f8211a7c",
+      "random_seeds": [
+        42
+      ],
+      "bootstrap_unit": null,
+      "human_adjudication_status": "none (0% adjudicated)",
+      "independent_ground_truth": null,
+      "reranker_enabled": true,
+      "risk_backend": "prompted",
+      "verifier_backend": "retrieved_chunk",
+      "tau": 0.75,
+      "top_k": null,
+      "top_j": null,
+      "source_file": "reports\\evaluation_achievable_v2.json",
+      "dataset_revisions": {
+        "dvgodoy/CUAD_v1_Contract_Understanding_clause_classification": "2647c92f634569acbdfbd694ad5488293c55b3f7",
+        "urialon/converted_contract_nli": "c8c6e2fa95912a7ce76409d5b007ce949edcf7b5",
+        "stanfordnlp/snli": "cdb5c3d5eed6ead6e5a341c8e56e669bb666725b",
+        "PatronusAI/financebench": "e04404e3a97f69f79c14d42f24981a1c9c3bcd18",
+        "Mouwiya/cfpb-consumer-complaints": "038f8f8b18879c9384abfee5d0b685b00c03b3cf",
+        "gbharti/finance-alpaca": "c88d3d5e7e2c7cab9f11a56f27bd5ba3ed68f075"
+      },
+      "model_revisions": {
+        "BAAI/bge-small-en-v1.5": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+        "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "ProsusAI/finbert": "4556d13015211d73dccd3fdd39d39232506f3e43",
+        "Qwen/Qwen2.5-1.5B-Instruct": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "Qwen/Qwen2.5-3B-Instruct": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "answerdotai/ModernBERT-large": "45bb4654a4d5aaff24dd11d4781fa46d39bf8c13",
+        "cross-encoder/ms-marco-MiniLM-L-12-v2": "7b0235231ca2674cb8ca8f022859a6eba2b1c968",
+        "cross-encoder/ms-marco-MiniLM-L-6-v2": "c5ee24cb16019beea0893ab7796b1df96625c6b8",
+        "roberta-large": "722cf37b1afa9454edce342e7895e588b6ff1d59",
+        "tasksource/ModernBERT-large-nli": "ca476cb923a8637073d4ceb0f19f7fc236e260d4"
+      }
+    },
+    "trained_s5_frozen_e2e": {
+      "evaluation_scope": "end_to_end",
+      "configuration_name": "trained_s5_frozen_e2e",
+      "dataset_sha256": null,
+      "model_sha256": null,
+      "adapter_sha256": "ac1724612ee819de4f8cd0f65bc4620351f9455c3a4087d8d2506b74002b4fd7",
+      "config_fingerprint": "8bfd31b19648fd3b",
+      "random_seeds": [
+        42
+      ],
+      "bootstrap_unit": "source_clause",
+      "human_adjudication_status": "none (0% adjudicated)",
+      "independent_ground_truth": "blocked",
+      "reranker_enabled": false,
+      "risk_backend": "trained",
+      "verifier_backend": "retrieved_chunk",
+      "tau": 0.376,
+      "top_k": 500,
+      "top_j": 15,
+      "source_file": "reports\\evaluation_trained_s5_frozen_e2e.json",
+      "dataset_revisions": {
+        "dvgodoy/CUAD_v1_Contract_Understanding_clause_classification": "2647c92f634569acbdfbd694ad5488293c55b3f7",
+        "urialon/converted_contract_nli": "c8c6e2fa95912a7ce76409d5b007ce949edcf7b5",
+        "stanfordnlp/snli": "cdb5c3d5eed6ead6e5a341c8e56e669bb666725b",
+        "PatronusAI/financebench": "e04404e3a97f69f79c14d42f24981a1c9c3bcd18",
+        "Mouwiya/cfpb-consumer-complaints": "038f8f8b18879c9384abfee5d0b685b00c03b3cf",
+        "gbharti/finance-alpaca": "c88d3d5e7e2c7cab9f11a56f27bd5ba3ed68f075"
+      },
+      "model_revisions": {
+        "BAAI/bge-small-en-v1.5": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+        "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+        "ProsusAI/finbert": "4556d13015211d73dccd3fdd39d39232506f3e43",
+        "Qwen/Qwen2.5-1.5B-Instruct": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "Qwen/Qwen2.5-3B-Instruct": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "answerdotai/ModernBERT-large": "45bb4654a4d5aaff24dd11d4781fa46d39bf8c13",
+        "cross-encoder/ms-marco-MiniLM-L-12-v2": "7b0235231ca2674cb8ca8f022859a6eba2b1c968",
+        "cross-encoder/ms-marco-MiniLM-L-6-v2": "c5ee24cb16019beea0893ab7796b1df96625c6b8",
+        "roberta-large": "722cf37b1afa9454edce342e7895e588b6ff1d59",
+        "tasksource/ModernBERT-large-nli": "ca476cb923a8637073d4ceb0f19f7fc236e260d4"
+      }
+    },
+    "rq4_pilot_stochastic": {
+      "evaluation_scope": "pilot",
+      "configuration_name": "rq4_pilot_stochastic",
+      "dataset_sha256": null,
+      "model_sha256": null,
+      "adapter_sha256": null,
+      "config_fingerprint": "a7477fd53a37f5eb",
+      "random_seeds": [
+        42
+      ],
+      "bootstrap_unit": "not_applicable",
+      "human_adjudication_status": "none",
+      "independent_ground_truth": "not_applicable",
+      "reranker_enabled": false,
+      "risk_backend": "trained",
+      "verifier_backend": "source_clause",
+      "tau": 0.376,
+      "top_k": null,
+      "top_j": null,
+      "source_file": "reports\\failure_analysis_rq4.json"
+    },
+    "rq4_pilot_deterministic": {
+      "evaluation_scope": "pilot",
+      "configuration_name": "rq4_pilot_deterministic",
+      "dataset_sha256": null,
+      "model_sha256": null,
+      "adapter_sha256": null,
+      "config_fingerprint": "3c15e105ac255048",
+      "random_seeds": [
+        42
+      ],
+      "bootstrap_unit": "not_applicable",
+      "human_adjudication_status": "none",
+      "independent_ground_truth": "not_applicable",
+      "reranker_enabled": false,
+      "risk_backend": "trained",
+      "verifier_backend": "source_clause",
+      "tau": 0.376,
+      "top_k": null,
+      "top_j": null,
+      "source_file": "reports\\failure_analysis_rq4_deterministic.json"
+    },
+    "trained_s5_direct_component": {
+      "evaluation_scope": "component",
+      "configuration_name": "trained_s5_direct_component",
+      "dataset_sha256": null,
+      "model_sha256": null,
+      "adapter_sha256": null,
+      "config_fingerprint": "ff3b5e6a970eeb28",
+      "random_seeds": [
+        42
+      ],
+      "bootstrap_unit": "not_applicable",
+      "human_adjudication_status": "none",
+      "independent_ground_truth": "not_applicable",
+      "reranker_enabled": "not_applicable",
+      "risk_backend": "trained",
+      "verifier_backend": "not_applicable",
+      "tau": null,
+      "top_k": null,
+      "top_j": null,
+      "source_file": "reports\\quick_rq2_v5.log"
+    },
+    "faithbench_comparison": {
+      "evaluation_scope": "external_benchmark",
+      "configuration_name": "faithbench_comparison",
+      "dataset_sha256": null,
+      "model_sha256": null,
+      "adapter_sha256": null,
+      "config_fingerprint": "fd6b8dc542316005",
+      "random_seeds": [
+        42
+      ],
+      "bootstrap_unit": "record",
+      "human_adjudication_status": "faithbench_human_labels (external, not this project's own)",
+      "independent_ground_truth": "yes (FaithBench's own human-annotated labels)",
+      "reranker_enabled": "not_applicable",
+      "risk_backend": "not_applicable",
+      "verifier_backend": "deberta_v3_lora_v3",
+      "tau": null,
+      "top_k": null,
+      "top_j": null,
+      "source_file": "reports\\verifier_faithbench_v3_reproduction.json"
+    },
+    "independent_retrieval_comparison": {
+      "evaluation_scope": "blocked",
+      "configuration_name": "independent_retrieval_comparison",
+      "dataset_sha256": null,
+      "model_sha256": null,
+      "adapter_sha256": null,
+      "config_fingerprint": "06a05838cafe1f90",
+      "random_seeds": [
+        42
+      ],
+      "bootstrap_unit": "not_applicable",
+      "human_adjudication_status": "none",
+      "independent_ground_truth": "blocked -- no independently adjudicated gold evidence exists yet",
+      "reranker_enabled": "not_applicable",
+      "risk_backend": "not_applicable",
+      "verifier_backend": "not_applicable",
+      "tau": null,
+      "top_k": null,
+      "top_j": null,
+      "source_file": "backend/evaluation/circularity_guard.py",
+      "status": {
+        "status": "blocked",
+        "recall_at_k": null,
+        "n_with_independent_gold": 0,
+        "n_total": 182,
+        "reason": "No record has an independently adjudicated independent_gold_chunk_id. Independent retrieval evaluation requires a completed human/independent adjudication pass (see backend/evaluation/human_review.py); none exists yet."
+      }
+    }
+  }
+}

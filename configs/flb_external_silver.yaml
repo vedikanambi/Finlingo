@@ -1,0 +1,1009 @@
+records:
+- source_id: cuad-external-auto-renewal-758eedc455c53a18
+  document_id: FUSIONPHARMACEUTICALSINC_06_05_2020-EX-10.17-Supply Agreement - FUSION.pdf
+  risk_label: Auto-Renewal
+  text: Following the Term, this Supply Agreement shall automatically renew for successive periods of one (1) year (each a "Renewal Term"), unless a Party delivers written notice of non-renewal to the other Party [***] prior to the end of the applicable term.
+  question: Renewal Term
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 16
+- source_id: cuad-external-auto-renewal-c358944f653bf0b5
+  document_id: NATIONALPROCESSINGINC_07_18_1996-EX-10.4-SPONSORSHIP AGREEMENT.pdf
+  risk_label: Auto-Renewal
+  text: This Agreement shall automatically renew for successive one-year terms unless one party gives the other party written notice of non-renewal at least six months prior to automatic renewal.
+  question: Renewal Term
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 13
+- source_id: cuad-external-auto-renewal-1c56c4dc2693f928
+  document_id: GopageCorp_20140221_10-K_EX-10.1_8432966_EX-10.1_Content License Agreement.pdf
+  risk_label: Auto-Renewal
+  text: Thereafter, this Agreement shall renew automatically for one (1) additional three (3) year period (the "Renewal Term" and collectively, together with the Initial Term, the "Term") unless either party provides the other with written notice of non-renewal at least ninety (90) days before the expiration of the Initial Term].
+  question: Renewal Term
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 13
+- source_id: cuad-external-auto-renewal-7d2f159fcf432351
+  document_id: PANDIONTHERAPEUTICSHOLDCOLLC_05_22_2020-EX-10.17-CONSULTING AGREEMENT.pdf
+  risk_label: Auto-Renewal
+  text: This Agreement shall commence on the Effective Date and shall continue until the four-year anniversary of the Effective Date (such period, as it may be extended, either by the mutual written agreement of the parties or automatically, or earlier terminated being referred to as the "Consultation Period"), unless sooner terminated in accordance with the provisions of Section 4, and shall automatically renew for successive one-year periods, unless the Company provides 90 days' notice of termination before any such successive period.
+  question: Expiration Date
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 13
+- source_id: cuad-external-auto-renewal-0a92ea474e75a999
+  document_id: Zounds Hearing, Inc. - MANUFACTURING DESIGN MARKETING AGREEMENT.pdf
+  risk_label: Auto-Renewal
+  text: This Agreement will renew automatically thereafter for successive one-year terms unless and until one Party gives notification of termination with at least sixty (60) days written notice.
+  question: Renewal Term
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 10
+- source_id: external::converted_contract_nli::data-sharing::19_nda-10_0::ef8625cd7cc3
+  document_id: 19_nda-10_0
+  risk_label: Data Sharing
+  text: 'Restrictions: Confidant agrees that: a) Confidential Information shall be kept in the strictest confidence without limitation of time, and shall not be disclosed to any Third Party; Nothing in this Agreement obligates, or shall be deemed to obligate, City to provide, disclose, or deliver any Confidential Information. b) Confidant shall restrict access to Confidential Information only to its employees with a need to know to carry out the Permitted Use, and prior to disclosing same, each such employee shall be made aware of the terms and conditions of this Agreement;'
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 17
+- source_id: external::converted_contract_nli::data-sharing::488_nda-10_0::b5299d4a49f0
+  document_id: 488_nda-10_0
+  risk_label: Data Sharing
+  text: Each of the parties agrees that it shall disclose Confidential Information of the other party only to those of its employees, consultants, advisors and investors who need to know such information and who have previously agreed, either as a condition to employment or in order to obtain the Confidential Information, to be bound by terms and conditions substantially similar to those of this Agreement. There shall be no liability for disclosure or use of Confidential Information which is (a) in the public domain through no fault of the receiving party (b) rightfully received from a third party without any obligation of confidentiality, (c) rightfully known to the receiving party without any limitation on use or disclosure prior to its receipt from the disclosing party, (d) independently developed by the receiving party without use of any Confidential Information and by persons who have not had access to any Confidential Information (e) generally made available to third parties without any restriction on disclosure, or (f) communicated in response to a valid order by a court or other governmental body, as otherwise required by law, or as necessary to establish the rights of either party under this Agreement (provided that the party so disclosing has provided the other party with a reasonable opportunity to seek protective legal treatment for such Confidential Information). Each
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 15
+- source_id: external::converted_contract_nli::data-sharing::10_nda-10_0::381afba533db
+  document_id: 10_nda-10_0
+  risk_label: Data Sharing
+  text: In addition, except as set forth in section 2.06, without the prior written consent of the Disclosing Party, neither the Receiving Party nor its Representatives will disclose to any other Person the fact that Confidential Information has been made available to the Receiving Party by the Disclosing Party, or any of the terms, conditions or other facts relating to the Parties’ business relationship. 2.05 No Disclosure Except as set forth in Section 2.06, the Receiving Party shall not disclose any of the Confidential Information or other facts directly related to the Confidential Information to any Person other than its Representatives who have a need to know such Confidential Information and who have been informed of the confidential nature of the Confidential Information. 2.06 Disclosure Required by Law The Receiving Party will not disclose to any Person the Confidential Information or other facts directly related to the Confidential Information unless, in the reasonable opinion of the Receiving Party’s legal counsel, disclosure is required by legal process or regulatory demands, in which event the Receiving Party will, prior to such disclosure, promptly provide the Disclosing Party with written notice of the intended disclosure so that the Disclosing Party may seek a protective order or other appropriate protection.
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 13
+- source_id: external::converted_contract_nli::data-sharing::35_nda-10_0::39c74be2c6ad
+  document_id: 35_nda-10_0
+  risk_label: Data Sharing
+  text: Before revealing any Confidential Information to its employees, officers, directors, representatives, advisers and/or Affiliates, the Receiving Party shall be obliged to notify such employees, officers, directors, representatives, advisers and/or Affiliates of the confidential nature of the disclosure and ensure that such employees, officers, directors, representatives, advisers and/or Affiliates are obliged not to disclose the Confidential Information to any unauthorised third party and not use the Confidential Information except as may be strictly required in relation to the Transaction. 4.5 Should the Receiving Party or any of its employees, officers, directors, representatives, advisers or Affiliates be obliged by any law, or a valid order of any court of competent jurisdiction or government authority acting with the powers granted to it in law, to disclose any Confidential Information of the Disclosing Party to any third party, the Receiving Party shall, prior to making any such disclosure – 4.5.1 immediately notify the Disclosing Party in writing of the existence, terms and circumstances surrounding such request, so that the Disclosing Party may seek an interdict or other appropriate remedy to limit the scope of any such disclosure; 4.7 The Receiving Party shall ensure that its employees, officers, directors, representatives, advisers and Affiliates which may gain access to the Confidential Information of the Disclosing Party are bound not to - 4.7.1 disclose the Confidential Information
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 13
+- source_id: external::converted_contract_nli::data-sharing::435_nda-10_0::cb312236ebd1
+  document_id: 435_nda-10_0
+  risk_label: Data Sharing
+  text: Each of the parties agrees that it shall disclose Confidential Information of the other party only to those of its employees who need to know such information and who have previously agreed, either as a condition to employment or in order to obtain the Confidential Information, to be bound by terms and conditions substantially similar to those of this Agreement. There shall be no liability for disclosure or use of Confidential Information which is (a) in the public domain through no fault of the receiving party (b) rightfully received from a third party without any obligation of confidentiality, (c) rightfully known to the receiving party without any limitation on use or disclosure prior to its receipt from the disclosing party, (d) independently developed by the receiving party, (e) generally made available to third parties without any restriction on disclosure, or (f) communicated in response to a valid order by a court or other governmental body, as otherwise required by law, or as necessary to establish the rights of either party under this Agreement (provided that the party so disclosing has provided the other party with a reasonable opportunity to seek protective legal treatment for such Confidential Information). Notwithstanding anything else in this Agreement, the receiving party shall be free to use any Residual Information for any purpose whatsoever, including, without
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 13
+- source_id: external::converted_contract_nli::data-sharing::69_nda-10_0::266bb953c805
+  document_id: 69_nda-10_0
+  risk_label: Data Sharing
+  text: Moreover, each Receiving Party shall have the right to disclose that it is evaluating the Transaction and transmit Confidential Information to its Representatives only if and to the extent that such Representatives need to know the Confidential Information for the purpose of evaluating the Transaction and are informed by such Receiving Party of the confidential nature of the Confidential Information and agree (in writing) to be bound by the terms of this Agreement. The term “Confidential Information” does not include information (i) which is or becomes generally available to the public other than as a result of a disclosure by the Receiving Party or anyone to whom the Receiving Party transmits any Information, (ii) which is or becomes known or available to the Receiving Party on a non-confidential basis and not in contravention of applicable law from a source (other than the Disclosing Party) which has represented to the Receiving Party (which the Receiving Party has no reason to disbelieve after due inquiry) that it is entitled to disclose it to the Receiving Party on such basis or (iii) which a Receiving Party can prove (1) was lawfully in its possession at the time of disclosure by the Disclosing Party or (2) was developed by the Receiving Party independently of any Information received from the Disclosing Party and without otherwise
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 13
+- source_id: external::converted_contract_nli::data-sharing::82_nda-10_0::0cae0224d844
+  document_id: 82_nda-10_0
+  risk_label: Data Sharing
+  text: 'UNDERTAKING In consideration of our Agreement to supply to you certain written or oral information relating to the Business and entering into discussions relating to the sale of the Business to you (howsoever structured), you the Recipient hereby undertake to us, the Vendor for our benefit and that of the Business, except to the extent that we have given prior written consent, whether or not negotiations for the sale of the Business proceed, that you: 1.1 shall keep secret and confidential our discussions and any information about the Business supplied to you or your advisers by us or by our advisers, whether before or after this Agreement and any analyses or other documents which may be made or prepared by you which contain or otherwise reflect such information or your review of or interest in the Business (“Confidential Information”), and not disclose to any third party any Confidential Information (except such information which comes into the public domain other than as a result of the disclosure by you or by your employees, agents or advisers who need to know such information for the purpose of evaluating whether or not, and on what terms, you might proceed with the proposed purchase); 1.5 shall procure that your employees, agents and advisers, or any other party acting on your instructions to whom disclosure'
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 13
+- source_id: external::converted_contract_nli::data-sharing::12_nda-10_0::344f41b3901a
+  document_id: 12_nda-10_0
+  risk_label: Data Sharing
+  text: In addition, no obligation of confidentiality shall apply to any Confidential Information that is, or becomes, publicly available without breach of this Agreement or which is disclosed by the discloser to a third party without restriction. 1.2 BROOKS, its directors, employees, agents and representatives shall not disclose, disseminate, publish, communicate or divulge any Confidential Information to anyone outside BROOKS, or to any employee of BROOKS not having reasonable need for access to such information, unless CLIENT expressly consents to such disclosure in writing. Confidential Information 1.1 With the understanding that CLIENT’s Formulations and Processing Procedures are proprietary to CLIENT, to the extent that CLIENT shall disclose to BROOKS personal, financial and product information, including their Formulations and Processing Procedures (“Confidential Information”), then all the Confidential Information disclosed to BROOKS shall be received by BROOKS in confidence for purposes of this Agreement except as otherwise provided under Section 3 below.
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 12
+- source_id: external::converted_contract_nli::data-sharing::70_nda-10_0::30422adb4995
+  document_id: 70_nda-10_0
+  risk_label: Data Sharing
+  text: This Agreement applies to all members of the workforce, including but not limited to, employees, volunteers, students, faculty, physicians, and third parties, whether temporary or permanent, paid or not paid, visiting, or designated as affiliates or associates, who are employed by, contracted with, or under the direct control of FAU.  I will not disclose any PHI to any individual or third party, except as specifically authorized by FAU policies and procedures, and upon receiving a written authorization from the patient (unless otherwise required by applicable law), and then only on a need-to-know basis. I understand that I may access and/or use FAU Confidential Information, Restricted Data and Sensitive Data only as necessary to perform my job-related duties and that I may disclose (i.e., share) FAU Confidential Information, Restricted Data, and/or Sensitive Data only to authorized individuals with a need to know that information in connection with the performance of their job functions or professional duties.
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 12
+- source_id: external::converted_contract_nli::data-sharing::32_nda-10_0::7eec6b3e4c4f
+  document_id: 32_nda-10_0
+  risk_label: Data Sharing
+  text: The receiving party shall not disclose, disseminate, discuss or communicate any part or all of the Confidential Information to any third party, person or entity. The receiving party shall exercise the same degree of care and protection with respect to the Confidential Information of the disclosing party that it exercises with respect to the protection of its own confidential information of a similar nature but not less than a reasonable degree of care and shall prevent disclosure of the Confidential Information to anyone except to those of its employees that have a need to know such information solely in connection with the permitted use as set forth in Section 2 and who shall be required to observe the restrictions set forth in this Agreement. “Confidential Information” means confidential and proprietary information (regardless of whether such Confidential Information is in written, oral, visual or electronic form) (a) that consists of Trade Secrets (as hereinafter defined), discoveries, technical, engineering, financial, pricing and/or other business data and documentation, sales information, inventions, know-how, manufacturing techniques and specifications, process technologies, business plans, all disclosed by the disclosing party in furtherance of the purpose set forth in Section 2;
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 12
+- source_id: external::converted_contract_nli::data-sharing::81_nda-10_0::949df753feab
+  document_id: 81_nda-10_0
+  risk_label: Data Sharing
+  text: The receiving party will not disclose any of the disclosing party’s Confidential Information to any employees or to any third parties except to the receiving party’s employees, parent company, affiliates and subsidiaries who have a need to know and who agree to abide by nondisclosure terms at least as comprehensive as those set forth herein; The receiving party will not make any copies of the Confidential Information received from the disclosing party except as necessary for its employees, parent company, affiliates and subsidiaries with a need to know. provided that each party’s obligations with respect to Confidential Information disclosed during the term of this Agreement will survive any such termination.
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 11
+- source_id: external::converted_contract_nli::data-sharing::3_nda-10_0::d9c61fa5ea3a
+  document_id: 3_nda-10_0
+  risk_label: Data Sharing
+  text: Any Confidential Information disclosed by the Disclosing Party or its Representatives orally or visually, shall be identified as such prior to disclosure and summarized in a writing provided by the Disclosing Party to the Receiving Party within thirty (30) days of the date of initial disclosure. “Disclosing Party” shall mean the Party that discloses Confidential Information directly or indirectly to the Receiving Party in relation to this Agreement. The Receiving Party undertakes to permit access to the Confidential Information only to its Representatives or employees who require access to such Information solely for the fulfilment of the Permitted Purpose, and furnished on a need-to-know basis and only on the condition that such persons are made aware of the terms of this Agreement and their obligations therein, along with the Disclosing Party’s rights to the Confidential Information.
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 11
+- source_id: external::converted_contract_nli::data-sharing::563_nda-10_0::4282047e2ea4
+  document_id: 563_nda-10_0
+  risk_label: Data Sharing
+  text: Except as provided in Section 3, the Recipient will not, without the consent of the Disclosing Party, (i) disclose to any person the fact that it has obtained the Confidential Information, or (ii) make any disclosure respecting any Proposed Transaction between the parties to any third party, including, without limitation, any suppliers, customers or clients of each party. and (iii) any reports, analyses, forecasts, memoranda, compilations, studies, notes or summaries of such information, or other written or electronic documents prepared by, or on behalf of or for the Recipient or affiliates, directors, officers, managers, employees, shareholders, members or other equity holders, agents or advisors (“Representatives”) of the Recipient, to the extent that they use, contain, relate to, reflect, or are derived from such information (collectively, “Derivative Confidential Information”). Notwithstanding the other provisions of this Agreement, the Company or any of its Representatives may disclose Confidential Information to the extent necessary to defend any litigation claim or cause of action brought against it by the other party relating to the Proposed Transaction or this Agreement;
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 11
+- source_id: external::converted_contract_nli::data-sharing::152_nda-10_0::934bd06ba331
+  document_id: 152_nda-10_0
+  risk_label: Data Sharing
+  text: 'When receiving the Information each party agrees to maintain all such Information in strict confidence and to use at least the same measures to protect the same as that party uses to protect its own confidential information, including but not limited to:  restricting the information’s availability to employees, agents or consultants of the receiving party with a need to know, and making such disclosure only after they have agreed to abide by the terms and conditions of this Agreement,  prohibiting duplication of any such information without the prior written consent of the disclosing party, and  taking all necessary and reasonable precautions to prevent unauthorised disclosure. have been discussing the possibility of a future business relationship concerning the Project (as defined below.) In order to facilitate the further discussion, the parties have agreed to disclose confidential information and to perform certain tests relating to the AddiFlex material. Each party may disclose to the other party confidential and/or proprietary information (hereinafter “the Information”) including but not limited to trade secrets, business practices and customer information.'
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 11
+- source_id: external::converted_contract_nli::data-sharing::79_nda-10_0::450d7c718c75
+  document_id: 79_nda-10_0
+  risk_label: Data Sharing
+  text: 'Confidential Information shall not include information that: (i) is in or enters the public domain through no improper action or inaction by Dealer, or (ii) was in Dealers possession or known by Dealer prior to receipt from CIF, or (iii) is rightfully disclosed by Dealer by a third party, or (iv) is approved for disclosure in writing by CIF for release by Dealer or (v) is developed by Dealer without reference to the Confidential Information, or (vi) is required to be disclosed by Dealer in compliance with applicable laws or court order. The term "Confidential Information" shall mean and include that technical and non-technical information disclosed by CIF to Dealer relating to: (a) CIF''s website, information system, and related software and discs, and any data and information contained therein, (b) information and specifications on CIF''s products, and their design, cost, manufacture, marketing, and sale, and (c) the existence, terms and subject matter of this Agreement. Dealer shall not distribute, disseminate, publish or disclose the Confidential Information to any person, or entity not employed or retained by Dealer or the use of the Confidential Information for any purpose other than to further the marketing and sale of CIF products.'
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 11
+- source_id: external::converted_contract_nli::data-sharing::582_nda-10_0::1ca64d8281cd
+  document_id: 582_nda-10_0
+  risk_label: Data Sharing
+  text: provided that any such information may be disclosed to your officers, directors, employees, affiliates, accountants, attorneys, financial advisors, consultants, other agents or representatives and financing sources (such Persons hereinafter collectively being referred to as your “Representatives” who need to know such information for the purpose of evaluating and implementing the Transaction, have been informed of the confidential nature of the Confidential Information, and have been advised that such information is to be kept confidential, and provided, further, that such officers, directors, employees, affiliates, accountants, attorneys, financial advisors, consultants, other agents or representatives and financing sources shall not be deemed to be your Representatives unless (but solely to the extent that) you furnish Confidential Information to them. You and the Company also each agree, on behalf of itself, its affiliates and its and their respective Representatives, that it shall not, without the prior written consent of the other party hereto, disclose to any Person the fact that Confidential Information has been made available to you, that discussions or negotiations have taken place or are taking place concerning a possible Transaction or any of the terms, conditions or other facts with respect to any such possible Transaction, including the status thereof. In the event you or any of your Representatives become legally compelled (by deposition, interrogatory, request for documents, subpoena, civil investigation,
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 11
+- source_id: external::converted_contract_nli::data-sharing::595_nda-10_0::be0500461917
+  document_id: 595_nda-10_0
+  risk_label: Data Sharing
+  text: Use of Evaluation Materials You and your Representatives (i) will use the Evaluation Material solely for the purpose of evaluating a possible Transaction with the Company involving you or your affiliates and (ii) will keep the Evaluation Material strictly confidential and (except as required by applicable law, regulation or legal process, and only after compliance with the paragraph titled “Compelled Disclosure” below) will not, without the Company’s prior written consent, disclose any information in the Evaluation Material to any person, except that the Evaluation Material (or portions thereof) may be disclosed to those of your Representatives who need to know such information solely for the purpose of evaluating a possible Transaction with the Company (it being understood that prior to such disclosure your Representatives will be informed of the confidential nature of the Evaluation Material, will be provided with a copy of this Agreement and will agree to be bound by the terms hereof). Non-Disclosure Unless otherwise required by applicable law in the reasonable written opinion of your legal counsel, but only after compliance with the paragraph titled “Compelled Disclosure” below, neither you nor your Representatives will, without the Company’s prior written consent, disclose to any person either the fact that discussions or negotiations have taken or may take place concerning a possible Transaction, or any of the terms, conditions
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 11
+- source_id: external::converted_contract_nli::data-sharing::575_nda-10_0::b6b21aee1410
+  document_id: 575_nda-10_0
+  risk_label: Data Sharing
+  text: Receiving Party shall disclose Confidential Information only to those of its employees, agents and independent contractors who have a need to know such information for the Permitted Purpose. Receiving Party shall require all employees, agents and independent contractors who have access to Confidential Information to execute a confidentiality agreement limiting their use of such information to the Permitted Purpose and prohibiting them from disclosing such information to third parties. In the event that the Receiving Party is ordered to disclose the Confidential Information pursuant to a judicial or governmental request, requirement or order, Receiving Party shall immediately notify Vapotherm and take reasonable steps to assist Vapotherm in contesting such request, requirement or order or otherwise protecting Vapotherm’s rights.
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 10
+- source_id: external::converted_contract_nli::data-sharing::44_nda-10_0::bcd9044936cb
+  document_id: 44_nda-10_0
+  risk_label: Data Sharing
+  text: Without BOMI’s prior written consent, which may be given or withheld by BOMI in its sole and absolute discretion, Attendee will not at any time, whether during or after the Testing Period, (a) disclose any Confidential Information to any third party nor give any third party access thereto, nor (b) use any Confidential Information except as required in taking the Test. Attendee also understands that the obligation not to use or disclose Confidential Information shall survive the completion of Testing Period, for so long as the information remains Confidential Information. Attendee understands that BOMI makes no representations or warranties as to the accuracy or completeness of any Confidential Information disclosed, and Attendee agrees that neither BOMI nor any of its officers, directors, Attendees, agents, members or attorneys will have any liability to Attendee arising from Attendee’s use of the Confidential Information.
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 10
+- source_id: external::converted_contract_nli::data-sharing::28_nda-10_0::0c5fdda372d3
+  document_id: 28_nda-10_0
+  risk_label: Data Sharing
+  text: “Confidential Information” means information that relates to the purpose stated in Section 2 below that has been designated as proprietary by the disclosing party with an appropriate conspicuous stamp or legend on the document exchanged or, although not related to such purpose, is nevertheless disclosed, and that should reasonably have been understood by the Recipient, because of appropriate and conspicuous legends or other markings, to be proprietary and confidential to the Owner, an Affiliate of the Owner or to a third party. The Recipient may disclose Confidential Information received hereunder to (i) its Affiliates, to its employees and agents, and its Affiliates’ employees and agents, who have a need to know the Confidential Information, and who agree to protect the Confidential Information from unauthorized use and disclosure. Confidential Information shall be used solely for the Purpose and shall not otherwise be disclosed to any third party without the prior written consent of the Owner.
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 10
+- source_id: external::converted_contract_nli::data-sharing::478_nda-10_0::4c99b5fb7add
+  document_id: 478_nda-10_0
+  risk_label: Data Sharing
+  text: The Receiving Party shall preserve Proprietary Information received from the Disclosing Party in confidence by exercising at least the same degree of care used to restrict disclosure and use of the Receiving Party's own similar confidential information, but at least a reasonable degree of care, and shall refrain from disclosing such Propriety Information to its employees not involved in the Pilot Study, its consultants, representatives, or agents ( the "Affiliates") or to any third party without written authorization from the Disclosing Party. This Agreement shall be construed to bind and impose obligations upon any other divisions, subsidiaries, business units, and/or affiliated companies of the Receiving Party that receive access to the Proprietary Information of the Disclosing Party. For purposes of this Agreement, Proprietary Information shall mean, without limitation, computer programs, code, algorithms, names and expertise of employees and consultants, formulas, processes, inventions, schematics and other technical, business, financial, pricing and product development plans, forecasts and strategies, together with any analysis or tangible embodiments of the Disclosing Party's Proprietary Information created by the Receiving Party.
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 10
+- source_id: external::converted_contract_nli::data-sharing::205_nda-10_0::ec5f15ef0499
+  document_id: 205_nda-10_0
+  risk_label: Data Sharing
+  text: The Receiving Party shall not disclose, duplicate, transmit or otherwise disseminate in any manner the Disclosing Party’s Confidential Information, except to the Receiving Party’s officers, directors and employees (collectively “Employees”), and the Receiving Party’s agents, contractors and advisors (including, without limitation, financial advisors, legal advisors, auditors and accountants) retained by the Receiving Party (collectively “Advisors”). In the event that the Receiving Party is required to disclose Confidential Information to comply with an order of a court of competent jurisdiction or with a mandatory requirement of a governing regulatory body, such party shall, to the extent permitted by law and as soon as reasonably practicable under the circumstances, inform the Disclosing Party to allow it an adequate opportunity to object to the disclosure order or to take such other actions as are necessary to preserve the confidentiality of the information. Nothing in this Agreement shall be construed as granting any rights to the Receiving Party or any of its Employees or Advisors, by license or otherwise, to any of the Disclosing Party's Confidential Information, except to the extent as expressly stated in this Agreement.
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 10
+- source_id: external::converted_contract_nli::data-sharing::27_nda-10_0::2e276023207e
+  document_id: 27_nda-10_0
+  risk_label: Data Sharing
+  text: 'provided however, that Recipients may only disclose the Confidential Information to those of its contractors, vendors, directors, officers, advisors, agents and employees ("Representatives") who need to know such Confidential Information for the purpose of evaluating, performing or carrying out or producing the Transaction and who shall be bound by a written agreement or other legally enforceable written obligations to preserve the confidentiality of the Confidential Information in a manner consistent with this Agreement. Producer Confidential Information may be disclosed to the Owner (unless an independent third party is required by the FTC/DOJ) for purposes permitted under this Agreement and disclosed, on an aggregate basis, to other Agency Affiliates provided: (i) the Owner and each Agency Affiliate Recipient agrees to be bound by this Agreement; Without limiting the foregoing, where the Discloser is the Producer and a Recipient Representative is a cost consultant of the Client or Agency, the Recipient shall secure its Representative’s express written agreement that it will not make any business or other use of, and will in perpetuity hold in confidence, all Confidential Information acquired or learned by such Representative and shall not use or disclose such information except as permitted in this Agreement.'
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 10
+- source_id: external::converted_contract_nli::data-sharing::75_nda-10_0::ce3c6cf916f8
+  document_id: 75_nda-10_0
+  risk_label: Data Sharing
+  text: 'Investor shall keep the Confidential Information permanently and strictly confidential, and not to disclose or divulge any Confidential Information to, or reproduce any Confidential Information for the benefit of any person or entity other than the Investor’s employees, representatives, consultants, and agents who are actively and directly participating in the analysis of the Development, and in such cases only to the extent reasonably required for such analysis. All unwritten Confidential Information shall be held by the Investor and kept strictly confidential by the Investor and its employees, representatives, and agents pursuant to the terms of this Agreement in perpetuity. Notwithstanding the foregoing, the following will not constitute Confidential Information for purposes of this Agreement: (i) information that has become generally available to the public other than as a result of a disclosure by or through the Investor or its employees, representatives, and agents;'
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 9
+- source_id: external::converted_contract_nli::data-sharing::33_nda-10_0::d493a5b5514a
+  document_id: 33_nda-10_0
+  risk_label: Data Sharing
+  text: 'INTERPRETATION 1.1 In this Agreement: "Confidential Information" means any information of a confidential nature relating to the Disclosing Party or a member of its Group disclosed (whether before or after the date of this Agreement and whether in writing, verbally or by any other means and whether directly or indirectly) by the Disclosing Party or by another person on behalf of the Disclosing Party to the Receiving Party or to another person on behalf of the Receiving Party including, without limitation, any information relating to the Purpose or to the Disclosing Party''s products, operations, processes, plans or intentions, product information, know how, design rights, trade secrets, market opportunities and business affairs; "Receiving Party" means the party to this Agreement to whom the Confidential Information is disclosed. INTRODUCTION: (a) FMO and the Company are respectively the owners of Confidential Information which they have agreed to disclose to each other specifically for the Purpose and on the terms and conditions set out in this Agreement.'
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 9
+- source_id: external::converted_contract_nli::data-sharing::547_nda-10_0::c5c237ae7188
+  document_id: 547_nda-10_0
+  risk_label: Data Sharing
+  text: The Receiving Party will disclose Confidential Information only to its employees and to its representative whose participation is necessary or helpful to evaluate and advance to the Business Transaction and who have agreed to be bound by the terms of this Agreement. Except as permitted by the previous paragraph, neither the Receiving Party nor the Receiving Party’s representatives will disclose to any person the fact that the Confidential information has been made available to the Receiving Party or the Receiving Party’s representatives or that the Receiving Party or the Receiving Party’s representatives have inspected any portion of the Confidential Information. Notwithstanding anything to the contrary in this Agreement, the Receiving Party is not prohibited from disclosing Confidential Information it is legally compelled to disclose (by deposition, subpoena, civil investigative demand, court order or otherwise), provided that the Receiving Party gives the Disclosing Party prompt written notice of any such required disclosure so that the Disclosing Party may seek a protective order or other appropriate remedy.
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 9
+- source_id: external::converted_contract_nli::data-sharing::605_nda-10_0::fa4353281866
+  document_id: 605_nda-10_0
+  risk_label: Data Sharing
+  text: (b) “Blueknight Non-public Information” shall mean information pertaining to Blueknight, the General Partner and/or their respective Affiliates that has not been Publicly Disclosed and that Blueknight or the General Partner discloses to Receiving Party, including, without limitation, the existence of the Refinancing Meeting (as defined below) and attendance by Receiving Party or any other limited partner of Blueknight at such meeting and all information regarding the refinancing disclosed, discussed or made available to Receiving Party at the Refinancing Meeting. provided, however, that Receiving Party may disclose such information to such of its representatives who need such information for the purpose of evaluating or assisting with Receiving Party’s investment in Blueknight, it being understood that such representatives shall be informed in advance by Receiving Party of the confidential nature of such information and Receiving Party shall be responsible for any breach of the provisions of this letter by such representatives. From time to time, Blueknight and the General Partner may (but shall not be obligated to) disclose to Receiving Party certain “non-public” information relating to Blueknight, the General Partner, their respective Affiliates and their respective businesses.
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 9
+- source_id: external::converted_contract_nli::data-sharing::61_nda-10_0::8dd8beed5215
+  document_id: 61_nda-10_0
+  risk_label: Data Sharing
+  text: 'Company shall not (i) use any portion of the Confidential Information for any purpose except to evaluate the RFP, including assessment of each Statement of Work under the RFP, in order to prepare its response to the RFP or (ii) disclose the Confidential Information or any part of it to any third party without the prior written consent of the AOC; Nothing in this Agreement shall prevent the Company from disclosing Confidential Information to the extent the Company is lawfully required to be disclosed to any governmental agency or is otherwise required to be disclosed by law, provided that Company gives the AOC prompt written notice of such requirement before making such disclosure and Company gives the AOC an adequate opportunity and assistance to interpose an objection or take action to assure confidential handling of such Confidential Information. Company agrees that all information, documents, data, materials and the AOC proprietary software systems disclosed to, or accessed by, Company in connection with, or related to, the RFP or the RFP process, in any form whether oral or written, or in any medium, including but not limited to any of the following is “Confidential Information” under the terms of this Agreement: a.'
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 9
+- source_id: external::converted_contract_nli::data-sharing::56_nda-10_0::eb175f54ede9
+  document_id: 56_nda-10_0
+  risk_label: Data Sharing
+  text: The Recipient shall be entitled to disclose the Confidential Information to its employees, contractors and advisers and Group Parties, provided that the Recipient will ensure that any such employee, contractor or adviser or Group Party has a legal obligation to keep the Confidential Information confidential which, in the case of employees, contractors or advisers, shall be both during and after their current employment or engagement, on terms no less strict than this Agreement. Is disclosed pursuant to a requirement imposed by a governmental agency or is otherwise required to be disclosed by operation of law, except that prior to any disclosure pursuant to this subsection, the Party receiving the request for the information shall notify the disclosing Party and provide them with an opportunity to participate in objecting to production of the Confidential Information; Neither disclosure of Confidential Information, nor this Agreement shall be construed as (i) requiring a Party to disclose or accept Confidential Information, (ii) permitting a Party to use or sell the Confidential Information or products derived therefrom, or (iii) granting to either Party any rights by license or otherwise, express or implied, under any patent, copyright, trademark, trade secret or other intellectual property right now or hereafter obtained or licensable by the other Party, or (iv) a representation or warranty by either Party as to the
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 9
+- source_id: external::converted_contract_nli::data-sharing::598_nda-10_0::e5aa2bbd09c0
+  document_id: 598_nda-10_0
+  risk_label: Data Sharing
+  text: 'Required Disclosure: If the Recipient or any of its Representatives is requested to disclose any Confidential Information in connection with any legal or administrative proceeding or investigation, or is required by law, regulation, stock exchange or regulatory authority to disclose any Confidential Information, such person or entity will (i) promptly notify the Corporation of the existence, terms and circumstances surrounding such a request or requirement (unless prohibited by law, regulation or order of a court or administrative tribunal) so that the Corporation may seek a protective order or other appropriate remedy, or waive compliance with the provisions of this agreement, and (ii) if, in the absence of a protective order, such disclosure is required in the opinion of such person’s or entity’s counsel, such person or entity may make such disclosure without liability under this agreement, provided that such person or entity only furnishes that portion of the Confidential Information which is legally required, such person or entity gives the Corporation notice of the information to be disclosed as far in advance of its disclosure as practicable (unless prohibited by law, regulation or order of a court or administrative tribunal) and, upon Corporation’s request and at Corporation’s expense, such person or entity shall cooperate in any efforts by the Corporation to ensure that confidential treatment shall be accorded to such'
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 9
+- source_id: external::converted_contract_nli::data-sharing::64_nda-10_0::da3a52d45ec9
+  document_id: 64_nda-10_0
+  risk_label: Data Sharing
+  text: '“Delivering Party” has furnished, is furnishing, or will be furnishing, either directly or indirectly through a representative, to the other party (“Receiving Party”) or to the Receiving Party’s representatives, including without limitation, any agents, brokers, lender, appraisers, escrow, professional advisors, consultants, affiliates, officers, directors, partners, shareholders, accountants, legal counsel and employees (collectively, “Representatives”) of the Receiving Party, certain information, in whatever form or by whatever mode or medium whatsoever, about the Delivering Party, the Delivering Party’s Property or the Delivering Party’s Business, which, at the time of such delivery, was, is or will be identified as confidential information because it is either nonpublic, confidential or proprietary in nature. INCLUDED: Any Information disclosed, provided or delivered by Delivering Party to Receiving Party or its Representatives relating to the Transaction prior to the date of this Confidentiality Agreement shall also be subject to and governed by the terms of this Confidentiality Agreement to the same extent as any Information disclosed, provided or delivered after execution of this Confidentiality Agreement. The Receiving Party and its Representatives, shall not, without the prior written consent of the Delivering Party, (except as such disclosure is required by law, regulation, government regulatory authority, court order or other legal process, and then only strictly pursuant to the terms of this Confidentiality Agreement), disclose the Information in any manner'
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 9
+- source_id: external::converted_contract_nli::data-sharing::13_nda-10_0::651ae64cdebf
+  document_id: 13_nda-10_0
+  risk_label: Data Sharing
+  text: Confidential Information shall be disclosed only to Reviewing Representatives and only used to enable a Party to perform its Transmission Functions. Parties shall not disclose Confidential Information to a third party without the prior written approval of the Disclosing Party. Confidential Information that is in writing or other tangible form (including electronic form) shall be subject to this Agreement only if it is clearly marked as "Confidential" when disclosed by the Disclosing Party to a Party.
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 8
+- source_id: external::converted_contract_nli::data-sharing::20_nda-10_0::835c0098a940
+  document_id: 20_nda-10_0
+  risk_label: Data Sharing
+  text: The Parties shall not disclose Confidential Information to any third party, other than to their officers, employees or consultants (engaged in the matter of this Agreement) on a need to know basis, without the prior written approval of the other Party. Each Party shall ensure that any of its officers, employees, and consultants that receive Confidential Information is bound by confidentiality undertakings that provide at least the same level of protection as is provided by this Agreement. Return of Confidential Information 3.1 All Confidential Information disclosed by the Disclosing Party to the Receiving Party shall remain the property of the Disclosing Party.
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 8
+- source_id: external::converted_contract_nli::data-sharing::16_nda-10_0::24188e7e4222
+  document_id: 16_nda-10_0
+  risk_label: Data Sharing
+  text: Recipient shall not disclose Confidential Information to any person or entity, except its employees or partners involved in the Project, or to use the Confidential Information for any purpose other than fulfilling its obligations under the Project. Access to or disclosure of Confidential Information by Recipient shall be limited to those employees or partners covered by a then effective legal obligation or agreement with Recipient that prohibits the disclosure or unauthorized use of confidential information deemed confidential by Recipient (Authorized Employees). Recipient shall not make copies of the Confidential Information except for those copies required for use by Authorized Employees in the performance of the Agreement.
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 8
+- source_id: external::converted_contract_nli::data-sharing::482_nda-10_0::0e88e8cea67d
+  document_id: 482_nda-10_0
+  risk_label: Data Sharing
+  text: Neither Party shall disclose Confidential Information nor assign work hereunder to anyone other than the receiving Party's employees who have agreed in writing to maintain the Confidential Information as confidential and to execute all documents deemed reasonably necessary by the disclosing Party to permit compliance with all provisions of this Agreement. or (b) Confidential Information learned by the receiving Party from a third party entitled to disclose it; All Confidential Information in tangible form, and any copies thereof, disclosed hereunder, shall be promptly returned to the disclosing Party at the disclosing Party's written request, or destroyed at the disclosing Parties request provided that confirmation of destruction is given to the disclosing Party.
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 8
+- source_id: external::converted_contract_nli::data-sharing::45_nda-10_0::b23e26bd120c
+  document_id: 45_nda-10_0
+  risk_label: Data Sharing
+  text: During this period the receiving party shall not disclose the received “Confidential Information” to any third party, and shall not use the received “Confidential Information” for any purpose other than the aforesaid purposes. Information disclosed orally or visually and identified at that time as “Confidential” shall be considered “Confidential Information” if it is reduced to tangible form, marked “Confidential,” and transmitted to the receiving party within thirty (30) days after the oral or visual disclosure. “Confidential Information” is defined as any device, graphics, written information, or information in other tangible forms that is disclosed by a disclosing party to a receiving party, for the aforesaid purposes that relates to the above-identified subject area, and that is marked at the time of disclosure as being “Confidential” or “Proprietary” or with words of similar import.
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 8
+- source_id: external::converted_contract_nli::data-sharing::37_nda-10_0::41b942b46169
+  document_id: 37_nda-10_0
+  risk_label: Data Sharing
+  text: '2.2 The Receiving Party shall [be responsible for taking reasonable action to] ensure that each Receiving Party Authorised Person to whom it discloses Confidential Information observes the Receiving Party’s obligations under this Agreement as if such Receiving Party Authorised Person had undertaken the same obligations as the Receiving Party. 3 Permitted Disclosures 3.1 The Receiving Party may disclose Confidential Information to those of its directors, officers, employees, consultants and professional advisers and auditors (each a “Receiving Party Authorised Person”) who: 3.1.1 reasonably need to receive the Confidential Information in connection with the Permitted Purpose; 3.2 The Receiving Party and each Receiving Party Authorised Person shall be entitled to disclose Confidential Information to the extent that it is required to do so by applicable law or by order of a court or other public body that has jurisdiction over the Receiving Party or Receiving Party Authorised Person, provided that Clause 4 shall apply to disclosures required under the FOIA or the EIRs.'
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 8
+- source_id: external::converted_contract_nli::data-sharing::9_nda-10_0::ca5a9b3edf3c
+  document_id: 9_nda-10_0
+  risk_label: Data Sharing
+  text: Any individual person or organization who is identified to receive and utilize the confidential information applicable to the related Challenge, whether as an employee or representative, must be disclosed to and approved by BPS and sign this agreement prior to commencing work on or engaging in participation in the Transportation Data Challenge. Neither VENDOR nor any of its employees and/or representatives, shall sell, release, transfer, reprint, duplicate, recreate, disclose or permit the disclosure to any other person or entity of any of the Confidential Information or of any files, compilation, study, report or analysis or data base containing, based on or derived from the Confidential Information without the express written consent of BPS, and in full compliance with applicable state and federal privacy laws. VENDOR, its employees and/or representatives, shall use the Confidential Information and routing data solely in connection with performance by VENDOR of the services provided to BPS as outline by this agreement and pursuant to the Challenge Document and for no other purpose.
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 8
+- source_id: external::converted_contract_nli::data-sharing::39_nda-10_0::5c5828c7cce8
+  document_id: 39_nda-10_0
+  risk_label: Data Sharing
+  text: “Confidential Information” as outlined herein shall be used in strict confidence solely for the purpose allotted under this agreement and shall not be disclosed by the Bidder, its employees, partners, subcontractors, agents, or clients to a third party without the prior written consent of the County with the exception of the following; Disclosure The Bidder shall not publish, or make and/or retain copies or disclose to any third party, any Confidential Information furnished to the Bidder except to such extent as may be necessary to carry out the Bidder’s duties under this agreement and except to the extent that disclosure is required by judicial process in a legal proceeding, in which event Bidder will provide to the County notice of the request or demand to disclose Confidential Information.  It is learned from or becomes publicly disclosed by a source with legal right to use and disclose same  It is identical to information which was developed by the receiving party independently of any Confidential Information received from the other party.
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 8
+- source_id: external::converted_contract_nli::data-sharing::73_nda-10_0::53cf840977ce
+  document_id: 73_nda-10_0
+  risk_label: Data Sharing
+  text: '(a) “Confidential Information” shall include all information pertaining to the Assignors and their respective affiliates, employees, salespersons, independent contractors, agents, officers, directors, customers, suppliers, vendors, manufacturers, distributors, dealers, predecessors, successors and assigns disclosed by the Disclosing Party (or by a third party at the direction of the Disclosing Party) to the Receiving Party, regardless of the form or manner of disclosure (including, but not limited to, information learned by the Receiving Party from the Disclosing Party’s employees, agents, officers, directors, professional advisors or other representatives or through inspection of the Assigned Assets or the books and records of the Assignors), and including, but not limited to: (i) information that relates to the Assignors’ trade secrets, products, services, product specifications, data, inventions, ideas, techniques, know-how, past, current and planned research and development, current and planned methods and processes, client lists, current and anticipated client, service provider and consultant requirements, price lists, market studies, business strategy and plans, business opportunities, computer hardware, software and programs (including object codes and source codes), computer database technologies and systems, and distribution, marketing, financial, merchandising, customer, sales and/or salary information; Given the nature of the Confidential Information and the Confidential Materials and the damage that would result to the Disclosing Party if information contained therein were disclosed to any third party, money damages would not be'
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 8
+- source_id: external::converted_contract_nli::data-sharing::507_nda-10_0::ff3f98b7c2e1
+  document_id: 507_nda-10_0
+  risk_label: Data Sharing
+  text: In consideration of Big Sky's disclosure to Holdings of the Information, Holdings agrees that it will keep the Information confidential and that the Information will not, without the prior written consent of Big Sky, be disclosed by Holdings or by its officers, directors, employees, agents or representatives (collectively, "Representatives"), in any manner whatsoever, in whole or in part, and shall not be used by Holdings or by its Representatives, other than in connection with evaluating the Transaction. Without the prior written consent of Big Sky, neither Holdings nor its Representatives shall disclose to any person the fact that Holdings has received any Information or that discussions or negotiations are taking place concerning the Transaction, including the status thereof. Likewise, without the prior written consent of Holdings, neither Big Sky nor its Representatives shall disclose to any person the fact that Holdings has received any Information or that discussions or negotiations are taking place concerning the Transaction, including the status thereof.
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 7
+- source_id: external::converted_contract_nli::data-sharing::590_nda-10_0::deb407820b38
+  document_id: 590_nda-10_0
+  risk_label: Data Sharing
+  text: If Receiving Party or any of its Representatives are requested pursuant to, or required by, applicable law or regulation (including, without limitation, my rule, regulation or policy statement of any national securities exchange, market or automated quotation system on which any of Receiving Party’s securities are listed or quoted) or by legal process to disclose any Proprietary Information, or any other information concerning Disclosing Party, its subsidiaries or affiliates, Receiving Party shall provide Disclosing Party with prompt notice of such request or requirement, in order to enable Disclosing Party (a) to seek an appropriate protective order or other remedy, (b) to consult with Receiving Party with respect to Disclosing Party’s taking steps to resist or narrow the scope of such request or legal process or (c) to waive compliance, in whole or in part, with the terms of this Agreement. Without the written consent of Disclosing Party and except as otherwise required by applicable law, Receiving Party shall keep, and shall cause its Representatives to keep, all Proprietary Information confidential and shall not disclose or reveal, and shall cause its Representatives not to disclose or reveal, in any manner whatsoever, in whole or in part, any Proprietary Information to any person, other than to its Representatives who are actively and directly participating in its evaluation of the Proposed Transaction or
+  question: Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.
+  dataset: urialon/converted_contract_nli
+  split: validation
+  source_type: contractnli_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 7
+- source_id: cuad-external-penalty-clause-6803b58ec375fc5c
+  document_id: CORIOINC_07_20_2000-EX-10.5-LICENSE AND HOSTING AGREEMENT.pdf
+  risk_label: Penalty Clause
+  text: In addition, if any such inspection reveals an underpayment of more than five percent (5%) for the period under audit, Corio shall reimburse Commerce One for the reasonable cost of the examination.
+  question: Audit Rights
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 9
+- source_id: cuad-external-penalty-clause-26916796b0309f63
+  document_id: IdeanomicsInc_20160330_10-K_EX-10.26_9512211_EX-10.26_Content License Agreement.pdf
+  risk_label: Penalty Clause
+  text: EXCEPT FOR THE ABOVE INDEMNIFICATION OBLIGATIONS AND FOR BREACHES OF SECTION 14, NEITHER PARTY SHALL BE LIABLE TO THE OTHER FOR ANY INCIDENTAL, CONSEQUENTIAL, SPECIAL OR PUNITIVE DAMAGES ARISING OUT OF THIS AGREEMENT (INCLUDING, BUT NOT LIMITED TO, LOSS OF PROFITS), WHETHER IN AN ACTION OR ARISING OUT OF BREACH OF CONTRACT, TORT OR ANY OTHER CAUSE OF ACTION EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+  question: Uncapped Liability
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 9
+- source_id: cuad-external-penalty-clause-e4afd908c72b6ff1
+  document_id: MTITECHNOLOGYCORP_11_16_2004-EX-10.102-Reseller Agreement Premier Addendum.pdf
+  risk_label: Penalty Clause
+  text: EXCEPT FOR A BREACH OF SECTION 8 (CONFIDENTIALITY), IN NO EVENT WILL EITHER PARTY BE LIABLE FOR ANY INDIRECT, PUNITIVE, SPECIAL, INCIDENTAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES, NOR FOR ANY DAMAGES RELATING TO LOST DATA, LOST PROFITS, ADVERTISING OR PROMOTIONAL COSTS, TERMINATION OF EMPLOYEES, SALARIES OF EMPLOYEES OR SEVERANCE PAYMENTS, CREATION OF CUSTOMER BASE, OR FUTURE EXPECTATIONS OR OTHER ECONOMIC ADVANTAGE, HOWSOEVER ARISING AND REGARDLESS OF THE FORM OF ACTION, WHETHER IN CONTRACT, WARRANTY OR TORT (INCLUDING NEGLIGENCE) OR UNDER ANY OTHER THEORY OF LIABILITY IN LAW OR IN EQUITY, EVEN IF SUCH PARTY HAS BEEN PREVIOUSLY ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+  question: Uncapped Liability
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 9
+- source_id: cuad-external-penalty-clause-b18011200ba7bc90
+  document_id: BNLFINANCIALCORP_03_30_2007-EX-10.8-OUTSOURCING AGREEMENT.pdf
+  risk_label: Penalty Clause
+  text: However, if, after the Initial Term, BNL terminates this Agreement during an Extended Term by giving less than six (6) months notice, in addition to any other sums due VIP under this Agreement, BNL shall pay to VIP a cancellation fee equal to the greater of (i) the Minimum Fee multiplied by the remaining number of months in the then current term, (ii) the average of the monthly billings for the six (6) month period immediately preceding the date upon which the notice of termination is received by VIP from BNL multiplied by the remaining number of months in the then current term or (iii) thirty thousand dollars ($30, 000).
+  question: Liquidated Damages
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 9
+- source_id: cuad-external-penalty-clause-233bdc741ae5710b
+  document_id: FTENETWORKS,INC_02_18_2016-EX-99.4-STRATEGIC ALLIANCE AGREEMENT.pdf
+  risk_label: Penalty Clause
+  text: In the event Subcontractor directly employs or contracts with an employee of EDGE without the consent of EDGE, Subcontractor shall pay as liquidated damages two times the then monthly salary of the employee for a three-month period of time.
+  question: No-Solicit Of Employees
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 8
+- source_id: cuad-external-penalty-clause-224925339a185b1b
+  document_id: Zounds Hearing, Inc. - MANUFACTURING DESIGN MARKETING AGREEMENT.pdf
+  risk_label: Penalty Clause
+  text: Each Party agrees that in the event it violates the provisions of this Section 15.9, it will pay to the other Party as liquidated damages, and not as a penalty, an amount equal to one hundred times (100 X) of any such employee's then-current base annual salary.
+  question: Liquidated Damages
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 8
+- source_id: cuad-external-penalty-clause-673c36e944e8a7b0
+  document_id: FUSIONPHARMACEUTICALSINC_06_05_2020-EX-10.17-Supply Agreement - FUSION.pdf
+  risk_label: Penalty Clause
+  text: EXCEPT FOR DAMAGES FOR WHICH A PARTY IS RESPONSIBLE PURSUANT TO ITS INDEMNIFICATION OBLIGATIONS SET FORTH IN SECTION 10 ABOVE, EACH PARTY SPECIFICALLY DISCLAIMS ALL LIABILITY FOR AND SHALL IN NO EVENT BE LIABLE FOR ANY INCIDENTAL, SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES, EXPENSES, LOST PROFITS, LOST SAVINGS, INTERRUPTIONS OF BUSINESS OR OTHER DAMAGES OF ANY KIND OR CHARACTER WHATSOEVER ARISING OUT OF OR RELATED TO THIS AGREEMENT OR RESULTING FROM THE MANUFACTURE, HANDLING. MARKETING, SALE, DISTRIBUTION OR USE OF LICENSED PRODUCT REGARDLESS OF THE FORM OF ACTION, WHETHER IN CONTRACT, TORT, STRICT LIABILITY OR OTHERWISE, EVEN IF SUCH PARTY WAS ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+  question: Cap On Liability
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 8
+- source_id: cuad-external-penalty-clause-52a8b4c54a93f40a
+  document_id: CORIOINC_07_20_2000-EX-10.5-LICENSE AND HOSTING AGREEMENT.pdf
+  risk_label: Penalty Clause
+  text: In the event any such breach of warranty can not be reasonably corrected at Commerce One's sole expense, Corio has the right to terminate this Agreement and receive a refund of all prepaid fees.
+  question: Warranty Duration
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 6
+- source_id: cuad-external-penalty-clause-6c1b3b47c09a0dcb
+  document_id: TubeMediaCorp_20060310_8-K_EX-10.1_513921_EX-10.1_Affiliate Agreement.pdf
+  risk_label: Penalty Clause
+  text: In the event that Network terminates this Agreement as to a particular Station or several Stations, or in its entirety pursuant to Sections 10(a) or (c), Affiliate shall, within thirty (30) days of termination, at its option either reimburse Network for the cost of all equipment or return such equipment related to such Station(s) that was paid for by Network pursuant to Section 5(b) herein.
+  question: Post-Termination Services
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 6
+- source_id: cuad-external-penalty-clause-a18c46ae92d20ac0
+  document_id: INNOVIVA,INC_08_07_2014-EX-10.1-COLLABORATION AGREEMENT.pdf
+  risk_label: Penalty Clause
+  text: 'In the event that this Agreement is terminated by Theravance pursuant to Section 14.2 for material breach by GSK: <omitted> (ii) GSK shall, at its sole expense, transfer to Theravance, or shall cause its designee(s) to transfer to Theravance, ownership of all regulatory filings made or filed for any Collaboration Product that contains a LABA as a single agent (to the extent that any are held in GSK''s or such designee(s)''s name), and such transfer to be as permitted by applicable Laws and regulations; otherwise GSK shall cooperate as necessary to permit Theravance to exercise its rights hereunder.'
+  question: Ip Ownership Assignment
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 6
+- source_id: cuad-external-penalty-clause-3c355ef1bdd9d398
+  document_id: SFGFINANCIALCORP_05_12_2009-EX-10.1-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.pdf
+  risk_label: Penalty Clause
+  text: IN NO EVENT SHALL LICENSOR BE LIABLE TO LICENSEE OR TO ANY THIRD PARTY FOR ANY SPECIAL, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOSS OF USE, DATA, BUSINESS OR PROFITS) ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR THE USE, OPERATION OR PERFORMANCE OF ANY OF THE LICENSED TECHNOLOGY, WHETHER SUCH LIABILITY ARISES FROM ANY CLAIM BASED UPON CONTRACT, WARRANTY, TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY BREACH OR FAILURE OF EXPRESS OR IMPLIED WARRANTY OR CONDITION, MISREPRESENTATION OR OTHERWISE, AND WHETHER OR NOT LICENSORHAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS OR DAMAGE (INCLUDING, BUT NOT LIMITED TO, CLAIMS FOR LOSS OF DATA, GOODWILL, USE OF MONEY OR USE OF THE LICENSED TECHNOLOGY, INTERRUPTION IN USE OR AVAILABILITY OF DATA, STOPPAGE OF OTHER WORK OR IMPAIRMENT OR OTHER ASSETS), ARISING OUT OF BREACH OR FAILURE OF EXPRESS OR IMPLIED WARRANTY OR CONDITION, BREACH OF CONTRACT, MISREPRESENTATION, NEGLIGENCE, STRICT LIABILITY IN TORT, OR OTHERWISE
+  question: Cap On Liability
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 6
+- source_id: cuad-external-penalty-clause-b5ff6d1a60a04a05
+  document_id: INNOVIVA,INC_08_07_2014-EX-10.1-COLLABORATION AGREEMENT.pdf
+  risk_label: Penalty Clause
+  text: 'In the event that this Agreement is terminated by Theravance pursuant to Section 14.2 for material breach by GSK: (i) GSK shall, at its sole expense, promptly transfer to Theravance copies of all data, reports, records and materials in its possession or control that relate to the Theravance Compounds and return to Theravance, or destroy at Theravance''s request, all relevant records and materials in its possession or control containing Confidential Information of Theravance (provided that GSK may keep one copy of such Confidential Information of Theravance for archival purposes only in accordance with Section 10.1). (ii) GSK shall, at its sole expense, transfer to Theravance, or shall cause its designee(s) to transfer to Theravance, ownership of all regulatory filings made or filed for any Collaboration Product that contains a LABA as a single agent (to the extent that any are held in GSK''s or such designee(s)''s name), and such transfer to be as permitted by applicable Laws and regulations; otherwise GSK shall cooperate as necessary to permit Theravance to exercise its rights hereunder.'
+  question: Post-Termination Services
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 6
+- source_id: cuad-external-penalty-clause-e327a6ea8ccf3ff4
+  document_id: BLACKBOXSTOCKSINC_08_05_2014-EX-10.1-DISTRIBUTOR AGREEMENT.pdf
+  risk_label: Penalty Clause
+  text: Nor shall the Company at any time be liable for any incidental, special or consequential damages.
+  question: Cap On Liability
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 5
+- source_id: cuad-external-penalty-clause-caa8d3426ed50564
+  document_id: BLACKBOXSTOCKSINC_08_05_2014-EX-10.1-DISTRIBUTOR AGREEMENT.pdf
+  risk_label: Penalty Clause
+  text: IN NO EVENT SHALL COMPANY BE LIABLE FOR ANY INCIDENTAL OR CONSEQUENTIAL DAMAGES AND DISTRIBUTOR'S REMEDIES SHALL BE LIMITED TO REPAIR OR REPLACEMENT OF NONCONFORMING UNITS OR PARTS.
+  question: Cap On Liability
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 5
+- source_id: cuad-external-penalty-clause-1a33532d880dd630
+  document_id: Zounds Hearing, Inc. - MANUFACTURING DESIGN MARKETING AGREEMENT.pdf
+  risk_label: Penalty Clause
+  text: For Manufacturer's Products that are non-rechargeable, Manufacturer shall pay Subcontractor a Royalty equal to the higher of (i) eighty percent (80.0%) of the Product Cost; and (ii) $80 per unit.
+  question: Revenue/Profit Sharing
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 5
+- source_id: cuad-external-penalty-clause-0f36effa053a7421
+  document_id: GopageCorp_20140221_10-K_EX-10.1_8432966_EX-10.1_Content License Agreement.pdf
+  risk_label: Penalty Clause
+  text: Licensor will pay the cost of such audits unless an audit reveals a discrepancy in payment or reporting of five percent (5%) or more, in which case the Licensee shall reimburse the Licensor for the reasonable cost of the audit.
+  question: Audit Rights
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 5
+- source_id: cuad-external-penalty-clause-fa60a8bd653bafd2
+  document_id: ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT.pdf
+  risk_label: Penalty Clause
+  text: It is expressly agreed that the Agent shall not be liable for any loss, liability, claim, damage or expense or be required to contribute any amount which in the aggregate exceeds the amount paid (excluding reimbursable expenses) to the Agent under this Agreement.
+  question: Cap On Liability
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 5
+- source_id: cuad-external-penalty-clause-34875a4bf0c03254
+  document_id: ImineCorp_20180725_S-1_EX-10.5_11275970_EX-10.5_Distributor Agreement.pdf
+  risk_label: Penalty Clause
+  text: IN NO EVENT SHALL JRVS BE LIABLE FOR COSTS OF PROCUREMENT OF SUBSTITUTE PRODUCTS OR SERVICES, LOST PROFITS OR ANY CONSEQUENTIAL, SPECIAL, INCIDENTAL, OR INDIRECT DAMAGES, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY (INCLUDING NEGLIGENCE OR STRICT LIABILITY), ARISING OUT OF THIS AGREEMENT.
+  question: Cap On Liability
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 5
+- source_id: cuad-external-penalty-clause-4627790a5f39d305
+  document_id: SFGFINANCIALCORP_05_12_2009-EX-10.1-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.pdf
+  risk_label: Penalty Clause
+  text: The Licensee agrees that neither the Licensor, nor any of its respective affiliates, employees, officers, or agents, shall be liable for any loss, damage, cost or expense, (direct or indirect) except for direct damages arising from the gross negligence of willful misconduct of the Licensor.
+  question: Cap On Liability
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 5
+- source_id: cuad-external-penalty-clause-b407de42d20490bc
+  document_id: RISEEDUCATIONCAYMANLTD_04_17_2020-EX-4.23-SERVICE AGREEMENT.pdf
+  risk_label: Penalty Clause
+  text: Notwithstanding the foregoing, upon any delay by Service Recipient in its payment of any Service Fee to Service Provider, for each day of delay in such payment, Service Recipient must pay Service Provider liquidated damages at 0.5 percent (0.5%) of the Service Fee that are due and unpaid.
+  question: Liquidated Damages
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 5
+- source_id: cuad-external-penalty-clause-026b3411ca1a29fe
+  document_id: UAGHINC_04_14_2004-EX-10.18-MAINTENANCE AGREEMENT.pdf
+  risk_label: Penalty Clause
+  text: THE PROVIDER SHALL NOT BE LIABLE FOR ANY INCIDENTAL OR CONSEQUENTIAL DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF REVENUES OR LOSS OF PROFIT, ARISING OUT OF THE PROVISION OF THE SERVICES OR REPAIRS, NOTWITHSTANDING ADVANCE NOTICE FROM THE COMPANY THAT THE POSSIBILITY OF SUCH DAMAGE OR LOSS EXISTS.
+  question: Cap On Liability
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 5
+- source_id: cuad-external-penalty-clause-24a6cc3e7da26316
+  document_id: GopageCorp_20140221_10-K_EX-10.1_8432966_EX-10.1_Content License Agreement.pdf
+  risk_label: Penalty Clause
+  text: NEITHER PARTY SHALL BE LIABLE UNDER OR IN CONNECTION WITH THIS AGREEMENT FOR INDIRECT, INCIDENTAL, CONSEQUENTIAL, LIQUIDATED, SPECIAL OR EXEMPLARY DAMAGES OR PENALTIES, INCLUDING WITHOUT LIMITATION, LOSSES OF BUSINESS, REVENUE OR ANTICIPATED PROFITS, REGARDLESS OF WHETHER SUCH DAMAGE WAS FORESEEABLE AND WHETHER LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+  question: Cap On Liability
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 5
+- source_id: cuad-external-penalty-clause-3aa877a6000fdf1c
+  document_id: InnerscopeHearingTechnologiesInc_20181109_8-K_EX-10.6_11419704_EX-10.6_Distributor Agreement.pdf
+  risk_label: Penalty Clause
+  text: IN NO EVENT SHALL Erchonia BE LIABLE FOR ANY LOSS OF PROFIT OR ANY OTHER COMMERCIAL DAMAGE, INCLUDING BUT NOT LIMITED TO SPECIAL, INCIDENTAL, CONSEQUENTIAL OR OTHER INDIRECT DAMAGES UNDER ANY CAUSE OF ACTION ARISING OUT OF OR RELATING TO THIS AGREEMENT, INCLUDING, WITHOUT LIMITATION, CLAIMS ARISING FROM MALFUNCTION OR DEFECTS IN THE PRODUCTS.
+  question: Cap On Liability
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 5
+- source_id: cuad-external-penalty-clause-2eb5f0b0cab2d992
+  document_id: GAINSCOINC_01_21_2010-EX-10.41-SPONSORSHIP AGREEMENT.pdf
+  risk_label: Penalty Clause
+  text: Racing represents to the Sponsor that the Sponsor's aggregate obligation hereunder will not exceed the amount of the sponsorship fee set forth in Section 3 hereof (or such lesser amount as is payable by the Sponsor in the event that this Agreement is terminated pursuant to Section 14 hereof), plus, if applicable, collection costs that may be reasonably incurred by Racing in a legal proceeding to collect all or any part thereof (the "Maximum Obligation").
+  question: Cap On Liability
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 5
+- source_id: cuad-external-penalty-clause-c9df7528dacdfef0
+  document_id: NEXSTARFINANCEHOLDINGSINC_03_27_2002-EX-10.26-OUTSOURCING AGREEMENT.pdf
+  risk_label: Penalty Clause
+  text: Within seventy-five (75) days following the end of each month of a calendar year during the Term that "BCF" (as defined below) for such month, when combined with BCF for all prior months during such calendar year (other than any month which is outside the Term) is less than the Minimum BCF, Nexstar shall pay a fee to WYZZ in an amount equal to thirty-five percent (35%) of BCF for such month. Within seventy-five (75) days following the end of each month of a calendar year during the Term that BCF for such month, when combined with BCF for all prior months of such calendar year (other than any month which is outside the Term) is greater than the Minimum BCF, Nexstar shall pay a fee to WYZZ in an amount equal to 50% of BCF for such month; provided, in the first month of each calendar year in which this sentence applies, the fee with respect to the portion of BCF for such month which, when combined with BCF for all prior months during such year (other than any month which is outside the Term) is exactly equal to the Minimum BCF, shall equal thirty-five percent (35%) of such portion rather than fifty percent (50%).
+  question: Minimum Commitment
+  dataset: dvgodoy/CUAD_v1_Contract_Understanding_clause_classification
+  split: test
+  source_type: cuad_clause_machine_review
+  excluded_from_training: true
+  provisional: true
+  machine_reviewed: true
+  human_reviewed: false
+  review_status: provisional_accept
+  machine_score: 5

@@ -1,0 +1,1983 @@
+{
+  "rq4_failure_modes": {
+    "baseline_clean": {
+      "pipeline": {
+        "risk": {
+          "macro_precision": 0.3333333333333333,
+          "macro_recall": 0.22916666666666666,
+          "macro_f1": 0.25757575757575757,
+          "accuracy": 0.5,
+          "confusion_matrix": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe",
+            "__OTHER__"
+          ],
+          "proposal_labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe"
+          ],
+          "per_class": {
+            "Auto-Renewal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "Hidden Fee": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Liability Waiver": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Data Sharing": {
+              "precision": 1.0,
+              "recall": 0.375,
+              "f1-score": 0.5454545454545454,
+              "support": 8.0
+            },
+            "Penalty Clause": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Safe": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.5,
+            "macro avg": {
+              "precision": 0.3333333333333333,
+              "recall": 0.22916666666666666,
+              "f1-score": 0.25757575757575757,
+              "support": 10.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1-score": 0.6363636363636364,
+              "support": 10.0
+            }
+          },
+          "n_invalid_or_abstained": 0,
+          "invalid_or_abstention_rate": 0.0,
+          "n_examples": 10
+        },
+        "mean_fk_grade": 8.7112,
+        "pct_fk_le_8": 0.5,
+        "mean_generated_source_faithfulness": 0.44924391891891885,
+        "generated_unsupported_flag_rate": 0.13513513513513514,
+        "retrieval": {
+          "recall@15": 0.0,
+          "precision@15": 0.0,
+          "mrr": 0.0,
+          "ndcg@15": 0.0,
+          "hit_at_1": 0.0,
+          "n_examples": 10
+        },
+        "n_unique_clauses": 10,
+        "clause_ids": [
+          "cuad-external-auto-renewal-0a92ea474e75a999",
+          "cuad-external-auto-renewal-7d2f159fcf432351",
+          "external::converted_contract_nli::data-sharing::27_nda-10_0::2e276023207e",
+          "external::converted_contract_nli::data-sharing::28_nda-10_0::0c5fdda372d3",
+          "external::converted_contract_nli::data-sharing::35_nda-10_0::39c74be2c6ad",
+          "external::converted_contract_nli::data-sharing::3_nda-10_0::d9c61fa5ea3a",
+          "external::converted_contract_nli::data-sharing::563_nda-10_0::4282047e2ea4",
+          "external::converted_contract_nli::data-sharing::61_nda-10_0::8dd8beed5215",
+          "external::converted_contract_nli::data-sharing::75_nda-10_0::ce3c6cf916f8",
+          "external::converted_contract_nli::data-sharing::82_nda-10_0::0cae0224d844"
+        ],
+        "generation_mode": "deterministic",
+        "per_clause": [
+          {
+            "source_clause_id": "cuad-external-auto-renewal-7d2f159fcf432351",
+            "condition": "baseline_clean",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "ecce7dd0bbbc543b195552169e7d1d110af2ba2d46602fd959f486223ade99b0",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "cuad-external-auto-renewal-0a92ea474e75a999",
+            "condition": "baseline_clean",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "f1f74138a19aaad73d4a7a9893289a455f3d7c4e40b21dbe2e10933094e450e9",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::35_nda-10_0::39c74be2c6ad",
+            "condition": "baseline_clean",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "13173c64d4033c1a7527b61c9783cb1d432581d3d55c2f3a967e210daa37bed6",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::82_nda-10_0::0cae0224d844",
+            "condition": "baseline_clean",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "f7376f273f0dccf55b0fea6eb12a4a6ab276d7bd7a311a6fa1df637b0f88c76c",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::3_nda-10_0::d9c61fa5ea3a",
+            "condition": "baseline_clean",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "13f0fed4079642419bf1b4faff8d97190d7780d1d1bae1e43de36cfe99cc98c6",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::563_nda-10_0::4282047e2ea4",
+            "condition": "baseline_clean",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "af5e9aee90ed3788efb073b65e33a18f8b7d611dc3df75d3c10def72fe8b4e63",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::28_nda-10_0::0c5fdda372d3",
+            "condition": "baseline_clean",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "314c1441a1af3119e0f33df9036e8450eafd68ec35e08ffe69a1005daf5f3a8d",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::27_nda-10_0::2e276023207e",
+            "condition": "baseline_clean",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "359feb8e33d10c609d038894a77d2a8bef14185fc58d8dd1f7eae92d2892ac4c",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::75_nda-10_0::ce3c6cf916f8",
+            "condition": "baseline_clean",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "80cfa1343d9388d7f8c10fac9a1fd596f05b2bb8c20d0b0c542b441579eb10e3",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::61_nda-10_0::8dd8beed5215",
+            "condition": "baseline_clean",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "6575fbdb66091af0c5e399c53656e2817943e624c08308edae6d11ae5ee0f43d",
+            "attempts": 1
+          }
+        ],
+        "delta_vs_clean": {
+          "risk_macro_f1": 0.0,
+          "mean_fk_grade": 0.0,
+          "mean_source_faithfulness": 0.0
+        }
+      },
+      "fixed_hypothesis_verifier": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.8888888888888888,
+        "unsupported_precision": 0.0,
+        "unsupported_recall": 0.0,
+        "unsupported_f1": 0.0,
+        "accuracy": 0.8,
+        "predicted_hallucination_rate": 0.2,
+        "ground_truth_hallucination_rate": 0.0,
+        "missed_unsupported_rate": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            8
+          ]
+        ],
+        "n_examples": 10
+      }
+    },
+    "scanned_ocr_noise_proxy": {
+      "pipeline": {
+        "risk": {
+          "macro_precision": 0.3333333333333333,
+          "macro_recall": 0.2708333333333333,
+          "macro_f1": 0.2948717948717949,
+          "accuracy": 0.7,
+          "confusion_matrix": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe",
+            "__OTHER__"
+          ],
+          "proposal_labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe"
+          ],
+          "per_class": {
+            "Auto-Renewal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "Hidden Fee": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Liability Waiver": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Data Sharing": {
+              "precision": 1.0,
+              "recall": 0.625,
+              "f1-score": 0.7692307692307693,
+              "support": 8.0
+            },
+            "Penalty Clause": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Safe": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.7,
+            "macro avg": {
+              "precision": 0.3333333333333333,
+              "recall": 0.2708333333333333,
+              "f1-score": 0.2948717948717949,
+              "support": 10.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 0.7,
+              "f1-score": 0.8153846153846154,
+              "support": 10.0
+            }
+          },
+          "n_invalid_or_abstained": 0,
+          "invalid_or_abstention_rate": 0.0,
+          "n_examples": 10
+        },
+        "mean_fk_grade": 9.0744,
+        "pct_fk_le_8": 0.3,
+        "mean_generated_source_faithfulness": 0.49906823076923074,
+        "generated_unsupported_flag_rate": 0.02564102564102564,
+        "retrieval": {
+          "recall@15": 0.0,
+          "precision@15": 0.0,
+          "mrr": 0.0,
+          "ndcg@15": 0.0,
+          "hit_at_1": 0.0,
+          "n_examples": 10
+        },
+        "n_unique_clauses": 10,
+        "clause_ids": [
+          "cuad-external-auto-renewal-0a92ea474e75a999",
+          "cuad-external-auto-renewal-7d2f159fcf432351",
+          "external::converted_contract_nli::data-sharing::27_nda-10_0::2e276023207e",
+          "external::converted_contract_nli::data-sharing::28_nda-10_0::0c5fdda372d3",
+          "external::converted_contract_nli::data-sharing::35_nda-10_0::39c74be2c6ad",
+          "external::converted_contract_nli::data-sharing::3_nda-10_0::d9c61fa5ea3a",
+          "external::converted_contract_nli::data-sharing::563_nda-10_0::4282047e2ea4",
+          "external::converted_contract_nli::data-sharing::61_nda-10_0::8dd8beed5215",
+          "external::converted_contract_nli::data-sharing::75_nda-10_0::ce3c6cf916f8",
+          "external::converted_contract_nli::data-sharing::82_nda-10_0::0cae0224d844"
+        ],
+        "generation_mode": "deterministic",
+        "per_clause": [
+          {
+            "source_clause_id": "cuad-external-auto-renewal-7d2f159fcf432351",
+            "condition": "scanned_ocr_noise_proxy",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "7124bf209855f4eb678a8ed7d130931b3e208be0c4e4c2300f45d6755137ecf7",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "cuad-external-auto-renewal-0a92ea474e75a999",
+            "condition": "scanned_ocr_noise_proxy",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "dcd1547e68af54c7c833e531439ee01edf02494f0b6e8a061fb73491de353267",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::35_nda-10_0::39c74be2c6ad",
+            "condition": "scanned_ocr_noise_proxy",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "784b3874cfe8cca18d218becb707d557e2dda0a5f1b945df701112489e504ab4",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::82_nda-10_0::0cae0224d844",
+            "condition": "scanned_ocr_noise_proxy",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "4bf7edd78d1a7f9f1d1bc2bf9c509c37e004e6830f00fe40e893dd76fda9eef0",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::3_nda-10_0::d9c61fa5ea3a",
+            "condition": "scanned_ocr_noise_proxy",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "d1e4d17392c4b36e10c080f983cf18da07a1f51b433538899d45d30c838d2ad4",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::563_nda-10_0::4282047e2ea4",
+            "condition": "scanned_ocr_noise_proxy",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "1a342048d815785a7930941a05d83ca2d516224481c74c0bf658c291677ea691",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::28_nda-10_0::0c5fdda372d3",
+            "condition": "scanned_ocr_noise_proxy",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "cf8f2bbacdfc0fd1b6a8814de89566f0919afe9b885ed3b41bcc4c6c55d135e7",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::27_nda-10_0::2e276023207e",
+            "condition": "scanned_ocr_noise_proxy",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "368ef83e767e3714e0035290c4baaf15540911127206cf0fcb370cfec638786f",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::75_nda-10_0::ce3c6cf916f8",
+            "condition": "scanned_ocr_noise_proxy",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "c94583b5733ca42861a51644f72d3d0489c5c3b842009076dd1e41250c31502b",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::61_nda-10_0::8dd8beed5215",
+            "condition": "scanned_ocr_noise_proxy",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "992dca444ee88e5109191c2ecaf47cd23c90ec4070e1d45aa802f122cd10d1db",
+            "attempts": 1
+          }
+        ],
+        "delta_vs_clean": {
+          "risk_macro_f1": 0.03729603729603731,
+          "mean_fk_grade": 0.36320000000000086,
+          "mean_source_faithfulness": 0.049824311850311886
+        }
+      },
+      "fixed_hypothesis_verifier": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.8888888888888888,
+        "unsupported_precision": 0.0,
+        "unsupported_recall": 0.0,
+        "unsupported_f1": 0.0,
+        "accuracy": 0.8,
+        "predicted_hallucination_rate": 0.2,
+        "ground_truth_hallucination_rate": 0.0,
+        "missed_unsupported_rate": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            8
+          ]
+        ],
+        "n_examples": 10
+      }
+    },
+    "reordered_clause_sentences": {
+      "pipeline": {
+        "risk": {
+          "macro_precision": 0.3333333333333333,
+          "macro_recall": 0.22916666666666666,
+          "macro_f1": 0.25757575757575757,
+          "accuracy": 0.5,
+          "confusion_matrix": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe",
+            "__OTHER__"
+          ],
+          "proposal_labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe"
+          ],
+          "per_class": {
+            "Auto-Renewal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "Hidden Fee": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Liability Waiver": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Data Sharing": {
+              "precision": 1.0,
+              "recall": 0.375,
+              "f1-score": 0.5454545454545454,
+              "support": 8.0
+            },
+            "Penalty Clause": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Safe": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.5,
+            "macro avg": {
+              "precision": 0.3333333333333333,
+              "recall": 0.22916666666666666,
+              "f1-score": 0.25757575757575757,
+              "support": 10.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1-score": 0.6363636363636364,
+              "support": 10.0
+            }
+          },
+          "n_invalid_or_abstained": 0,
+          "invalid_or_abstention_rate": 0.0,
+          "n_examples": 10
+        },
+        "mean_fk_grade": 8.7575,
+        "pct_fk_le_8": 0.6,
+        "mean_generated_source_faithfulness": 0.5193110810810811,
+        "generated_unsupported_flag_rate": 0.13513513513513514,
+        "retrieval": {
+          "recall@15": 0.0,
+          "precision@15": 0.0,
+          "mrr": 0.0,
+          "ndcg@15": 0.0,
+          "hit_at_1": 0.0,
+          "n_examples": 10
+        },
+        "n_unique_clauses": 10,
+        "clause_ids": [
+          "cuad-external-auto-renewal-0a92ea474e75a999",
+          "cuad-external-auto-renewal-7d2f159fcf432351",
+          "external::converted_contract_nli::data-sharing::27_nda-10_0::2e276023207e",
+          "external::converted_contract_nli::data-sharing::28_nda-10_0::0c5fdda372d3",
+          "external::converted_contract_nli::data-sharing::35_nda-10_0::39c74be2c6ad",
+          "external::converted_contract_nli::data-sharing::3_nda-10_0::d9c61fa5ea3a",
+          "external::converted_contract_nli::data-sharing::563_nda-10_0::4282047e2ea4",
+          "external::converted_contract_nli::data-sharing::61_nda-10_0::8dd8beed5215",
+          "external::converted_contract_nli::data-sharing::75_nda-10_0::ce3c6cf916f8",
+          "external::converted_contract_nli::data-sharing::82_nda-10_0::0cae0224d844"
+        ],
+        "generation_mode": "deterministic",
+        "per_clause": [
+          {
+            "source_clause_id": "cuad-external-auto-renewal-7d2f159fcf432351",
+            "condition": "reordered_clause_sentences",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "ecce7dd0bbbc543b195552169e7d1d110af2ba2d46602fd959f486223ade99b0",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "cuad-external-auto-renewal-0a92ea474e75a999",
+            "condition": "reordered_clause_sentences",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "f1f74138a19aaad73d4a7a9893289a455f3d7c4e40b21dbe2e10933094e450e9",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::35_nda-10_0::39c74be2c6ad",
+            "condition": "reordered_clause_sentences",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "13173c64d4033c1a7527b61c9783cb1d432581d3d55c2f3a967e210daa37bed6",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::82_nda-10_0::0cae0224d844",
+            "condition": "reordered_clause_sentences",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "f7376f273f0dccf55b0fea6eb12a4a6ab276d7bd7a311a6fa1df637b0f88c76c",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::3_nda-10_0::d9c61fa5ea3a",
+            "condition": "reordered_clause_sentences",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "e423c666ad98836a79487a0ad25abf901d2cdc3dbc705c6d79a3a1857bc3c986",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::563_nda-10_0::4282047e2ea4",
+            "condition": "reordered_clause_sentences",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "2b509b8d36b2a90da2de56aaacde0e4d3e86cd927e4b2cf13a74d1d7da2544e2",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::28_nda-10_0::0c5fdda372d3",
+            "condition": "reordered_clause_sentences",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "33ab1faf613b22763744e80429daf791b3d12a20be6ce6bddf5d32a494e613c0",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::27_nda-10_0::2e276023207e",
+            "condition": "reordered_clause_sentences",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "359feb8e33d10c609d038894a77d2a8bef14185fc58d8dd1f7eae92d2892ac4c",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::75_nda-10_0::ce3c6cf916f8",
+            "condition": "reordered_clause_sentences",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "80cfa1343d9388d7f8c10fac9a1fd596f05b2bb8c20d0b0c542b441579eb10e3",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::61_nda-10_0::8dd8beed5215",
+            "condition": "reordered_clause_sentences",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "dc233a60cc4893ea3e2ffbcfaad5ec8ee8d5d19a38363db3d2564ae16a4024d7",
+            "attempts": 1
+          }
+        ],
+        "delta_vs_clean": {
+          "risk_macro_f1": 0.0,
+          "mean_fk_grade": 0.04630000000000045,
+          "mean_source_faithfulness": 0.0700671621621623
+        }
+      },
+      "fixed_hypothesis_verifier": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.8888888888888888,
+        "unsupported_precision": 0.0,
+        "unsupported_recall": 0.0,
+        "unsupported_f1": 0.0,
+        "accuracy": 0.8,
+        "predicted_hallucination_rate": 0.2,
+        "ground_truth_hallucination_rate": 0.0,
+        "missed_unsupported_rate": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            8
+          ]
+        ],
+        "n_examples": 10
+      }
+    },
+    "technical_derivative_language": {
+      "pipeline": {
+        "risk": {
+          "macro_precision": 0.3333333333333333,
+          "macro_recall": 0.20833333333333334,
+          "macro_f1": 0.2333333333333333,
+          "accuracy": 0.4,
+          "confusion_matrix": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              6,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe",
+            "__OTHER__"
+          ],
+          "proposal_labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe"
+          ],
+          "per_class": {
+            "Auto-Renewal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "Hidden Fee": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Liability Waiver": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Data Sharing": {
+              "precision": 1.0,
+              "recall": 0.25,
+              "f1-score": 0.4,
+              "support": 8.0
+            },
+            "Penalty Clause": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Safe": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.4,
+            "macro avg": {
+              "precision": 0.3333333333333333,
+              "recall": 0.20833333333333334,
+              "f1-score": 0.2333333333333333,
+              "support": 10.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1-score": 0.52,
+              "support": 10.0
+            }
+          },
+          "n_invalid_or_abstained": 0,
+          "invalid_or_abstention_rate": 0.0,
+          "n_examples": 10
+        },
+        "mean_fk_grade": 11.3187,
+        "pct_fk_le_8": 0.4,
+        "mean_generated_source_faithfulness": 0.4787843243243243,
+        "generated_unsupported_flag_rate": 0.05405405405405406,
+        "retrieval": {
+          "recall@15": 0.0,
+          "precision@15": 0.0,
+          "mrr": 0.0,
+          "ndcg@15": 0.0,
+          "hit_at_1": 0.0,
+          "n_examples": 10
+        },
+        "n_unique_clauses": 10,
+        "clause_ids": [
+          "cuad-external-auto-renewal-0a92ea474e75a999",
+          "cuad-external-auto-renewal-7d2f159fcf432351",
+          "external::converted_contract_nli::data-sharing::27_nda-10_0::2e276023207e",
+          "external::converted_contract_nli::data-sharing::28_nda-10_0::0c5fdda372d3",
+          "external::converted_contract_nli::data-sharing::35_nda-10_0::39c74be2c6ad",
+          "external::converted_contract_nli::data-sharing::3_nda-10_0::d9c61fa5ea3a",
+          "external::converted_contract_nli::data-sharing::563_nda-10_0::4282047e2ea4",
+          "external::converted_contract_nli::data-sharing::61_nda-10_0::8dd8beed5215",
+          "external::converted_contract_nli::data-sharing::75_nda-10_0::ce3c6cf916f8",
+          "external::converted_contract_nli::data-sharing::82_nda-10_0::0cae0224d844"
+        ],
+        "generation_mode": "deterministic",
+        "per_clause": [
+          {
+            "source_clause_id": "cuad-external-auto-renewal-7d2f159fcf432351",
+            "condition": "technical_derivative_language",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "21539adc4487bbfe8bceff0172bb6d39f946e72c3c6ecb21771727b014e703a6",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "cuad-external-auto-renewal-0a92ea474e75a999",
+            "condition": "technical_derivative_language",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "ca76e3e0f50c59b74d08e9122206e50672e3e9d2dfc8d7071525045cb87cccc4",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::35_nda-10_0::39c74be2c6ad",
+            "condition": "technical_derivative_language",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "29df892559426a4eb59003253eea746ed6a115d57e72ec5a16f1863263b5f226",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::82_nda-10_0::0cae0224d844",
+            "condition": "technical_derivative_language",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "422bf4a57919853738dbb895fc55923f3cf60be4523aeb24202427523079d095",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::3_nda-10_0::d9c61fa5ea3a",
+            "condition": "technical_derivative_language",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "4a0e993a5fac946918fb7e734fab0009d3ddaa9db329c2c0bebd9026b3b54568",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::563_nda-10_0::4282047e2ea4",
+            "condition": "technical_derivative_language",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "587848328ef2719ad3e8259b01aaf55a058c1e9be621f7fb91ac130af3477832",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::28_nda-10_0::0c5fdda372d3",
+            "condition": "technical_derivative_language",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "896f6040c1926f685f59471504ba20ea6a84cef63b4769f9e86504f17a382c32",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::27_nda-10_0::2e276023207e",
+            "condition": "technical_derivative_language",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "15483cffbf0a02e1a80a2674ee01cc1cd4650b60be27cddc3ddfb344f3d557ad",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::75_nda-10_0::ce3c6cf916f8",
+            "condition": "technical_derivative_language",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "e9d47a174f6ae00f1564a9b15be2f889371a5df112370d5a0fa62744aa48ff42",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::61_nda-10_0::8dd8beed5215",
+            "condition": "technical_derivative_language",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "bd8f073124312faebfb8c2d69ba0ee115db04177a62dd5fe701eb71c6a4f1ec7",
+            "attempts": 1
+          }
+        ],
+        "delta_vs_clean": {
+          "risk_macro_f1": -0.02424242424242426,
+          "mean_fk_grade": 2.6075,
+          "mean_source_faithfulness": 0.029540405405405423
+        }
+      },
+      "fixed_hypothesis_verifier": {
+        "precision": 1.0,
+        "recall": 0.7,
+        "f1": 0.8235294117647058,
+        "unsupported_precision": 0.0,
+        "unsupported_recall": 0.0,
+        "unsupported_f1": 0.0,
+        "accuracy": 0.7,
+        "predicted_hallucination_rate": 0.3,
+        "ground_truth_hallucination_rate": 0.0,
+        "missed_unsupported_rate": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "n_examples": 10
+      }
+    },
+    "very_short_or_truncated": {
+      "pipeline": {
+        "risk": {
+          "macro_precision": 0.3333333333333333,
+          "macro_recall": 0.25,
+          "macro_f1": 0.27777777777777773,
+          "accuracy": 0.6,
+          "confusion_matrix": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe",
+            "__OTHER__"
+          ],
+          "proposal_labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe"
+          ],
+          "per_class": {
+            "Auto-Renewal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "Hidden Fee": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Liability Waiver": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Data Sharing": {
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1-score": 0.6666666666666666,
+              "support": 8.0
+            },
+            "Penalty Clause": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Safe": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.6,
+            "macro avg": {
+              "precision": 0.3333333333333333,
+              "recall": 0.25,
+              "f1-score": 0.27777777777777773,
+              "support": 10.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 0.6,
+              "f1-score": 0.7333333333333333,
+              "support": 10.0
+            }
+          },
+          "n_invalid_or_abstained": 0,
+          "invalid_or_abstention_rate": 0.0,
+          "n_examples": 10
+        },
+        "mean_fk_grade": 8.8787,
+        "pct_fk_le_8": 0.6,
+        "mean_generated_source_faithfulness": 0.4690339411764706,
+        "generated_unsupported_flag_rate": 0.17647058823529413,
+        "retrieval": {
+          "recall@15": 0.0,
+          "precision@15": 0.0,
+          "mrr": 0.0,
+          "ndcg@15": 0.0,
+          "hit_at_1": 0.0,
+          "n_examples": 10
+        },
+        "n_unique_clauses": 10,
+        "clause_ids": [
+          "cuad-external-auto-renewal-0a92ea474e75a999",
+          "cuad-external-auto-renewal-7d2f159fcf432351",
+          "external::converted_contract_nli::data-sharing::27_nda-10_0::2e276023207e",
+          "external::converted_contract_nli::data-sharing::28_nda-10_0::0c5fdda372d3",
+          "external::converted_contract_nli::data-sharing::35_nda-10_0::39c74be2c6ad",
+          "external::converted_contract_nli::data-sharing::3_nda-10_0::d9c61fa5ea3a",
+          "external::converted_contract_nli::data-sharing::563_nda-10_0::4282047e2ea4",
+          "external::converted_contract_nli::data-sharing::61_nda-10_0::8dd8beed5215",
+          "external::converted_contract_nli::data-sharing::75_nda-10_0::ce3c6cf916f8",
+          "external::converted_contract_nli::data-sharing::82_nda-10_0::0cae0224d844"
+        ],
+        "generation_mode": "deterministic",
+        "per_clause": [
+          {
+            "source_clause_id": "cuad-external-auto-renewal-7d2f159fcf432351",
+            "condition": "very_short_or_truncated",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "be2d7a3573181cf9cf489f39453940d3f1652584f4301ee924c97fa2583ac355",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "cuad-external-auto-renewal-0a92ea474e75a999",
+            "condition": "very_short_or_truncated",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "f1f74138a19aaad73d4a7a9893289a455f3d7c4e40b21dbe2e10933094e450e9",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::35_nda-10_0::39c74be2c6ad",
+            "condition": "very_short_or_truncated",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "00ca991b54f72d8ff8ef9237f030f0aa2412ea3ccaa30982c404cdc03f6ba371",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::82_nda-10_0::0cae0224d844",
+            "condition": "very_short_or_truncated",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "5b84aab69b2e7a71cda485bb7d5db8d0dd27b30b308f3c9c1ca273281fabec0a",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::3_nda-10_0::d9c61fa5ea3a",
+            "condition": "very_short_or_truncated",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "c5b18421d90639ae916e5bd358aab00d6afc6d27cf95e20ab1d6d2aaaab5d7de",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::563_nda-10_0::4282047e2ea4",
+            "condition": "very_short_or_truncated",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "b23c68ce80a43ef91bfab4be3ba78bae4b19fa875991e00f582b710cf7175052",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::28_nda-10_0::0c5fdda372d3",
+            "condition": "very_short_or_truncated",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "cf488523d4411cee6614e754b88e68ca873c051e14c60d242906ab8486e07164",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::27_nda-10_0::2e276023207e",
+            "condition": "very_short_or_truncated",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "7d46057105a32417595c94c64d81296b349664ccf5227220a22dab0f8f829810",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::75_nda-10_0::ce3c6cf916f8",
+            "condition": "very_short_or_truncated",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "9d69350eb1c08b09037125d8cbcc485f23219b43252f83081708d806dbd2139f",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::61_nda-10_0::8dd8beed5215",
+            "condition": "very_short_or_truncated",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "e54a09a760a9352fb29513134bc33939374285ecaa8887d28f5c80d8561f07fd",
+            "attempts": 1
+          }
+        ],
+        "delta_vs_clean": {
+          "risk_macro_f1": 0.020202020202020166,
+          "mean_fk_grade": 0.16750000000000043,
+          "mean_source_faithfulness": 0.019790022257551776
+        }
+      },
+      "fixed_hypothesis_verifier": {
+        "precision": 1.0,
+        "recall": 0.2,
+        "f1": 0.3333333333333333,
+        "unsupported_precision": 0.0,
+        "unsupported_recall": 0.0,
+        "unsupported_f1": 0.0,
+        "accuracy": 0.2,
+        "predicted_hallucination_rate": 0.8,
+        "ground_truth_hallucination_rate": 0.0,
+        "missed_unsupported_rate": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            2
+          ]
+        ],
+        "n_examples": 10
+      }
+    },
+    "unseen_jurisdiction": {
+      "pipeline": {
+        "risk": {
+          "macro_precision": 0.3333333333333333,
+          "macro_recall": 0.20833333333333334,
+          "macro_f1": 0.2333333333333333,
+          "accuracy": 0.4,
+          "confusion_matrix": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              6,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe",
+            "__OTHER__"
+          ],
+          "proposal_labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe"
+          ],
+          "per_class": {
+            "Auto-Renewal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "Hidden Fee": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Liability Waiver": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Data Sharing": {
+              "precision": 1.0,
+              "recall": 0.25,
+              "f1-score": 0.4,
+              "support": 8.0
+            },
+            "Penalty Clause": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Safe": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.4,
+            "macro avg": {
+              "precision": 0.3333333333333333,
+              "recall": 0.20833333333333334,
+              "f1-score": 0.2333333333333333,
+              "support": 10.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1-score": 0.52,
+              "support": 10.0
+            }
+          },
+          "n_invalid_or_abstained": 0,
+          "invalid_or_abstention_rate": 0.0,
+          "n_examples": 10
+        },
+        "mean_fk_grade": 8.4172,
+        "pct_fk_le_8": 0.4,
+        "mean_generated_source_faithfulness": 0.4124558837209303,
+        "generated_unsupported_flag_rate": 0.23255813953488372,
+        "retrieval": {
+          "recall@15": 0.0,
+          "precision@15": 0.0,
+          "mrr": 0.0,
+          "ndcg@15": 0.0,
+          "hit_at_1": 0.0,
+          "n_examples": 10
+        },
+        "n_unique_clauses": 10,
+        "clause_ids": [
+          "cuad-external-auto-renewal-0a92ea474e75a999",
+          "cuad-external-auto-renewal-7d2f159fcf432351",
+          "external::converted_contract_nli::data-sharing::27_nda-10_0::2e276023207e",
+          "external::converted_contract_nli::data-sharing::28_nda-10_0::0c5fdda372d3",
+          "external::converted_contract_nli::data-sharing::35_nda-10_0::39c74be2c6ad",
+          "external::converted_contract_nli::data-sharing::3_nda-10_0::d9c61fa5ea3a",
+          "external::converted_contract_nli::data-sharing::563_nda-10_0::4282047e2ea4",
+          "external::converted_contract_nli::data-sharing::61_nda-10_0::8dd8beed5215",
+          "external::converted_contract_nli::data-sharing::75_nda-10_0::ce3c6cf916f8",
+          "external::converted_contract_nli::data-sharing::82_nda-10_0::0cae0224d844"
+        ],
+        "generation_mode": "deterministic",
+        "per_clause": [
+          {
+            "source_clause_id": "cuad-external-auto-renewal-7d2f159fcf432351",
+            "condition": "unseen_jurisdiction",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "15756e74122c862fbd096e3b7f005ee43ffa1749981f307ee63488291707ca28",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "cuad-external-auto-renewal-0a92ea474e75a999",
+            "condition": "unseen_jurisdiction",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "ada2bb0a4a495d2ece2846bd71d945fa478a58e892484b1b5d48ee5cadaa5726",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::35_nda-10_0::39c74be2c6ad",
+            "condition": "unseen_jurisdiction",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "4757a1d647014b1405f3fe50e3e9584abe636190fb83bf78cd996e651423dd9b",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::82_nda-10_0::0cae0224d844",
+            "condition": "unseen_jurisdiction",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "0387b6909380191e3070bed33af86c8af8c544607edc95a4f5ebbf1135a38040",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::3_nda-10_0::d9c61fa5ea3a",
+            "condition": "unseen_jurisdiction",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "ae0dfb37581e04ff4c69cb4e16711e2d9215acfbbfd73281dd5eeacbb7ae29fc",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::563_nda-10_0::4282047e2ea4",
+            "condition": "unseen_jurisdiction",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "e2c4e912aa68cb717a3966927127f8db9ca3ed40f5fe8473995e0cefe7fc07d2",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::28_nda-10_0::0c5fdda372d3",
+            "condition": "unseen_jurisdiction",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "e0f0a416a6b8be9030320069bda10aeff1689b22b289bb613319018a018973ce",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::27_nda-10_0::2e276023207e",
+            "condition": "unseen_jurisdiction",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "c349c6b2e82b94ed4be8fcbfcf77cd8b099b9ca3520ce12165d24bd798cff002",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::75_nda-10_0::ce3c6cf916f8",
+            "condition": "unseen_jurisdiction",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "4e20131059f0a6779e003342897fd27fe59535bfea22ed32740393e1f48fefd4",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::61_nda-10_0::8dd8beed5215",
+            "condition": "unseen_jurisdiction",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "e3fd227f5f42997839ad38a52cad8539b49fb61534f73685284b688cc01b08f4",
+            "attempts": 1
+          }
+        ],
+        "delta_vs_clean": {
+          "risk_macro_f1": -0.02424242424242426,
+          "mean_fk_grade": -0.2940000000000005,
+          "mean_source_faithfulness": -0.03678803519798857
+        }
+      },
+      "fixed_hypothesis_verifier": {
+        "precision": 1.0,
+        "recall": 0.7,
+        "f1": 0.8235294117647058,
+        "unsupported_precision": 0.0,
+        "unsupported_recall": 0.0,
+        "unsupported_f1": 0.0,
+        "accuracy": 0.7,
+        "predicted_hallucination_rate": 0.3,
+        "ground_truth_hallucination_rate": 0.0,
+        "missed_unsupported_rate": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "n_examples": 10
+      }
+    },
+    "cross_clause_dependency": {
+      "pipeline": {
+        "risk": {
+          "macro_precision": 0.3333333333333333,
+          "macro_recall": 0.20833333333333334,
+          "macro_f1": 0.2333333333333333,
+          "accuracy": 0.4,
+          "confusion_matrix": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              6,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe",
+            "__OTHER__"
+          ],
+          "proposal_labels": [
+            "Auto-Renewal",
+            "Hidden Fee",
+            "Liability Waiver",
+            "Data Sharing",
+            "Penalty Clause",
+            "Safe"
+          ],
+          "per_class": {
+            "Auto-Renewal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 2.0
+            },
+            "Hidden Fee": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Liability Waiver": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Data Sharing": {
+              "precision": 1.0,
+              "recall": 0.25,
+              "f1-score": 0.4,
+              "support": 8.0
+            },
+            "Penalty Clause": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "Safe": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 0.0
+            },
+            "accuracy": 0.4,
+            "macro avg": {
+              "precision": 0.3333333333333333,
+              "recall": 0.20833333333333334,
+              "f1-score": 0.2333333333333333,
+              "support": 10.0
+            },
+            "weighted avg": {
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1-score": 0.52,
+              "support": 10.0
+            }
+          },
+          "n_invalid_or_abstained": 0,
+          "invalid_or_abstention_rate": 0.0,
+          "n_examples": 10
+        },
+        "mean_fk_grade": 8.3358,
+        "pct_fk_le_8": 0.4,
+        "mean_generated_source_faithfulness": 0.559913825,
+        "generated_unsupported_flag_rate": 0.1,
+        "retrieval": {
+          "recall@15": 0.0,
+          "precision@15": 0.0,
+          "mrr": 0.0,
+          "ndcg@15": 0.0,
+          "hit_at_1": 0.0,
+          "n_examples": 10
+        },
+        "n_unique_clauses": 10,
+        "clause_ids": [
+          "cuad-external-auto-renewal-0a92ea474e75a999",
+          "cuad-external-auto-renewal-7d2f159fcf432351",
+          "external::converted_contract_nli::data-sharing::27_nda-10_0::2e276023207e",
+          "external::converted_contract_nli::data-sharing::28_nda-10_0::0c5fdda372d3",
+          "external::converted_contract_nli::data-sharing::35_nda-10_0::39c74be2c6ad",
+          "external::converted_contract_nli::data-sharing::3_nda-10_0::d9c61fa5ea3a",
+          "external::converted_contract_nli::data-sharing::563_nda-10_0::4282047e2ea4",
+          "external::converted_contract_nli::data-sharing::61_nda-10_0::8dd8beed5215",
+          "external::converted_contract_nli::data-sharing::75_nda-10_0::ce3c6cf916f8",
+          "external::converted_contract_nli::data-sharing::82_nda-10_0::0cae0224d844"
+        ],
+        "generation_mode": "deterministic",
+        "per_clause": [
+          {
+            "source_clause_id": "cuad-external-auto-renewal-7d2f159fcf432351",
+            "condition": "cross_clause_dependency",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "591bb83cdd4f0055d778df01c2ecf6816abe1ba37fca053f96f59c63bbf3db0a",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "cuad-external-auto-renewal-0a92ea474e75a999",
+            "condition": "cross_clause_dependency",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "abe2cafca8d1a5f591fe87363273f8c8a28cfc2d145d0cd7a3751c3d9f105331",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::35_nda-10_0::39c74be2c6ad",
+            "condition": "cross_clause_dependency",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "e334683332d1b8f878a7d0a38040ac60a474b78c7a3ce332575d32887e00a074",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::82_nda-10_0::0cae0224d844",
+            "condition": "cross_clause_dependency",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "b5926da9bd23ccf252a145858e1ab9933b36330412b7b0050f9713b928f0190a",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::3_nda-10_0::d9c61fa5ea3a",
+            "condition": "cross_clause_dependency",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "ac6e40c7e0d170cf25ef13af646994989a9627c3be7d149daa50d785cb5cafbd",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::563_nda-10_0::4282047e2ea4",
+            "condition": "cross_clause_dependency",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "298d9c2af9cdd2ba0b2908808ae7eef6efa5a63681a6c36351d9ade16d7dc11a",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::28_nda-10_0::0c5fdda372d3",
+            "condition": "cross_clause_dependency",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "6ce762d72a86b18582c875aadfdc1b4855a83d558ad94b0bb6686f7f71687aad",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::27_nda-10_0::2e276023207e",
+            "condition": "cross_clause_dependency",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "5cc0fd8d964ecd3fc83a9b21c4240167978173276601499462b105e0b6bf4896",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::75_nda-10_0::ce3c6cf916f8",
+            "condition": "cross_clause_dependency",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "ecf8096a819868dd7db13979185cc075bb3e817280de01fd25054fb3d5e3ab83",
+            "attempts": 1
+          },
+          {
+            "source_clause_id": "external::converted_contract_nli::data-sharing::61_nda-10_0::8dd8beed5215",
+            "condition": "cross_clause_dependency",
+            "generation_mode": "deterministic",
+            "generation_seed": 42,
+            "output_hash": "c5f2b6ccde1d322589980247323bad52fc7185add35637e880005767995d3020",
+            "attempts": 1
+          }
+        ],
+        "delta_vs_clean": {
+          "risk_macro_f1": -0.02424242424242426,
+          "mean_fk_grade": -0.37539999999999907,
+          "mean_source_faithfulness": 0.11066990608108113
+        }
+      },
+      "fixed_hypothesis_verifier": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.8888888888888888,
+        "unsupported_precision": 0.0,
+        "unsupported_recall": 0.0,
+        "unsupported_f1": 0.0,
+        "accuracy": 0.8,
+        "predicted_hallucination_rate": 0.2,
+        "ground_truth_hallucination_rate": 0.0,
+        "missed_unsupported_rate": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            8
+          ]
+        ],
+        "n_examples": 10
+      }
+    }
+  },
+  "tau": 0.376,
+  "notes": {
+    "ocr": "Text-level OCR corruption proxy; final thesis should also run representative scanned PDFs through S1.",
+    "ground_truth": "Retrieval deltas are available only for records with adjudicated evidence chunk IDs."
+  }
+}

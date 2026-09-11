@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-gray-950 text-gray-100 antialiased;
+    scrollbar-color: #374151 #111827;
+    scrollbar-width: thin;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #111827;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #374151;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4b5563;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Sentence highlight classes */
+  .faith-high {
+    @apply bg-emerald-900/40 border-b-2 border-emerald-500;
+  }
+  .faith-medium {
+    @apply bg-amber-900/40   border-b-2 border-amber-400;
+  }
+  .faith-low {
+    @apply bg-red-900/50     border-b-2 border-red-500;
+  }
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid #374151;
+  background: #111827;
+  padding: 0.55rem 0.8rem;
+  border-radius: 0.6rem;
+  font-size: 0.875rem;
+}
+.btn:hover {
+  background: #1f2937;
+}
+.warning {
+  display: flex;
+  gap: 0.6rem;
+  align-items: flex-start;
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  background: rgba(120, 53, 15, 0.2);
+  color: #fcd34d;
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  margin: 0.5rem 0;
+}
+.badge {
+  font-size: 0.7rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+}
+.badge-risk {
+  background: rgba(239, 68, 68, 0.2);
+  color: #fca5a5;
+}
+.badge-safe {
+  background: rgba(16, 185, 129, 0.2);
+  color: #6ee7b7;
+}
+.badge-review {
+  background: rgba(245, 158, 11, 0.2);
+  color: #fcd34d;
+}
+.muted {
+  color: #9ca3af;
+  font-size: 0.75rem;
+  margin-top: 0.35rem;
+}

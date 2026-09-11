@@ -1,0 +1,83 @@
+version: "1.0"
+risk_score_rubric:
+  1: "No material consumer risk identified; ordinary administrative wording or explicitly safe clause."
+  2: "Low risk: clearly disclosed, limited impact, and easy for the consumer to avoid or remedy."
+  3: "Moderate risk: meaningful obligation, cost, or ambiguity requiring careful review."
+  4: "High risk: substantial financial/privacy/legal impact, difficult opt-out, or significant penalty."
+  5: "Severe risk: uncapped/broad waiver, major hidden cost, immediate harsh penalty, or highly consequential data use."
+examples:
+  - clause: "This agreement renews for another year unless the customer gives written notice at least 60 days before expiry."
+    risk_label: "Auto-Renewal"
+    risk_score: 4
+    secondary_risk_labels: []
+    explanation: "The contract renews automatically and requires advance notice to stop renewal."
+  - clause: "A monthly administration charge may be added to the account in accordance with the current tariff."
+    risk_label: "Hidden Fee"
+    risk_score: 3
+    secondary_risk_labels: []
+    explanation: "The clause permits an additional recurring charge whose amount is not stated in the clause."
+  - clause: "The supply price will be adjusted annually in line with the Consumer Price Index, and this adjustment will be applied automatically without further notice to the customer."
+    risk_label: "Hidden Fee"
+    risk_score: 3
+    secondary_risk_labels: []
+    explanation: "An index-linked price escalator that applies automatically without prior notice is a recurring cost the customer cannot see or opt out of at signing -- classify by the escalation mechanism itself, not by whether index-linking sounds like standard commercial practice."
+  - clause: "In addition to the stated fee, the customer shall reimburse the provider for all reasonable costs and expenses incurred in connection with this agreement."
+    risk_label: "Hidden Fee"
+    risk_score: 4
+    secondary_risk_labels: []
+    explanation: "An open-ended reimbursement obligation with no cap or itemisation is a hidden fee even though the wording ('reasonable costs') sounds administrative."
+  - clause: "The provider is not liable for indirect loss and the customer indemnifies the provider against third-party claims."
+    risk_label: "Liability Waiver"
+    risk_score: 5
+    secondary_risk_labels: []
+    explanation: "The provider limits its liability and transfers third-party claim risk to the customer."
+  - clause: "We may share personal information with affiliates and service providers for analytics and marketing."
+    risk_label: "Data Sharing"
+    risk_score: 4
+    secondary_risk_labels: []
+    explanation: "Personal information may be shared with other organisations for analytics and marketing."
+  - clause: "Both parties shall keep confidential all information exchanged during discussions, provided that either party may disclose such information to its affiliates, advisors, and service providers on a need-to-know basis."
+    risk_label: "Data Sharing"
+    risk_score: 3
+    secondary_risk_labels: []
+    explanation: "A confidentiality clause that carves out broad, undefined third-party disclosure ('affiliates, advisors, and service providers') is a data-sharing risk despite being framed as a protective non-disclosure clause -- the carve-out is what matters, not the confidentiality framing."
+  - clause: "The Recipient will not disclose the Confidential Information to any person, provided however, that Recipient may disclose the Confidential Information to its contractors, vendors, directors, officers, advisors, agents and employees who need to know such information."
+    risk_label: "Data Sharing"
+    risk_score: 3
+    secondary_risk_labels: []
+    explanation: "Do not classify this as Safe just because it opens with a non-disclosure restriction ('will not disclose to any person') -- the 'provided however' carve-out is the operative content: it is a broad grant of permission to share the information with an entire list of third-party categories (contractors, vendors, agents). A confidentiality clause is Data Sharing, not Safe, whenever it names categories of third parties the information may flow to, no matter how protective the surrounding language sounds."
+  - clause: "Before disclosing Confidential Information to its Affiliates, the Receiving Party shall ensure such Affiliates are bound by confidentiality obligations no less restrictive than those in this Agreement."
+    risk_label: "Data Sharing"
+    risk_score: 2
+    secondary_risk_labels: []
+    explanation: "Still Data Sharing (not Safe) because it explicitly permits disclosure to Affiliates -- a third-party category outside the two contracting parties -- even though it is a lower risk_score here since it also imposes a binding confidentiality flow-down requirement on that third party. The presence of ANY named third-party disclosure category, not the presence of safeguards around it, is what makes a confidentiality/NDA-style clause Data Sharing rather than Safe."
+  - clause: "Customer data collected through this service may be processed by the provider and its group companies to improve products and for internal research purposes."
+    risk_label: "Data Sharing"
+    risk_score: 3
+    secondary_risk_labels: []
+    explanation: "Sharing customer data with group companies for purposes beyond the immediate service, even when described as internal, is data sharing."
+  - clause: "A late payment charge of €25 applies when an instalment remains unpaid for more than ten days."
+    risk_label: "Penalty Clause"
+    risk_score: 3
+    secondary_risk_labels: []
+    explanation: "Penalty Clause vs Hidden Fee: classify by what triggers the charge, not by the fact that money changes hands. A charge triggered by the customer's own default, delay, or breach (as here -- late payment) is a Penalty Clause. A charge that exists regardless of any breach, simply as an ordinary cost of the service (administration charges, price escalators, reimbursement clauses), is a Hidden Fee. This clause is Penalty Clause only, not a secondary Hidden Fee, because the charge only exists because of the customer's default."
+  - clause: "If the agreement is terminated before the end of the initial term for any reason other than the provider's uncured breach, the customer shall pay liquidated damages equal to 50% of the remaining contract value, which the parties agree is a reasonable estimate of the provider's anticipated losses."
+    risk_label: "Penalty Clause"
+    risk_score: 5
+    secondary_risk_labels: []
+    explanation: "A liquidated-damages formula triggered by early termination is a Penalty Clause. Penalty Clause vs Liability Waiver: this clause is about what the CUSTOMER must pay upon breach/termination (a penalty on the customer), not about capping or waiving what the PROVIDER owes the customer -- that distinction is what separates Penalty Clause from Liability Waiver even though both involve money changing hands after something goes wrong."
+  - clause: "Upon any default in payment, the entire unpaid balance shall immediately become due and payable in full, together with a default charge of 5% of the accelerated balance, without further notice or demand."
+    risk_label: "Penalty Clause"
+    risk_score: 5
+    secondary_risk_labels: []
+    explanation: "An acceleration-on-default clause plus an additional default charge is a Penalty Clause: both consequences (acceleration and the 5% charge) are triggered specifically by the customer's default, not an ordinary term of the deal."
+  - clause: "The service provider's total liability under this agreement, whether in contract, tort, or otherwise, shall not exceed the fees paid by the customer in the twelve months preceding the claim, and the provider shall have no liability for any indirect, incidental, or consequential damages."
+    risk_label: "Liability Waiver"
+    risk_score: 4
+    secondary_risk_labels: []
+    explanation: "A cap on what the PROVIDER owes the customer (liability cap plus exclusion of consequential damages) is a Liability Waiver, not a Penalty Clause -- no charge is imposed on the customer here, so there is nothing for the customer to be penalised for."
+  - clause: "Statements are available online and the customer may request a paper copy without charge."
+    risk_label: "Safe"
+    risk_score: 1
+    secondary_risk_labels: []
+    explanation: "The clause describes statement delivery and provides a free paper option."

@@ -1,0 +1,563 @@
+Skip to main content
+Skip to navigation
+
+## legislation.gov.uk
+
+[legislation.gov.uk] Cymraeg
+[legislation.gov.uk] Home
+[legislation.gov.uk] Explore our collections
+[legislation.gov.uk] Research tools
+[legislation.gov.uk] Help and guidance
+[legislation.gov.uk] What's new
+[legislation.gov.uk] About us
+[legislation.gov.uk] Search Legislation
+
+## Data Protection Act 2018
+
+
+## You are here:
+
+[You are here:] UK Public General Acts
+[You are here:] 2018 c. 12
+[You are here:] PART 2
+[You are here:] CHAPTER 2
+[You are here:] Table of Contents
+[You are here:] Content
+[You are here:] Explanatory Notes
+[You are here:] More Resources
+[You are here:] Previous: Chapter
+[You are here:] Next: Chapter
+[You are here:] Plain View
+[You are here:] Print Options
+
+## What Version
+
+[What Version] Latest available (Revised)
+[What Version] Original (As enacted)
+
+## Advanced Features
+
+[Advanced Features] Show Geographical Extent (e.g. E ngland, W ales, S cotland and N orthern I reland)
+[Advanced Features] Show Timeline of Changes
+
+## Opening Options
+
+[Opening Options] Open whole Act
+[Opening Options] Open Act without Schedules
+[Opening Options] Open Schedules only
+
+## More Resources
+
+[More Resources] Original: King's Printer Version
+[More Resources] Correction Slip - 19/08/2019
+[More Resources] View more
+
+## Changes over time for: CHAPTER 2
+
+
+## Alternative versions:
+
+[Alternative versions:] 23/05/2018 - Amendment
+[Alternative versions:] 25/05/2018 - Amendment
+[Alternative versions:] 31/12/2020 - Amendment
+[Alternative versions:] 25/01/2023 - Amendment
+[Alternative versions:] 19/06/2025 - Amendment
+[Alternative versions:] 20/08/2025 - Amendment
+[Alternative versions:] 05/02/2026 - Amendment
+[Alternative versions:] 31/03/2026 - Amendment
+
+## Changes to legislation:
+
+[Changes to legislation:] Data Protection Act 2018, CHAPTER 2 is up to date with all changes known to be in force on or before 22 July 2026. There are changes that may be brought into force at a future date. Changes that have been made appear in the content and are referenced with annotations.
+
+## Changes to Legislation
+
+[Changes to Legislation] Revised legislation carried on this site may not be fully up to date. Changes and effects are recorded by our editorial team in lists which can be found in the ‘Changes to Legislation’ area. Where those effects have yet to be applied to the text of the legislation by the editorial team they are also listed alongside the legislation in the affected provisions. Use the ‘more’ link to open the changes and effects relevant to the provision you are viewing.
+
+## Changes and effects yet to be applied to Part 2 Chapter 2:
+
+[Changes and effects yet to be applied to Part 2 Chapter 2:] s. 160(4)(ab) word substituted by S.I. 2026/386 Sch. 2 para. 23(2) (3)
+[Changes and effects yet to be applied to Part 2 Chapter 2:] Sch. 3 para. 8(1)(y) added by 2022 c. 18 (N.I.) Sch. 3 para. 78(3)
+[Changes and effects yet to be applied to Part 2 Chapter 2:] Sch. 7 para. 51A inserted by S.I. 2026/386 Sch. 2 para. 23(12)(a)
+
+## Changes and effects yet to be applied to the whole Act associated Parts and Chapters:
+
+[Changes and effects yet to be applied to the whole Act associated Parts and Chapters:] Whole provisions yet to be inserted into this Act (including any effects on those provisions):
+[Changes and effects yet to be applied to the whole Act associated Parts and Chapters:] s. 160(4)(ab) word substituted by S.I. 2026/386 Sch. 2 para. 23(2) (3)
+[Changes and effects yet to be applied to the whole Act associated Parts and Chapters:] Sch. 3 para. 8(1)(y) added by 2022 c. 18 (N.I.) Sch. 3 para. 78(3)
+[Changes and effects yet to be applied to the whole Act associated Parts and Chapters:] Sch. 7 para. 51A inserted by S.I. 2026/386 Sch. 2 para. 23(12)(a)
+
+## CHAPTER 2 U.K. [ F1 The UK GDPR ]
+
+[CHAPTER 2 U.K. [ F1 The UK GDPR ]] Textual Amendments
+[CHAPTER 2 U.K. [ F1 The UK GDPR ]] F1 Pt. 2 Ch. 2 heading substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 7 (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+
+## Meaning of certain terms used in the [ F2 UK GDPR ] U.K.
+
+[Meaning of certain terms used in the [ F2 UK GDPR ] U.K.] Textual Amendments
+[Meaning of certain terms used in the [ F2 UK GDPR ] U.K.] F2 Words in s. 6 cross-heading substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 8 (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+
+## 6 Meaning of “controller” U.K.
+
+[6 Meaning of “controller” U.K.] (1) The definition of “controller” in Article [ F3 4(1)(7) ] of the [ F4 UK GDPR ] has effect subject to—
+[6 Meaning of “controller” U.K.] (a) subsection (2),
+[6 Meaning of “controller” U.K.] (b) section 209, and
+[6 Meaning of “controller” U.K.] (c) section 210.
+[6 Meaning of “controller” U.K.] (2) For the purposes of the [ F5 UK GDPR ] , where personal data is processed only—
+[6 Meaning of “controller” U.K.] (a) for purposes for which it is required by an enactment to be processed, and
+[6 Meaning of “controller” U.K.] (b) by means by which it is required by an enactment to be processed,
+[6 Meaning of “controller” U.K.] the person on whom the obligation to process the data is imposed by the enactment (or, if different, one of the enactments) is the controller.
+[6 Meaning of “controller” U.K.] Textual Amendments
+[6 Meaning of “controller” U.K.] F3 Word in s. 6 substituted (5.2.2026) by Data (Use and Access) Act 2025 (c. 18) , ss. 67(2) , 142(1) ; S.I. 2026/82 , reg. 2(a)
+[6 Meaning of “controller” U.K.] F4 Words in s. 6(1) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 9 (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[6 Meaning of “controller” U.K.] F5 Words in s. 6(2) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 9 (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[6 Meaning of “controller” U.K.] Commencement Information
+[6 Meaning of “controller” U.K.] I1 S. 6 in force at 25.5.2018 by S.I. 2018/625 , reg. 2(1)(b)
+
+## 7 Meaning of “public authority” and “public body” U.K.
+
+[7 Meaning of “public authority” and “public body” U.K.] (1) For the purposes of the [ F6 UK GDPR ] , the following (and only the following) are “public authorities” and “public bodies” F7 ...—
+[7 Meaning of “public authority” and “public body” U.K.] (a) a public authority as defined by the Freedom of Information Act 2000,
+[7 Meaning of “public authority” and “public body” U.K.] (b) a Scottish public authority as defined by the Freedom of Information (Scotland) Act 2002 (asp 13),
+[7 Meaning of “public authority” and “public body” U.K.] [ F8 (ba) the Advanced Research and Invention Agency, ] and
+[7 Meaning of “public authority” and “public body” U.K.] (c) an authority or body specified or described by the Secretary of State in regulations,
+[7 Meaning of “public authority” and “public body” U.K.] subject to subsections (2), (3) and (4).
+[7 Meaning of “public authority” and “public body” U.K.] (2) An authority or body that falls within subsection (1) is only a “public authority” or “ public body ” for the purposes of the [ F9 UK GDPR ] when performing a task carried out in the public interest or in the exercise of official authority vested in it.
+[7 Meaning of “public authority” and “public body” U.K.] (3) The references in subsection (1)(a) and (b) to public authorities and Scottish public authorities as defined by the Freedom of Information Act 2000 and the Freedom of Information (Scotland) Act 2002 (asp 13) do not include any of the following that fall within those definitions—
+[7 Meaning of “public authority” and “public body” U.K.] (a) a parish council in England;
+[7 Meaning of “public authority” and “public body” U.K.] (b) a community council in Wales;
+[7 Meaning of “public authority” and “public body” U.K.] (c) a community council in Scotland;
+[7 Meaning of “public authority” and “public body” U.K.] (d) a parish meeting constituted under section 13 of the Local Government Act 1972;
+[7 Meaning of “public authority” and “public body” U.K.] (e) a community meeting constituted under section 27 of that Act;
+[7 Meaning of “public authority” and “public body” U.K.] (f) charter trustees constituted—
+[7 Meaning of “public authority” and “public body” U.K.] (i) under section 246 of that Act,
+[7 Meaning of “public authority” and “public body” U.K.] (ii) under Part 1 of the Local Government and Public Involvement in Health Act 2007, or
+[7 Meaning of “public authority” and “public body” U.K.] (iii) by the Charter Trustees Regulations 1996 (S.I. 1996/263).
+[7 Meaning of “public authority” and “public body” U.K.] (4) The Secretary of State may by regulations provide that a person specified or described in the regulations that is a public authority [ F10 described or mentioned in subsection (1)(a), (b) or (ba) ] is not a “public authority” or “ public body ” for the purposes of the [ F11 UK GDPR ] .
+[7 Meaning of “public authority” and “public body” U.K.] (5) Regulations under this section are subject to the affirmative resolution procedure.
+[7 Meaning of “public authority” and “public body” U.K.] Textual Amendments
+[7 Meaning of “public authority” and “public body” U.K.] F6 Words in s. 7(1) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 10(2)(a) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[7 Meaning of “public authority” and “public body” U.K.] F7 Words in s. 7(1) omitted (31.12.2020) by virtue of The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 10(2)(b) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[7 Meaning of “public authority” and “public body” U.K.] F8 S. 7(1)(ba) inserted (25.1.2023) by Advanced Research and Invention Agency Act 2022 (c. 4) , s. 13(1) , Sch. 3 para. 14(a) ; S.I. 2023/58 , reg. 2
+[7 Meaning of “public authority” and “public body” U.K.] F9 Words in s. 7(2) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 10(3) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[7 Meaning of “public authority” and “public body” U.K.] F10 Words in s. 7(4) substituted (25.1.2023) by Advanced Research and Invention Agency Act 2022 (c. 4) , s. 13(1) , Sch. 3 para. 14(b) ; S.I. 2023/58 , reg. 2
+[7 Meaning of “public authority” and “public body” U.K.] F11 Words in s. 7(4) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 10(3) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[7 Meaning of “public authority” and “public body” U.K.] Commencement Information
+[7 Meaning of “public authority” and “public body” U.K.] I2 S. 7 in force at Royal Assent for specified purposes, see s. 212(2)(f)
+[7 Meaning of “public authority” and “public body” U.K.] I3 S. 7 in force at 25.5.2018 in so far as not already in force by S.I. 2018/625 , reg. 2(1)(b)
+
+## Lawfulness of processing U.K.
+
+
+## 8 Lawfulness of processing: public interest etc U.K.
+
+[8 Lawfulness of processing: public interest etc U.K.] In Article 6(1) of the [ F12 UK GDPR ] (lawfulness of processing), the reference in point (e) to processing of personal data that is necessary for the performance of a task carried out in the public interest or in the exercise of F13 ... official authority includes processing of personal data that is necessary for—
+[8 Lawfulness of processing: public interest etc U.K.] (a) the administration of justice,
+[8 Lawfulness of processing: public interest etc U.K.] (b) the exercise of a function of either House of Parliament,
+[8 Lawfulness of processing: public interest etc U.K.] (c) the exercise of a function conferred on a person by an enactment or rule of law,
+[8 Lawfulness of processing: public interest etc U.K.] (d) the exercise of a function of the Crown, a Minister of the Crown or a government department, or
+[8 Lawfulness of processing: public interest etc U.K.] (e) an activity that supports or promotes democratic engagement.
+[8 Lawfulness of processing: public interest etc U.K.] Textual Amendments
+[8 Lawfulness of processing: public interest etc U.K.] F12 Words in s. 8 substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 11 (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[8 Lawfulness of processing: public interest etc U.K.] F13 Words in s. 8 omitted (5.2.2026) by virtue of Data (Use and Access) Act 2025 (c. 18) , ss. 70(7) , 142(1) ; S.I. 2026/82 , reg. 2(c)
+[8 Lawfulness of processing: public interest etc U.K.] Commencement Information
+[8 Lawfulness of processing: public interest etc U.K.] I4 S. 8 in force at 25.5.2018 by S.I. 2018/625 , reg. 2(1)(b)
+
+## F14 9 Child's consent in relation to information society services U.K.
+
+[F14 9 Child's consent in relation to information society services U.K.] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+[F14 9 Child's consent in relation to information society services U.K.] Textual Amendments
+[F14 9 Child's consent in relation to information society services U.K.] F14 S. 9 omitted (31.12.2020) by virtue of The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 12 (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+
+## [ F15 Relevant international law U.K.
+
+[[ F15 Relevant international law U.K.] Textual Amendments
+[[ F15 Relevant international law U.K.] F15 S. 9A and cross-heading inserted (19.6.2025 for specified purposes, 20.8.2025 for specified purposes, 5.2.2026 in so far as not already in force) by Data (Use and Access) Act 2025 (c. 18) , ss. 72(7) , 142(1) (2)(h) ; S.I. 2025/904 , reg. 2(b) ; S.I. 2026/82 , reg. 2(e)
+
+## 9A Processing in reliance on relevant international law U.K.
+
+[9A Processing in reliance on relevant international law U.K.] (1) Processing of personal data meets the requirement in Article 6(3), 8A(3)(e), 9(2)(g) or 10(1) of the UK GDPR for a basis in, or authorisation by, relevant international law only if it meets a condition in Schedule A1.
+[9A Processing in reliance on relevant international law U.K.] (2) A condition in Schedule A1 may be relied on for the purposes of any of those provisions, unless that Schedule provides otherwise.
+[9A Processing in reliance on relevant international law U.K.] (3) The Secretary of State may by regulations amend Schedule A1 by adding, varying or omitting—
+[9A Processing in reliance on relevant international law U.K.] (a) conditions,
+[9A Processing in reliance on relevant international law U.K.] (b) provision about the purposes for which a condition may be relied on, and
+[9A Processing in reliance on relevant international law U.K.] (c) safeguards in connection with processing carried out in reliance on a condition in the Schedule.
+[9A Processing in reliance on relevant international law U.K.] (4) Regulations under this section may only add a condition relating entirely or partly to a treaty ratified by the United Kingdom.
+[9A Processing in reliance on relevant international law U.K.] (5) Regulations under this section are subject to the affirmative resolution procedure.
+[9A Processing in reliance on relevant international law U.K.] (6) In this section, “ treaty ” and “ ratified ” have the same meaning as in Part 2 of the Constitutional Reform and Governance Act 2010 (see section 25 of that Act). ]
+
+## Special categories of personal data U.K.
+
+
+## 10 Special categories of personal data and criminal convictions etc data U.K.
+
+[10 Special categories of personal data and criminal convictions etc data U.K.] (1) Subsections (2) and (3) make provision about the processing of personal data described in Article 9(1) of the [ F16 UK GDPR ] (prohibition on processing of special categories of personal data) in reliance on an exception in one of the following points of Article 9(2)—
+[10 Special categories of personal data and criminal convictions etc data U.K.] (a) point (b) (employment, social security and social protection);
+[10 Special categories of personal data and criminal convictions etc data U.K.] (b) point (g) (substantial public interest);
+[10 Special categories of personal data and criminal convictions etc data U.K.] (c) point (h) (health and social care);
+[10 Special categories of personal data and criminal convictions etc data U.K.] (d) point (i) (public health);
+[10 Special categories of personal data and criminal convictions etc data U.K.] (e) point (j) (archiving, research and statistics).
+[10 Special categories of personal data and criminal convictions etc data U.K.] (2) The processing meets the requirement in point (b), (h), (i) or (j) of Article 9(2) of the [ F17 UK GDPR ] for authorisation by, or a basis in, the law of the United Kingdom or a part of the United Kingdom only if it meets a condition in Part 1 of Schedule 1.
+[10 Special categories of personal data and criminal convictions etc data U.K.] (3) The processing meets the requirement in point (g) of Article 9(2) of the [ F18 UK GDPR ] for a basis in the law of the United Kingdom or a part of the United Kingdom only if it meets a condition in Part 2 of Schedule 1.
+[10 Special categories of personal data and criminal convictions etc data U.K.] (4) Subsection (5) makes provision about the processing of personal data relating to criminal convictions and offences or related security measures that is not carried out under the control of official authority.
+[10 Special categories of personal data and criminal convictions etc data U.K.] (5) The processing meets the requirement in Article [ F19 10(1) of the UK GDPR ] for authorisation by the law of the United Kingdom or a part of the United Kingdom only if it meets a condition in Part 1, 2 or 3 of Schedule 1.
+[10 Special categories of personal data and criminal convictions etc data U.K.] (6) The Secretary of State may by regulations—
+[10 Special categories of personal data and criminal convictions etc data U.K.] (a) amend Schedule 1—
+[10 Special categories of personal data and criminal convictions etc data U.K.] (i) by adding or varying conditions or safeguards, and
+[10 Special categories of personal data and criminal convictions etc data U.K.] (ii) by omitting conditions or safeguards added by regulations under this section, and
+[10 Special categories of personal data and criminal convictions etc data U.K.] (b) consequentially amend this section.
+[10 Special categories of personal data and criminal convictions etc data U.K.] (7) Regulations under this section are subject to the affirmative resolution procedure.
+[10 Special categories of personal data and criminal convictions etc data U.K.] Textual Amendments
+[10 Special categories of personal data and criminal convictions etc data U.K.] F16 Words in s. 10(1) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 13(2) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[10 Special categories of personal data and criminal convictions etc data U.K.] F17 Words in s. 10(2) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 13(2) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[10 Special categories of personal data and criminal convictions etc data U.K.] F18 Words in s. 10(3) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 13(2) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[10 Special categories of personal data and criminal convictions etc data U.K.] F19 Words in s. 10(5) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 13(3) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[10 Special categories of personal data and criminal convictions etc data U.K.] Commencement Information
+[10 Special categories of personal data and criminal convictions etc data U.K.] I5 S. 10 in force at Royal Assent for specified purposes, see s. 212(2)(f)
+[10 Special categories of personal data and criminal convictions etc data U.K.] I6 S. 10 in force at 25.5.2018 in so far as not already in force by S.I. 2018/625 , reg. 2(1)(b)
+
+## 11 Special categories of personal data etc: supplementary U.K.
+
+[11 Special categories of personal data etc: supplementary U.K.] (1) For the purposes of Article 9(2)(h) of the [ F20 UK GDPR ] (processing for health or social care purposes etc), the circumstances in which the processing of personal data is carried out subject to the conditions and safeguards referred to in Article 9(3) of the [ F20 UK GDPR ] (obligation of secrecy) include circumstances in which it is carried out—
+[11 Special categories of personal data etc: supplementary U.K.] (a) by or under the responsibility of a health professional or a social work professional, or
+[11 Special categories of personal data etc: supplementary U.K.] (b) by another person who in the circumstances owes a duty of confidentiality under an enactment or rule of law.
+[11 Special categories of personal data etc: supplementary U.K.] (2) In Article 10 of the [ F21 UK GDPR ] and section 10, references to personal data relating to criminal convictions and offences or related security measures include personal data relating to—
+[11 Special categories of personal data etc: supplementary U.K.] (a) the alleged commission of offences by the data subject, or
+[11 Special categories of personal data etc: supplementary U.K.] (b) proceedings for an offence committed or alleged to have been committed by the data subject or the disposal of such proceedings, including sentencing.
+[11 Special categories of personal data etc: supplementary U.K.] Textual Amendments
+[11 Special categories of personal data etc: supplementary U.K.] F20 Words in s. 11(1) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 14 (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[11 Special categories of personal data etc: supplementary U.K.] F21 Words in s. 11(2) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 14 (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[11 Special categories of personal data etc: supplementary U.K.] Commencement Information
+[11 Special categories of personal data etc: supplementary U.K.] I7 S. 11 in force at 25.5.2018 by S.I. 2018/625 , reg. 2(1)(b)
+
+## Rights of the data subject U.K.
+
+
+## 12 Limits on fees that may be charged by controllers U.K.
+
+[12 Limits on fees that may be charged by controllers U.K.] (1) The Secretary of State may by regulations specify limits on the fees that a controller may charge in reliance on—
+[12 Limits on fees that may be charged by controllers U.K.] (a) Article 12(5) of the [ F22 UK GDPR ] (reasonable fees when responding to manifestly unfounded or excessive requests), or
+[12 Limits on fees that may be charged by controllers U.K.] (b) Article 15(3) of the [ F23 UK GDPR ] (reasonable fees for provision of further copies).
+[12 Limits on fees that may be charged by controllers U.K.] (2) The Secretary of State may by regulations—
+[12 Limits on fees that may be charged by controllers U.K.] (a) require controllers of a description specified in the regulations to produce and publish guidance about the fees that they charge in reliance on those provisions, and
+[12 Limits on fees that may be charged by controllers U.K.] (b) specify what the guidance must include.
+[12 Limits on fees that may be charged by controllers U.K.] (3) Regulations under this section are subject to the negative resolution procedure.
+[12 Limits on fees that may be charged by controllers U.K.] Textual Amendments
+[12 Limits on fees that may be charged by controllers U.K.] F22 Words in s. 12(1)(a) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 15 (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[12 Limits on fees that may be charged by controllers U.K.] F23 Words in s. 12(1)(b) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 15 (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[12 Limits on fees that may be charged by controllers U.K.] Commencement Information
+[12 Limits on fees that may be charged by controllers U.K.] I8 S. 12 in force at Royal Assent for specified purposes, see s. 212(2)(f)
+[12 Limits on fees that may be charged by controllers U.K.] I9 S. 12 in force at 25.5.2018 in so far as not already in force by S.I. 2018/625 , reg. 2(1)(b)
+
+## 13 Obligations of credit reference agencies U.K.
+
+[13 Obligations of credit reference agencies U.K.] (1) This section applies where a controller is a credit reference agency (within the meaning of section 145(8) of the Consumer Credit Act 1974).
+[13 Obligations of credit reference agencies U.K.] (2) The controller's obligations under Article 15(1) to (3) of the [ F24 UK GDPR ] (confirmation of processing, access to data and safeguards for third country transfers) are taken to apply only to personal data relating to the data subject's financial standing, unless the data subject has indicated a contrary intention.
+[13 Obligations of credit reference agencies U.K.] (3) Where the controller discloses personal data in pursuance of Article 15(1) to (3) of the [ F25 UK GDPR ] , the disclosure must be accompanied by a statement informing the data subject of the data subject's rights under section 159 of the Consumer Credit Act 1974 (correction of wrong information).
+[13 Obligations of credit reference agencies U.K.] Textual Amendments
+[13 Obligations of credit reference agencies U.K.] F24 Words in s. 13(2) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 16 (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[13 Obligations of credit reference agencies U.K.] F25 Words in s. 13(3) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 16 (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[13 Obligations of credit reference agencies U.K.] Modifications etc. (not altering text)
+[13 Obligations of credit reference agencies U.K.] C1 S. 13 applied by S.I. 2015/1945 , reg. 15(1) (as substituted (25.5.2018) by Data Protection Act 2018 (c. 12) , s. 212(1) , Sch. 19 para. 387(2) (with ss. 117 , 209 , 210 ); S.I. 2018/625 , reg. 2(1)(g) )
+[13 Obligations of credit reference agencies U.K.] Commencement Information
+[13 Obligations of credit reference agencies U.K.] I10 S. 13 in force at 25.5.2018 by S.I. 2018/625 , reg. 2(1)(b)
+
+## [ F26 13A Meaning of “relevant offence” for purpose of right to erasure U.K.
+
+[[ F26 13A Meaning of “relevant offence” for purpose of right to erasure U.K.] (1) The Secretary of State may by regulations amend the table in Article 17(5) of the UK GDPR.
+[[ F26 13A Meaning of “relevant offence” for purpose of right to erasure U.K.] (2) Regulations under this section are subject to the affirmative resolution procedure. ]
+[[ F26 13A Meaning of “relevant offence” for purpose of right to erasure U.K.] Textual Amendments
+[[ F26 13A Meaning of “relevant offence” for purpose of right to erasure U.K.] F26 S. 13A inserted (E.W.) (31.3.2026) by Victims and Prisoners Act 2024 (c. 21) , ss. 31(4) , 81(2) (with s. 32 ); S.I. 2026/317 , reg. 2
+[[ F26 13A Meaning of “relevant offence” for purpose of right to erasure U.K.] Modifications etc. (not altering text)
+[[ F26 13A Meaning of “relevant offence” for purpose of right to erasure U.K.] C2 S. 13A extended (S. and N.I.) (31.3.2026) by Data (Use and Access) Act 2025 (c. 18) , s. 142(1) , Sch. 11 para. 32(b) ; S.I. 2026/317 , reg. 3
+
+## F27 14 Automated decision-making authorised by law: safeguards U.K.
+
+[F27 14 Automated decision-making authorised by law: safeguards U.K.] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+[F27 14 Automated decision-making authorised by law: safeguards U.K.] Textual Amendments
+[F27 14 Automated decision-making authorised by law: safeguards U.K.] F27 S. 14 omitted (5.2.2026) by virtue of Data (Use and Access) Act 2025 (c. 18) , s. 142(1) , Sch. 6 para. 11 ; S.I. 2026/82 , reg. 2(z8) (with reg. 5 )
+
+## [ F28 Exemptions etc ] U.K.
+
+[[ F28 Exemptions etc ] U.K.] Textual Amendments
+[[ F28 Exemptions etc ] U.K.] F28 S. 15 cross-heading substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 18 (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+
+## 15 Exemptions etc U.K.
+
+[15 Exemptions etc U.K.] (1) Schedules 2, 3 and 4 make provision for exemptions from, and restrictions and adaptations of the application of, rules of the [ F29 UK GDPR ] .
+[15 Exemptions etc U.K.] (2) In Schedule 2—
+[15 Exemptions etc U.K.] (a) Part 1 makes provision adapting or restricting the application of rules contained in Articles 13 to 21 and 34 of the [ F30 UK GDPR ] in specified circumstances [ F31 (of a kind described in ] Article 6(3) and Article 23(1) of the [ F32 UK GDPR) ] ;
+[15 Exemptions etc U.K.] (b) Part 2 makes provision restricting the application of rules contained in Articles 13 to 21 and 34 of the [ F33 UK GDPR ] in specified circumstances [ F34 (of a kind described in ] Article 23(1) of the [ F35 UK GDPR) ] ;
+[15 Exemptions etc U.K.] (c) Part 3 makes provision restricting the application of Article 15 of the [ F36 UK GDPR ] where this is necessary to protect the rights of others [ F37 (of a kind described in ] Article 23(1) of the [ F38 UK GDPR) ] ;
+[15 Exemptions etc U.K.] (d) Part 4 makes provision restricting the application of rules contained in Articles 13 to 15 of the [ F39 UK GDPR ] in specified circumstances [ F40 (of a kind described in ] Article 23(1) of the [ F41 UK GDPR) ] ;
+[15 Exemptions etc U.K.] (e) Part 5 makes provision containing exemptions or derogations from Chapters II, III, IV [ F42 and V of the UK GDPR ] for reasons relating to freedom of expression [ F43 (of a kind described in Article 85(2) of the UK GDPR) ] ;
+[15 Exemptions etc U.K.] (f) Part 6 makes provision containing derogations from rights contained in Articles 15, 16, 18, 19, 20 and 21 of the [ F44 UK GDPR ] for scientific or historical research purposes, statistical purposes and archiving purposes F45 ....
+[15 Exemptions etc U.K.] (3) Schedule 3 makes provision restricting the application of rules contained in Articles 13 to 21 of the [ F46 UK GDPR ] to health, social work, education and child abuse data [ F47 (of a kind described in ] Article 23(1) of the [ F48 UK GDPR) ] .
+[15 Exemptions etc U.K.] (4) Schedule 4 makes provision restricting the application of rules contained in Articles 13 to 21 of the [ F49 UK GDPR ] to information the disclosure of which is prohibited or restricted by an enactment [ F50 (of a kind described in ] Article 23(1) of the [ F51 UK GDPR) ] .
+[15 Exemptions etc U.K.] [ F52 (4A) In connection with the manual unstructured processing of personal data held by an FOI public authority, see Chapter 3 of this Part (sections 21, 24 and 25). ]
+[15 Exemptions etc U.K.] (5) In connection with the safeguarding of national security and with defence, see Chapter 3 of this Part [ F53 (sections 26 to 28) ] .
+[15 Exemptions etc U.K.] Textual Amendments
+[15 Exemptions etc U.K.] F29 Words in s. 15(1) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(2) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F30 Words in s. 15(2)(a) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(3)(a) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F31 Words in s. 15(2)(a) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(3)(b) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F32 Words in s. 15(2)(a) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(3)(c) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F33 Words in s. 15(2)(b) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(4)(a) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F34 Words in s. 15(2)(b) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(4)(b) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F35 Words in s. 15(2)(b) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(4)(c) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F36 Words in s. 15(2)(c) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(5)(a) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F37 Words in s. 15(2)(c) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(5)(b) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F38 Words in s. 15(2)(c) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(5)(c) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F39 Words in s. 15(2)(d) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(6)(a) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F40 Words in s. 15(2)(d) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(6)(b) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F41 Words in s. 15(2)(d) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(6)(c) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F42 Words in s. 15(2)(e) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(7)(a) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F43 Words in s. 15(2)(e) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(7)(b) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F44 Words in s. 15(2)(f) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(8)(a) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F45 Words in s. 15(2)(f) omitted (31.12.2020) by virtue of The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(8)(b) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F46 Words in s. 15(3) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(9)(a) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F47 Words in s. 15(3) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(9)(b) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F48 Words in s. 15(3) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(9)(c) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F49 Words in s. 15(4) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(10)(a) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F50 Words in s. 15(4) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(10)(b) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F51 Words in s. 15(4) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(10)(c) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F52 S. 15(4A) inserted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(11) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] F53 Words in s. 15(5) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 19(12) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[15 Exemptions etc U.K.] Commencement Information
+[15 Exemptions etc U.K.] I11 S. 15 in force at 25.5.2018 by S.I. 2018/625 , reg. 2(1)(b)
+
+## 16 Power to make further exemptions etc by regulations U.K.
+
+[16 Power to make further exemptions etc by regulations U.K.] (1) The following powers to make provision altering the application of the [ F54 UK GDPR ] may be exercised by way of regulations made by the Secretary of State under this section—
+[16 Power to make further exemptions etc by regulations U.K.] (a) the power in Article 6(3) F55 ... to lay down a legal basis containing specific provisions to adapt the application of rules of the [ F56 UK GDPR ] where processing is necessary for compliance with a legal obligation, for the performance of a task in the public interest or in the exercise of official authority;
+[16 Power to make further exemptions etc by regulations U.K.] (b) the power in Article 23(1) to make [ F57 provision ] restricting the scope of the obligations and rights mentioned in that Article where necessary and proportionate to safeguard certain objectives of general public interest;
+[16 Power to make further exemptions etc by regulations U.K.] (c) the power in Article 85(2) to provide for exemptions or derogations from certain Chapters of the [ F58 UK GDPR ] where necessary to reconcile the protection of personal data with the freedom of expression and information.
+[16 Power to make further exemptions etc by regulations U.K.] (2) Regulations under this section may—
+[16 Power to make further exemptions etc by regulations U.K.] (a) amend Schedules 2 to 4—
+[16 Power to make further exemptions etc by regulations U.K.] (i) by adding or varying provisions, and
+[16 Power to make further exemptions etc by regulations U.K.] (ii) by omitting provisions added by regulations under this section, F59 ...
+[16 Power to make further exemptions etc by regulations U.K.] (b) consequentially amend section 15 [ F60 , and
+[16 Power to make further exemptions etc by regulations U.K.] (c) consequentially amend the UK GDPR by adding, varying or omitting a reference to section 15, Schedule 2, 3 or 4, this section or regulations under this section. ]
+[16 Power to make further exemptions etc by regulations U.K.] (3) Regulations under this section are subject to the affirmative resolution procedure.
+[16 Power to make further exemptions etc by regulations U.K.] Textual Amendments
+[16 Power to make further exemptions etc by regulations U.K.] F54 Words in s. 16(1) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 20(2)(a) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[16 Power to make further exemptions etc by regulations U.K.] F55 Words in s. 16(1)(a) omitted (31.12.2020) by virtue of The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 20(2)(b)(i) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[16 Power to make further exemptions etc by regulations U.K.] F56 Words in s. 16(1)(a) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 20(2)(b)(ii) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[16 Power to make further exemptions etc by regulations U.K.] F57 Word in s. 16(1)(b) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 20(2)(c) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[16 Power to make further exemptions etc by regulations U.K.] F58 Words in s. 16(1)(c) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 20(2)(d) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[16 Power to make further exemptions etc by regulations U.K.] F59 Word in s. 16(2)(a)(ii) omitted (31.12.2020) by virtue of The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 20(3)(a) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[16 Power to make further exemptions etc by regulations U.K.] F60 S. 16(2)(c) and word inserted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 20(3)(b) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[16 Power to make further exemptions etc by regulations U.K.] Commencement Information
+[16 Power to make further exemptions etc by regulations U.K.] I12 S. 16 in force at Royal Assent for specified purposes, see s. 212(2)(f)
+[16 Power to make further exemptions etc by regulations U.K.] I13 S. 16 in force at 25.5.2018 in so far as not already in force by S.I. 2018/625 , reg. 2(1)(b)
+
+## [ F61 Certification ] U.K.
+
+[[ F61 Certification ] U.K.] Textual Amendments
+[[ F61 Certification ] U.K.] F61 S. 17 cross-heading substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 21 (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+
+## 17 Accreditation of certification providers U.K.
+
+[17 Accreditation of certification providers U.K.] (1) Accreditation of a person as a certification provider is only valid when carried out by—
+[17 Accreditation of certification providers U.K.] (a) the Commissioner, or
+[17 Accreditation of certification providers U.K.] (b) the [ F62 UK national accreditation body ] .
+[17 Accreditation of certification providers U.K.] (2) The Commissioner may only accredit a person as a certification provider where the Commissioner—
+[17 Accreditation of certification providers U.K.] (a) has published a statement that the Commissioner will carry out such accreditation, and
+[17 Accreditation of certification providers U.K.] (b) has not published a notice withdrawing that statement.
+[17 Accreditation of certification providers U.K.] (3) The [ F63 UK national accreditation body ] may only accredit a person as a certification provider where the Commissioner—
+[17 Accreditation of certification providers U.K.] (a) has published a statement that the body may carry out such accreditation, and
+[17 Accreditation of certification providers U.K.] (b) has not published a notice withdrawing that statement.
+[17 Accreditation of certification providers U.K.] (4) The publication of a notice under subsection (2)(b) or (3)(b) does not affect the validity of any accreditation carried out before its publication.
+[17 Accreditation of certification providers U.K.] (5) Schedule 5 makes provision about reviews of, and appeals from, a decision relating to accreditation of a person as a certification provider.
+[17 Accreditation of certification providers U.K.] (6) The [ F64 UK national accreditation body ] may charge a reasonable fee in connection with, or incidental to, the carrying out of the body's functions under this section, Schedule 5 and Article 43 of the [ F65 UK GDPR ] .
+[17 Accreditation of certification providers U.K.] (7) The [ F66 UK national accreditation body ] must provide the Secretary of State with such information relating to its functions under this section, Schedule 5 and Article 43 of the [ F67 UK GDPR ] as the Secretary of State may reasonably require.
+[17 Accreditation of certification providers U.K.] (8) In this section—
+[17 Accreditation of certification providers U.K.] “ certification provider ” means a person who issues certification for the purposes of Article 42 of the [ F68 UK GDPR ] ;
+[17 Accreditation of certification providers U.K.] “ certification provider ” means a person who issues certification for the purposes of Article 42 of the [ F68 UK GDPR ] ;
+[17 Accreditation of certification providers U.K.] “ the [ F69 UK national accreditation body ] ” means the [ F69 UK national accreditation body ] for the purposes of Article 4(1) of Regulation (EC) No 765/2008 of the European Parliament and of the Council of 9 July 2008 setting out the requirements for accreditation and market surveillance relating to the marketing of products and repealing Regulation (EEC) No 339/93 .
+[17 Accreditation of certification providers U.K.] “ the [ F69 UK national accreditation body ] ” means the [ F69 UK national accreditation body ] for the purposes of Article 4(1) of Regulation (EC) No 765/2008 of the European Parliament and of the Council of 9 July 2008 setting out the requirements for accreditation and market surveillance relating to the marketing of products and repealing Regulation (EEC) No 339/93 .
+[17 Accreditation of certification providers U.K.] Textual Amendments
+[17 Accreditation of certification providers U.K.] F62 Words in s. 17(1)(b) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 22(2) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[17 Accreditation of certification providers U.K.] F63 Words in s. 17(3) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 22(3) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[17 Accreditation of certification providers U.K.] F64 Words in s. 17(6) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 22(4)(a) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[17 Accreditation of certification providers U.K.] F65 Words in s. 17(6) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 22(4)(b) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[17 Accreditation of certification providers U.K.] F66 Words in s. 17(7) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 22(5)(a) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[17 Accreditation of certification providers U.K.] F67 Words in s. 17(7) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 22(5)(b) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[17 Accreditation of certification providers U.K.] F68 Words in s. 17(8) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 22(6)(a) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[17 Accreditation of certification providers U.K.] F69 Words in s. 17(8) substituted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 22(6)(b) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[17 Accreditation of certification providers U.K.] Commencement Information
+[17 Accreditation of certification providers U.K.] I14 S. 17 in force at 25.5.2018 by S.I. 2018/625 , reg. 2(1)(b)
+
+## F70 ... U.K.
+
+[F70 ... U.K.] Textual Amendments
+[F70 ... U.K.] F70 S. 17A and cross-heading omitted (5.2.2026) by virtue of Data (Use and Access) Act 2025 (c. 18) , s. 142(1) , Sch. 9 para. 12 (with Sch. 9 Pt. 2 ); S.I. 2026/82 , reg. 2(z11)
+
+## F70 17A Transfers based on adequacy regulations U.K.
+
+[F70 17A Transfers based on adequacy regulations U.K.] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+## F71 17B Transfers based on adequacy regulations: review etc U.K.
+
+[F71 17B Transfers based on adequacy regulations: review etc U.K.] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+[F71 17B Transfers based on adequacy regulations: review etc U.K.] Textual Amendments
+[F71 17B Transfers based on adequacy regulations: review etc U.K.] F71 S. 17B omitted (5.2.2026) by virtue of Data (Use and Access) Act 2025 (c. 18) , s. 142(1) , Sch. 9 para. 13 (with Sch. 9 Pt. 2 ); S.I. 2026/82 , reg. 2(z11)
+
+## F72 17C Standard data protection clauses U.K.
+
+[F72 17C Standard data protection clauses U.K.] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+[F72 17C Standard data protection clauses U.K.] Textual Amendments
+[F72 17C Standard data protection clauses U.K.] F72 S. 17C omitted (5.2.2026) by virtue of Data (Use and Access) Act 2025 (c. 18) , s. 142(1) , Sch. 9 para. 14 (with Sch. 9 Pt. 2 ); S.I. 2026/82 , reg. 2(z11)
+
+## F74 18 Transfers of personal data to third countries etc [ F73 : public interest ] U.K.
+
+[F74 18 Transfers of personal data to third countries etc [ F73 : public interest ] U.K.] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+[F74 18 Transfers of personal data to third countries etc [ F73 : public interest ] U.K.] Textual Amendments
+[F74 18 Transfers of personal data to third countries etc [ F73 : public interest ] U.K.] F73 Words in s. 18 heading inserted (31.12.2020) by The Data Protection, Privacy and Electronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2) , Sch. 2 para. 24(2) (with reg. 5 ); 2020 c. 1 , Sch. 5 para. 1(1)
+[F74 18 Transfers of personal data to third countries etc [ F73 : public interest ] U.K.] F74 S. 18 omitted (5.2.2026) by virtue of Data (Use and Access) Act 2025 (c. 18) , s. 142(1) , Sch. 9 para. 15 (with Sch. 9 Pt. 2 ); S.I. 2026/82 , reg. 2(z11)
+
+## F75 ... U.K.
+
+[F75 ... U.K.] Textual Amendments
+[F75 ... U.K.] F75 S. 19 and cross-heading omitted (5.2.2026) by virtue of Data (Use and Access) Act 2025 (c. 18) , ss. 86(6) , 142(1) ; S.I. 2026/82 , reg. 2(n)
+
+## F75 19 Processing for archiving, research and statistical purposes: safeguards U.K.
+
+[F75 19 Processing for archiving, research and statistical purposes: safeguards U.K.] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+## Minor definition U.K.
+
+
+## F76 20 Meaning of “court” U.K.
+
+[F76 20 Meaning of “court” U.K.] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+[F76 20 Meaning of “court” U.K.] Textual Amendments
+[F76 20 Meaning of “court” U.K.] F76 S. 20 omitted (20.8.2025) by virtue of Data (Use and Access) Act 2025 (c. 18) , s. 142(1) , Sch. 11 para. 15 ; S.I. 2025/904 , reg. 2(y)
+[F76 20 Meaning of “court” U.K.] Previous: Chapter
+[F76 20 Meaning of “court” U.K.] Next: Chapter
+[F76 20 Meaning of “court” U.K.] Back to top
+
+## Options/Help
+
+
+## Print Options
+
+[Print Options] Print The Whole Act PDF The Whole Act Web page The Whole Act
+
+## Print The Whole Act
+
+[Print The Whole Act] PDF The Whole Act
+[Print The Whole Act] Web page The Whole Act
+[Print The Whole Act] Print The Whole Part PDF The Whole Part Web page The Whole Part
+
+## Print The Whole Part
+
+[Print The Whole Part] PDF The Whole Part
+[Print The Whole Part] Web page The Whole Part
+[Print The Whole Part] Print This Chapter only PDF This Chapter only Web page This Chapter only
+
+## Print This Chapter only
+
+[Print This Chapter only] PDF This Chapter only
+[Print This Chapter only] Web page This Chapter only
+
+## You have chosen to open The Whole Act
+
+[You have chosen to open The Whole Act] The Whole Act you have selected contains over 200 provisions and might take some time to download. You may also experience some issues with your browser, such as an alert box that a script is taking a long time to run.
+[You have chosen to open The Whole Act] Would you like to continue?
+[You have chosen to open The Whole Act] Continue to open
+
+## You have chosen to open The Whole Act as a PDF
+
+[You have chosen to open The Whole Act as a PDF] The Whole Act you have selected contains over 200 provisions and might take some time to download.
+[You have chosen to open The Whole Act as a PDF] Would you like to continue?
+[You have chosen to open The Whole Act as a PDF] Continue to open
+
+## You have chosen to open The Whole Act without Schedules
+
+[You have chosen to open The Whole Act without Schedules] The Whole Act without Schedules you have selected contains over 200 provisions and might take some time to download. You may also experience some issues with your browser, such as an alert box that a script is taking a long time to run.
+[You have chosen to open The Whole Act without Schedules] Would you like to continue?
+[You have chosen to open The Whole Act without Schedules] Continue to open
+
+## You have chosen to open The Whole Act without Schedules as a PDF
+
+[You have chosen to open The Whole Act without Schedules as a PDF] The Whole Act without Schedules you have selected contains over 200 provisions and might take some time to download.
+[You have chosen to open The Whole Act without Schedules as a PDF] Would you like to continue?
+[You have chosen to open The Whole Act without Schedules as a PDF] Continue to open
+
+## You have chosen to open the Whole Act
+
+[You have chosen to open the Whole Act] The Whole Act you have selected contains over 200 provisions and might take some time to download. You may also experience some issues with your browser, such as an alert box that a script is taking a long time to run.
+[You have chosen to open the Whole Act] Would you like to continue?
+[You have chosen to open the Whole Act] Continue to open
+
+## You have chosen to open the Whole Act without Schedules
+
+[You have chosen to open the Whole Act without Schedules] The Whole Act without Schedules you have selected contains over 200 provisions and might take some time to download. You may also experience some issues with your browser, such as an alert box that a script is taking a long time to run.
+[You have chosen to open the Whole Act without Schedules] Would you like to continue?
+[You have chosen to open the Whole Act without Schedules] Continue to open
+
+## You have chosen to open Schedules only
+
+[You have chosen to open Schedules only] The Schedules you have selected contains over 200 provisions and might take some time to download. You may also experience some issues with your browser, such as an alert box that a script is taking a long time to run.
+[You have chosen to open Schedules only] Would you like to continue?
+[You have chosen to open Schedules only] Continue to open
+
+## Legislation is available in different versions:
+
+[Legislation is available in different versions:] Latest Available (revised): The latest available updated version of the legislation incorporating changes made by subsequent legislation and applied by our editorial team. Changes we have not yet applied to the text, can be found in the ‘Changes to Legislation’ area.
+[Legislation is available in different versions:] Original (As Enacted or Made): The original version of the legislation as it stood when it was enacted or made. No changes have been applied to the text.
+
+## See additional information alongside the content
+
+[See additional information alongside the content] Geographical Extent: Indicates the geographical area that this provision applies to. For further information see ‘Frequently Asked Questions’.
+[See additional information alongside the content] Show Timeline of Changes: See how this legislation has or could change over time. Turning this feature on will show extra navigation options to go to these specific points in time. Return to the latest available version by using the controls above in the What Version box.
+
+## Opening Options
+
+[Opening Options] Different options to open legislation in order to view more content on screen at once
+
+## Explanatory Notes
+
+[Explanatory Notes] Text created by the government department responsible for the subject matter of the Act to explain what the Act sets out to achieve and to make the Act accessible to readers who are not legally qualified. Explanatory Notes were introduced in 1999 and accompany all Public Acts except Appropriation, Consolidated Fund, Finance and Consolidation Acts.
+
+## More Resources
+
+[More Resources] Access essential accompanying documents and information for this legislation item from this tab. Dependent on the legislation item being viewed this may include:
+[More Resources] the original print PDF of the as enacted version that was used for the print copy
+[More Resources] lists of changes made by and/or affecting this legislation item
+[More Resources] confers power and blanket amendment details
+[More Resources] all formats of all associated documents
+[More Resources] correction slips
+[More Resources] links to related legislation and further information resources
+
+## Timeline of Changes
+
+[Timeline of Changes] This timeline shows the different points in time where a change occurred. The dates will coincide with the earliest date on which the change (e.g an insertion, a repeal or a substitution) that was applied came into force. The first date in the timeline will usually be the earliest date when the provision came into force. In some cases the first date is 01/02/1991 (or for Northern Ireland legislation 01/01/2006). This date is our basedate. No versions before this date are available. For further information see the Editorial Practice Guide and Glossary under Help.
+
+## More Resources
+
+[More Resources] Use this menu to access essential accompanying documents and information for this legislation item. Dependent on the legislation item being viewed this may include:
+[More Resources] the original print PDF of the as enacted version that was used for the print copy
+[More Resources] correction slips
+[More Resources] Click 'View More' or select 'More Resources' tab for additional information including:
+[More Resources] lists of changes made by and/or affecting this legislation item
+[More Resources] confers power and blanket amendment details
+[More Resources] all formats of all associated documents
+[More Resources] links to related legislation and further information resources
+[More Resources] The data on this page is available in the alternative data formats listed: HTML5 alternative version HTML snippet alternative version PDF alternative version XML alternative version Akoma Ntoso alternative version HTML RDFa alternative version RDF/XML alternative version
+[More Resources] HTML5 alternative version
+[More Resources] HTML snippet alternative version
+[More Resources] PDF alternative version
+[More Resources] XML alternative version
+[More Resources] Akoma Ntoso alternative version
+[More Resources] HTML RDFa alternative version
+[More Resources] RDF/XML alternative version
+[More Resources] New site design
+[More Resources] Help
+[More Resources] About us
+[More Resources] Site map
+[More Resources] Accessibility
+[More Resources] Contact us
+[More Resources] Privacy notice
+[More Resources] Cookies
+[More Resources] All content is available under the Open Government Licence v3.0 except where otherwise stated . This site additionally contains content derived from EUR-Lex, reused under the terms of the Commission Decision 2011/833/EU on the reuse of documents from the EU institutions. For more information see the EUR-Lex public statement on re-use .

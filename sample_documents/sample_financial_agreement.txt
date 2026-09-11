@@ -1,0 +1,86 @@
+CONSUMER FINANCIAL SERVICES AGREEMENT
+
+This Agreement ("Agreement") is entered into between Meridian Consumer Finance LLC
+("Provider") and the undersigned account holder ("Customer"), effective as of the date
+of account opening.
+
+1. ACCOUNT SERVICES
+
+Provider shall maintain a revolving credit account for Customer's use in accordance with
+the terms set forth herein. Customer may access account services through the mobile
+application, website, or by contacting customer support during business hours.
+
+2. AUTOMATIC RENEWAL
+
+This Agreement shall automatically renew for successive twelve (12) month terms unless
+Customer provides written notice of cancellation at least thirty (30) days prior to the
+end of the then-current term. Provider will send a renewal reminder notice to the email
+address on file no later than forty-five (45) days before the renewal date. If Customer
+does not cancel, the subscription fee will be charged automatically to the payment
+method on file.
+
+3. FEES AND CHARGES
+
+Customer agrees to pay a monthly maintenance fee of $9.99, billed on the first day of
+each billing cycle. In addition to the monthly maintenance fee, the following charges
+may apply: a late payment fee of $35.00 if a payment is not received within five (5)
+days of the due date; a returned payment fee of $25.00 for any payment returned unpaid
+by Customer's financial institution; and a foreign transaction fee equal to 3% of the
+transaction amount for purchases made outside the United States. Provider reserves the
+right to modify these fees upon thirty (30) days' written notice.
+
+4. LIMITATION OF LIABILITY
+
+To the maximum extent permitted by applicable law, Provider's total liability arising
+out of or related to this Agreement, whether in contract, tort, or otherwise, shall not
+exceed the total fees paid by Customer to Provider in the twelve (12) months preceding
+the event giving rise to the claim. In no event shall Provider be liable for indirect,
+incidental, special, consequential, or punitive damages, including loss of profits or
+data, even if advised of the possibility of such damages. Customer agrees to indemnify
+and hold Provider harmless from any claims arising from Customer's breach of this
+Agreement.
+
+5. DATA COLLECTION AND SHARING
+
+Provider collects Customer's personal and financial information, including transaction
+history, account balances, and device identifiers, in order to provide and improve its
+services. Provider may share this information with affiliated companies, marketing
+partners, and third-party service providers for purposes including credit risk
+assessment, fraud prevention, and targeted advertising. Customer's data may be
+transferred to and processed in jurisdictions outside of the Customer's country of
+residence. Customer may opt out of marketing-related data sharing by contacting customer
+support, but data sharing necessary for account servicing and regulatory compliance
+cannot be opted out of.
+
+6. LATE PAYMENT AND DEFAULT
+
+If Customer fails to make a scheduled payment within thirty (30) days of its due date,
+Customer shall be in default under this Agreement. Upon default, Provider may charge a
+penalty interest rate of 29.99% APR on the outstanding balance, accelerate all amounts
+owed under this Agreement, and report the default to consumer credit reporting agencies.
+Provider may also assign or refer the delinquent account to a third-party collection
+agency.
+
+7. CUSTOMER SUPPORT
+
+Provider will make commercially reasonable efforts to respond to Customer support
+inquiries within two (2) business days. Customer support is available via phone, email,
+and in-app chat during Provider's normal business hours, Monday through Friday,
+9:00 AM to 6:00 PM Eastern Time, excluding federal holidays.
+
+8. ACCOUNT STATEMENTS
+
+Provider will make monthly account statements available electronically through the
+mobile application and customer web portal. Customer may request a paper statement at
+no additional charge by contacting customer support.
+
+9. GOVERNING LAW
+
+This Agreement shall be governed by and construed in accordance with the laws of the
+State of Delaware, without regard to its conflict of laws principles.
+
+10. ENTIRE AGREEMENT
+
+This Agreement, together with any amendments issued by Provider from time to time,
+constitutes the entire agreement between the parties with respect to its subject matter
+and supersedes all prior agreements and understandings, whether written or oral.

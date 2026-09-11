@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-07-14T21:41:55.068285+00:00",
+  "sample_size": 500,
+  "seed": 42,
+  "tau": 0.75,
+  "verifier_v3": {
+    "tp": 189,
+    "tn": 65,
+    "fp": 213,
+    "fn": 33,
+    "balanced_accuracy": 0.5426,
+    "hallucination_detection_recall": 0.2338,
+    "supported_precision": 0.4701,
+    "supported_recall": 0.8514,
+    "supported_f1": 0.6058,
+    "accuracy_ci95": {
+      "mean": 0.508,
+      "lower": 0.4639500000000001,
+      "upper": 0.552
+    }
+  },
+  "base_checkpoint": {
+    "tp": 211,
+    "tn": 24,
+    "fp": 254,
+    "fn": 11,
+    "balanced_accuracy": 0.5184,
+    "hallucination_detection_recall": 0.0863,
+    "supported_precision": 0.4538,
+    "supported_recall": 0.9505,
+    "supported_f1": 0.6143,
+    "accuracy_ci95": {
+      "mean": 0.47,
+      "lower": 0.43,
+      "upper": 0.514
+    }
+  },
+  "v3_minus_base_paired_bootstrap": {
+    "mean_difference": 0.038,
+    "lower": 0.006,
+    "upper": 0.072,
+    "p_two_sided": 0.02,
+    "n": 500
+  },
+  "reproduction_gate": {
+    "reference_path": "C:\\Users\\SRINI\\Downloads\\FinLingoPP_Final_Submission_v2\\FinLingoPP_Submission\\reports\\verifier_faithbench_v3_financial.json",
+    "checked": true,
+    "reference_balanced_accuracy": 0.5426,
+    "reproduced_balanced_accuracy": 0.5426,
+    "tolerance": 0.03,
+    "within_tolerance": true
+  }
+}

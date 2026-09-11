@@ -1,0 +1,60 @@
+{
+  "note": "Real clause text from run 2 (bu1kmdpts, mtime 2026-07-16T22:19:55) FLB export for the two weakest RQ2 classes. IMPORTANT LIMITATION: evaluate_records() does not persist the S5 classifiers per-record predicted label or rationale back to the FLB export -- only the gold label is stored. So these are genuine failure-CLASS examples (real input text the classifier struggled with, from the exact run being reported), but the specific predicted label / model rationale for each cannot be reconstructed from run-2 artifacts alone without a fresh (non-run-2) S5 call. Recommend adding prediction persistence to evaluate_records for future reproducibility -- noted as a code-improvement recommendation. NOTE: duplicate-looking entries below are the ::supported/::unsupported NLI-pair variants of the same source clause, not distinct records -- FLB pairs each clause with two hypothesis variants.",
+  "rq2_per_class_table": {
+    "source": "reconstructed from reports/evaluation_achievable.json rq2.confusion_matrix, run 2 only",
+    "columns": ["label", "support", "true_positives", "precision", "recall", "f1"],
+    "rows": [
+      ["Auto-Renewal", 14, 11, 1.000, 0.786, 0.880],
+      ["Hidden Fee", 18, 1, 0.500, 0.056, 0.100],
+      ["Liability Waiver", 13, 7, 0.778, 0.538, 0.636],
+      ["Data Sharing", 14, 2, 1.000, 0.143, 0.250],
+      ["Penalty Clause", 10, 4, 0.800, 0.400, 0.533],
+      ["Safe", 22, 21, 0.382, 0.955, 0.545]
+    ],
+    "interpretation": "Hidden Fee is the clear worst performer (recall 0.056 -- essentially never correctly identified). Data Sharing is second-worst (recall 0.143). Both are the classes with the least regulatory-corpus coverage (documented separately). Safe has high recall (0.955) but very low precision (0.382) -- the classifier over-predicts Safe as a fallback, consistent with the pre-fix failure mode this session's S5 fix targeted, though the fix addressed evidence-laundering specifically, not general few-shot classification weakness on clause text alone."
+  },
+  "hidden_fee_examples": [
+    {
+      "source_id": "cuad::KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement.pdf::20::17853::17963::09b0d85edbe6",
+      "clause_excerpt": "Commencing with ****, Dexcel may adjust the Supply Price for the next following Year not more often than ****."
+    },
+    {
+      "source_id": "cuad::KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement.pdf::20::17853::17963::09b0d85edbe6",
+      "clause_excerpt": "Commencing with ****, Dexcel may adjust the Supply Price for the next following Year not more often than ****."
+    },
+    {
+      "source_id": "cuad::LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR AGREEMENT.pdf::20::12265::12696::72b3081b3e79",
+      "clause_excerpt": "The prices set forth in Section 2.4(a) shall be subject to adjustment annually on the first day of each Product Year beginning in the calendar year 2000 and on the first day of each succeeding Product Year for the remainder of the Term and all renewals of this Agreement in proportion to the increase"
+    },
+    {
+      "source_id": "cuad::LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR AGREEMENT.pdf::20::12265::12696::72b3081b3e79",
+      "clause_excerpt": "The prices set forth in Section 2.4(a) shall be subject to adjustment annually on the first day of each Product Year beginning in the calendar year 2000 and on the first day of each succeeding Product Year for the remainder of the Term and all renewals of this Agreement in proportion to the increase"
+    },
+    {
+      "source_id": "cuad::IntegrityMediaInc_20010329_10-K405_EX-10.17_2373875_EX-10.17_Co-Branding Agreement.pdf::21::7475::7570::4e04d2fe2b68",
+      "clause_excerpt": "TL's initial order for each recorded Product shall be a minimum of five thousand (5,000) units."
+    }
+  ],
+  "data_sharing_examples": [
+    {
+      "source_id": "external::converted_contract_nli::data-sharing::35_nda-10_0::39c74be2c6ad",
+      "clause_excerpt": "Before revealing any Confidential Information to its employees, officers, directors, representatives, advisers and/or Affiliates, the Receiving Party shall be obliged to notify such employees, officers, directors, representatives, advisers and/or Affiliates of the confidential nature of the disclosu"
+    },
+    {
+      "source_id": "external::converted_contract_nli::data-sharing::35_nda-10_0::39c74be2c6ad",
+      "clause_excerpt": "Before revealing any Confidential Information to its employees, officers, directors, representatives, advisers and/or Affiliates, the Receiving Party shall be obliged to notify such employees, officers, directors, representatives, advisers and/or Affiliates of the confidential nature of the disclosu"
+    },
+    {
+      "source_id": "external::converted_contract_nli::data-sharing::82_nda-10_0::0cae0224d844",
+      "clause_excerpt": "UNDERTAKING In consideration of our Agreement to supply to you certain written or oral information relating to the Business and entering into discussions relating to the sale of the Business to you (howsoever structured), you the Recipient hereby undertake to us, the Vendor for our benefit and that "
+    },
+    {
+      "source_id": "external::converted_contract_nli::data-sharing::82_nda-10_0::0cae0224d844",
+      "clause_excerpt": "UNDERTAKING In consideration of our Agreement to supply to you certain written or oral information relating to the Business and entering into discussions relating to the sale of the Business to you (howsoever structured), you the Recipient hereby undertake to us, the Vendor for our benefit and that "
+    },
+    {
+      "source_id": "external::converted_contract_nli::data-sharing::3_nda-10_0::d9c61fa5ea3a",
+      "clause_excerpt": "Any Confidential Information disclosed by the Disclosing Party or its Representatives orally or visually, shall be identified as such prior to disclosure and summarized in a writing provided by the Disclosing Party to the Receiving Party within thirty (30) days of the date of initial disclosure. “Di"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+# Web / configuration
+fastapi>=0.115,<1
+uvicorn[standard]>=0.34,<1
+python-multipart>=0.0.20,<1
+pydantic>=2.10,<3
+pydantic-settings>=2.7,<3
+python-dotenv>=1.0,<2
+httpx>=0.28,<1
+
+# Document parsing
+pymupdf>=1.25,<2
+pdfplumber>=0.11,<1
+python-docx>=1.1,<2
+pytesseract>=0.3.13,<1
+Pillow>=11,<12
+beautifulsoup4>=4.12,<5
+
+# Models / streaming datasets / LoRA
+# Install PyTorch with CUDA before the rest:
+# Torch >=2.6 is required by current Transformers when a pinned checkpoint
+# contains legacy PyTorch weights (CVE-2025-32434 safety gate).
+#   pip install torch==2.6.0+cu124 torchvision==0.21.0+cu124 torchaudio==2.6.0+cu124 --index-url https://download.pytorch.org/whl/cu124
+torch>=2.6,<3
+# The reported final results were actually produced against transformers
+# 5.10.2 and datasets 5.0.0, not the <5/<4 bounds this file previously
+# stated -- a real mismatch between this file and the runtime actually used,
+# found during final review. Widened to match reality.
+transformers>=4.47,<6
+accelerate>=1.2,<2
+peft>=0.14,<1
+# bitsandbytes is required only for the Qwen/Mistral 4-bit causal-LM (S2 QLoRA training).
+# The DeBERTa verifier now uses FP16 LoRA and does NOT require bitsandbytes.
+bitsandbytes>=0.45,<1
+sentence-transformers>=3.3,<4
+datasets>=3.2,<6
+huggingface-hub>=0.27,<1
+sentencepiece>=0.2,<1
+protobuf>=5.26,<7
+
+# Retrieval
+faiss-cpu>=1.9,<2
+rank-bm25>=0.2.2,<1
+tiktoken>=0.8,<1
+
+# LLM API clients
+# Groq is the primary LLM provider for silver-label generation and synthetic NLI.
+groq>=0.9,<1
+# openai is optional — used only for the GPT-4o judge comparison (--include-gpt-judge).
+openai>=1.55,<3
+
+# Evaluation / analysis
+bert-score>=0.3.13,<1
+sacrebleu>=2.5,<3
+textstat>=0.7.4,<1
+scikit-learn>=1.6,<2
+numpy>=1.26,<3
+pandas>=2.2,<3
+openpyxl>=3.1,<4
+pyarrow>=18,<22
+matplotlib>=3.9,<4
+PyYAML>=6,<7
+
+# Tests
+pytest>=8,<10
+pytest-cov>=6,<8
+pytest-asyncio>=0.24,<2

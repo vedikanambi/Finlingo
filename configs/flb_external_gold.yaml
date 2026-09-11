@@ -1,0 +1,16 @@
+version: '1.0'
+records:
+- source_id: external::apple::privacy-policy::data-sharing::a6c0003b20f3
+  document_id: Apple Privacy Policy
+  text: Apple may share personal data with Apple-affiliated companies, service providers who act on our behalf, our partners, developers, and publishers.
+  question: Does this clause permit or describe sharing personal data with affiliated companies, service providers, partners, developers, publishers, or other third parties?
+  risk_label: Data Sharing
+  dataset: Apple
+  split: external_test
+  source_type: human_adjudicated_external
+  source_label: Apple's Sharing of Personal Data
+  source_url: https://www.apple.com/legal/privacy/en-ww/
+  source_section: Apple's Sharing of Personal Data
+  source_revision: '2025-07-30'
+  human_reviewed: true
+  excluded_from_training: true

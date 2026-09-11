@@ -1,0 +1,34 @@
+{
+  "status": "pass_for_all_observed_locked_chunks",
+  "method": "Re-run the production XML extraction and token chunker using the original pinned source URLs, then compare chunk_id and text against unique evidence candidates in reports/flb_achievable_export.json.",
+  "sources": {
+    "CFPB Regulation Z": {
+      "generated_chunks": 2086,
+      "locked_observed_chunks": 414,
+      "exact_matches": 414
+    },
+    "CFPB Regulation X": {
+      "generated_chunks": 253,
+      "locked_observed_chunks": 40,
+      "exact_matches": 40
+    },
+    "CFPB Regulation E": {
+      "generated_chunks": 435,
+      "locked_observed_chunks": 92,
+      "exact_matches": 92
+    },
+    "FTC Negative Option Rule (16 CFR 425)": {
+      "generated_chunks": 4,
+      "locked_observed_chunks": 0,
+      "exact_matches": 0,
+      "note": "Exact pinned API response cached; the locked export contains no observed FTC candidate chunk to cross-check."
+    }
+  },
+  "totals": {
+    "locked_observed_chunks": 546,
+    "exact_matches": 546,
+    "missing": 0,
+    "changed": 0
+  },
+  "rejected_alternative": "Current GovInfo bulk reconstruction matched only 229/546 observed chunks and was not used."
+}

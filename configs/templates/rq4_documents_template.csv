@@ -1,0 +1,3 @@
+path,document_type,jurisdiction,scan_quality,length_band,notes
+../documents/example_mortgage.pdf,mortgage,UK,digital,long,Replace with a real held-out document
+../documents/example_scan.pdf,personal_loan,EU,low_resolution_scan,medium,Exercises the real Tesseract OCR path

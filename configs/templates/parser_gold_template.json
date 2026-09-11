@@ -1,0 +1,9 @@
+[
+  {
+    "path": "../documents/example.pdf",
+    "gold_clauses": [
+      "Paste the complete first gold clause here.",
+      "Paste the complete second gold clause here."
+    ]
+  }
+]

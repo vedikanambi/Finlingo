@@ -1,0 +1,252 @@
+version: "1.1"
+# 2026-07-22: added local cache_path pins for every source. A live evaluation
+# run this date found the corpus fetched inconsistently at request time (e.g.
+# EU Consumer Credit Directive returned 0 usable chunks, FTC Negative Option
+# Rule only 4), which cascades into large swings in S5's evidence-citation
+# gate and RQ3 recall between nominally-identical runs -- a real
+# reproducibility bug, not just noise. Pinning removes that source of
+# variance. EU Consumer Credit Directive 2023/2225 is removed below (not just
+# disabled: the "enabled" field is not read anywhere in the loading code, so
+# leaving a dead entry would still attempt and fail the fetch every run):
+# eur-lex.europa.eu now serves an AWS WAF JS bot-challenge to non-browser
+# clients on every endpoint tried (root PDF, OJ HTML, legislative-summary
+# HTML), so it cannot be fetched at all, live or cached -- a genuine,
+# disclosed dead source, silently contributing ~0 chunks in prior runs too.
+sources:
+  - source: FCA Handbook CONC
+    jurisdiction: UK
+    url: https://api-handbook.fca.org.uk/files/sourcebook/CONC.pdf
+    cache_path: models/regulatory_cache/fca_conc.txt
+    cache_version: fca-conc-pinned-2026-07-22
+    enabled: true
+  - source: FCA Handbook MCOB
+    jurisdiction: UK
+    url: https://api-handbook.fca.org.uk/files/sourcebook/MCOB.pdf
+    cache_path: models/regulatory_cache/fca_mcob.txt
+    cache_version: fca-mcob-pinned-2026-07-22
+    enabled: true
+  - source: CFPB Regulation Z
+    jurisdiction: US
+    url: https://www.ecfr.gov/api/versioner/v1/full/2026-07-09/title-12.xml?part=1026
+    cache_path: models/regulatory_cache/pinned-2026-07-09-part-1026.xml
+    cache_version: ecfr-api-pinned-2026-07-09-exact
+    enabled: true
+  - source: CFPB Regulation X
+    jurisdiction: US
+    url: https://www.ecfr.gov/api/versioner/v1/full/2026-07-09/title-12.xml?part=1024
+    cache_path: models/regulatory_cache/pinned-2026-07-09-part-1024.xml
+    cache_version: ecfr-api-pinned-2026-07-09-exact
+    enabled: true
+  - source: CFPB Regulation E
+    jurisdiction: US
+    url: https://www.ecfr.gov/api/versioner/v1/full/2026-07-09/title-12.xml?part=1005
+    cache_path: models/regulatory_cache/pinned-2026-07-09-part-1005.xml
+    cache_version: ecfr-api-pinned-2026-07-09-exact
+    enabled: true
+  - source: FTC Negative Option Rule (16 CFR 425)
+    jurisdiction: US
+    url: https://www.ecfr.gov/api/versioner/v1/full/2026-07-09/title-16.xml?part=425
+    cache_path: models/regulatory_cache/pinned-2026-07-09-part-425.xml
+    cache_version: ecfr-api-pinned-2026-07-09-exact
+    enabled: true
+  - source: UK Data Protection Act 2018 Part 2 (General Processing)
+    jurisdiction: UK
+    url: https://www.legislation.gov.uk/ukpga/2018/12/part/2/chapter/2
+    cache_path: models/regulatory_cache/uk_dpa_part2.txt
+    cache_version: uk-dpa-part2-pinned-2026-07-22
+    enabled: true
+  - source: UCC 2-718 Liquidation or Limitation of Damages
+    jurisdiction: US
+    url: https://www.law.cornell.edu/ucc/2/2-718
+    cache_path: models/regulatory_cache/ucc_2_718.txt
+    cache_version: ucc-2-718-pinned-2026-07-22
+    enabled: true
+  - source: UCC 2-719 Contractual Modification or Limitation of Remedy
+    jurisdiction: US
+    url: https://www.law.cornell.edu/ucc/2/2-719
+    cache_path: models/regulatory_cache/ucc_2_719.txt
+    cache_version: ucc-2-719-pinned-2026-07-22
+    enabled: true
+  - source: GDPR Article 6 Lawfulness of Processing
+    jurisdiction: EU
+    url: https://gdpr-info.eu/art-6-gdpr/
+    cache_path: models/regulatory_cache/gdpr_art6.txt
+    cache_version: gdpr-art6-pinned-2026-07-22
+    enabled: true
+  - source: GDPR Article 28 Processor (Third-Party Data Sharing)
+    jurisdiction: EU
+    url: https://gdpr-info.eu/art-28-gdpr/
+    cache_path: models/regulatory_cache/gdpr_art28.txt
+    cache_version: gdpr-art28-pinned-2026-07-22
+    enabled: true
+  # 2026-07-22 (second pass): the first corpus expansion (UCC 2-718/2-719,
+  # GDPR 6/28) was topically correct but too small in scale (~11 of 3,851
+  # chunks) to move retrieval recall. This second batch adds real, larger
+  # sources chosen to match FLB's 6 risk categories at the specific
+  # sub-topics CUAD's commercial clauses actually raise: financial-sector
+  # data sharing (GLBA/Reg P, not generic UK/EU privacy law), auto-renewal
+  # in subscription/negative-option contexts (FTC Telemarketing Sales Rule
+  # negative-option provisions), unfair/deceptive practices doctrine that
+  # applies broadly across Hidden Fee/Liability Waiver/Penalty Clause (FTC
+  # Act Sec. 5), unconscionability doctrine for liability waivers (UCC
+  # 2-302), and the underlying Truth in Lending Act finance-charge statute
+  # behind CFPB Reg Z (Hidden Fee).
+  - source: Regulation P - Privacy of Consumer Financial Information (12 CFR 1016)
+    jurisdiction: US
+    url: https://www.ecfr.gov/api/versioner/v1/full/2026-07-09/title-12.xml?part=1016
+    cache_path: models/regulatory_cache/reg_p_glba_privacy.xml
+    cache_version: ecfr-api-pinned-2026-07-09-exact
+    enabled: true
+  - source: FTC Telemarketing Sales Rule (16 CFR 310)
+    jurisdiction: US
+    url: https://www.ecfr.gov/api/versioner/v1/full/2026-07-09/title-16.xml?part=310
+    cache_path: models/regulatory_cache/ftc_telemarketing_310.xml
+    cache_version: ecfr-api-pinned-2026-07-09-exact
+    enabled: true
+  - source: FTC Act Section 5 - Unfair or Deceptive Acts or Practices (15 U.S.C. 45)
+    jurisdiction: US
+    url: https://www.law.cornell.edu/uscode/text/15/45
+    cache_path: models/regulatory_cache/usc_ftc_act_45.txt
+    cache_version: usc-15-45-pinned-2026-07-22
+    enabled: true
+  - source: Gramm-Leach-Bliley Act - Obligations With Respect to Disclosures (15 U.S.C. 6801)
+    jurisdiction: US
+    url: https://www.law.cornell.edu/uscode/text/15/6801
+    cache_path: models/regulatory_cache/usc_glba_6801.txt
+    cache_version: usc-15-6801-pinned-2026-07-22
+    enabled: true
+  - source: Gramm-Leach-Bliley Act - Obligations With Respect to Disclosure of Personal Information (15 U.S.C. 6802)
+    jurisdiction: US
+    url: https://www.law.cornell.edu/uscode/text/15/6802
+    cache_path: models/regulatory_cache/usc_glba_6802.txt
+    cache_version: usc-15-6802-pinned-2026-07-22
+    enabled: true
+  - source: UCC 2-302 Unconscionable Contract or Clause
+    jurisdiction: US
+    url: https://www.law.cornell.edu/ucc/2/2-302
+    cache_path: models/regulatory_cache/ucc_2_302.txt
+    cache_version: ucc-2-302-pinned-2026-07-22
+    enabled: true
+  - source: Truth in Lending Act - Finance Charge (15 U.S.C. 1605)
+    jurisdiction: US
+    url: https://www.law.cornell.edu/uscode/text/15/1605
+    cache_path: models/regulatory_cache/usc_tila_1605.txt
+    cache_version: usc-15-1605-pinned-2026-07-22
+    enabled: true
+  - source: Truth in Lending Act - Findings and Declaration of Purpose (15 U.S.C. 1601)
+    jurisdiction: US
+    url: https://www.law.cornell.edu/uscode/text/15/1601
+    cache_path: models/regulatory_cache/usc_tila_1601.txt
+    cache_version: usc-15-1601-pinned-2026-07-22
+    enabled: true
+  # 2026-07-22 (third pass): retrieval-recall root cause was NOT primarily a
+  # retrieval-method problem (see in_memory_retriever.py's BM25/hybrid switch
+  # and config.py's top_k/top_j/query-mode changes) -- a cheap retrieval-only
+  # probe (scripts/probe_retrieval_recall.py) showed even a much wider BM25
+  # search plateaus without genuinely on-topic source text. CUAD's clauses are
+  # general COMMERCIAL contracts (consulting agreements, licensing, M&A), not
+  # consumer lending -- so the domain-appropriate regulatory grounding is
+  # general contract-law doctrine on the exact CUAD clause categories
+  # (auto-renewal, indemnification/liability caps, liquidated
+  # damages/penalties, data-sharing disclosure), not banking-specific rules.
+  # This batch adds real, statute-level sources for exactly those categories,
+  # fetched via scripts/fetch_new_regulatory_sources.py (California's
+  # automatic-renewal law, anti-indemnity statute, liquidated-damages statute,
+  # CCPA consumer-data-sharing provisions, Delaware's corporate
+  # indemnification statute, and additional UCC default/remedies sections).
+  - source: California Automatic Renewal Law (Bus. & Prof. Code 17600-17605)
+    jurisdiction: US-CA
+    url: https://california.public.law/codes/ca_bus_and_prof_code_section_17602
+    cache_path: models/regulatory_cache/ca_auto_renewal_17602.txt
+    cache_version: ca-bpc-17602-pinned-2026-07-22
+    enabled: true
+  - source: California Automatic Renewal Law - Definitions (Bus. & Prof. Code 17601)
+    jurisdiction: US-CA
+    url: https://california.public.law/codes/ca_bus_and_prof_code_section_17601
+    cache_path: models/regulatory_cache/ca_auto_renewal_17601.txt
+    cache_version: ca-bpc-17601-pinned-2026-07-22
+    enabled: true
+  - source: California Automatic Renewal Law - Cancellation Procedure (Bus. & Prof. Code 17603)
+    jurisdiction: US-CA
+    url: https://california.public.law/codes/ca_bus_and_prof_code_section_17603
+    cache_path: models/regulatory_cache/ca_auto_renewal_17603.txt
+    cache_version: ca-bpc-17603-pinned-2026-07-22
+    enabled: true
+  - source: California Automatic Renewal Law - Remedies (Bus. & Prof. Code 17604-17605)
+    jurisdiction: US-CA
+    url: https://california.public.law/codes/ca_bus_and_prof_code_section_17605
+    cache_path: models/regulatory_cache/ca_auto_renewal_17605.txt
+    cache_version: ca-bpc-17605-pinned-2026-07-22
+    enabled: true
+  - source: California Civil Code 2782 - Construction Contract Indemnity
+    jurisdiction: US-CA
+    url: https://california.public.law/codes/ca_civ_code_section_2782
+    cache_path: models/regulatory_cache/ca_civ_2782_indemnity.txt
+    cache_version: ca-civ-2782-pinned-2026-07-22
+    enabled: true
+  - source: California Civil Code 2782.6 - Indemnity Agreements
+    jurisdiction: US-CA
+    url: https://california.public.law/codes/ca_civ_code_section_2782.6
+    cache_path: models/regulatory_cache/ca_civ_2782_6_indemnity.txt
+    cache_version: ca-civ-2782-6-pinned-2026-07-22
+    enabled: true
+  - source: California Civil Code 1671 - Liquidated Damages Validity
+    jurisdiction: US-CA
+    url: https://california.public.law/codes/ca_civ_code_section_1671
+    cache_path: models/regulatory_cache/ca_civil_code_liquidated_damages_1671.txt
+    cache_version: ca-civ-1671-pinned-2026-07-22
+    enabled: true
+  - source: California Consumer Privacy Act - Definitions (Civ. Code 1798.100)
+    jurisdiction: US-CA
+    url: https://california.public.law/codes/ca_civ_code_section_1798.100
+    cache_path: models/regulatory_cache/ccpa_1798_100_definitions.txt
+    cache_version: ccpa-1798-100-pinned-2026-07-22
+    enabled: true
+  - source: California Consumer Privacy Act - Right to Deletion (Civ. Code 1798.105)
+    jurisdiction: US-CA
+    url: https://california.public.law/codes/ca_civ_code_section_1798.105
+    cache_path: models/regulatory_cache/ccpa_1798_105_deletion.txt
+    cache_version: ccpa-1798-105-pinned-2026-07-22
+    enabled: true
+  - source: California Consumer Privacy Act - Disclosure Requirements (Civ. Code 1798.110)
+    jurisdiction: US-CA
+    url: https://california.public.law/codes/ca_civ_code_section_1798.110
+    cache_path: models/regulatory_cache/ccpa_1798_110_disclosure.txt
+    cache_version: ccpa-1798-110-pinned-2026-07-22
+    enabled: true
+  - source: California Consumer Privacy Act - Opt-Out of Sale/Sharing (Civ. Code 1798.120)
+    jurisdiction: US-CA
+    url: https://california.public.law/codes/ca_civ_code_section_1798.120
+    cache_path: models/regulatory_cache/ccpa_1798_120_opt_out_sharing.txt
+    cache_version: ccpa-1798-120-pinned-2026-07-22
+    enabled: true
+  - source: California Consumer Privacy Act - Definitions Full Text (Civ. Code 1798.140)
+    jurisdiction: US-CA
+    url: https://california.public.law/codes/ca_civ_code_section_1798.140
+    cache_path: models/regulatory_cache/ccpa_1798_140_definitions.txt
+    cache_version: ccpa-1798-140-pinned-2026-07-22
+    enabled: true
+  - source: Delaware General Corporation Law Sec. 145 - Indemnification of Officers and Directors
+    jurisdiction: US-DE
+    url: https://delcode.delaware.gov/title8/c001/sc04/index.html
+    cache_path: models/regulatory_cache/delaware_dgca_145_indemnification.txt
+    cache_version: de-dgcl-145-pinned-2026-07-22
+    enabled: true
+  - source: UCC 2-207 Additional Terms in Acceptance or Confirmation
+    jurisdiction: US
+    url: https://www.law.cornell.edu/ucc/2/2-207
+    cache_path: models/regulatory_cache/ucc_2_207_battle_of_forms.txt
+    cache_version: ucc-2-207-pinned-2026-07-22
+    enabled: true
+  - source: UCC 9-601 Rights and Remedies on Default
+    jurisdiction: US
+    url: https://www.law.cornell.edu/ucc/9/9-601
+    cache_path: models/regulatory_cache/ucc_9_601_default_rights.txt
+    cache_version: ucc-9-601-pinned-2026-07-22
+    enabled: true
+  - source: UCC 9-609 Secured Party's Right to Take Possession After Default
+    jurisdiction: US
+    url: https://www.law.cornell.edu/ucc/9/9-609
+    cache_path: models/regulatory_cache/ucc_9_609_default_remedies.txt
+    cache_version: ucc-9-609-pinned-2026-07-22
+    enabled: true

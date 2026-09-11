@@ -1,0 +1,15 @@
+Copyright (c) 2026 Vedika Thirumalai Nambi
+
+This repository is submitted as part of an MSc Artificial Intelligence practicum
+at the National College of Ireland. All rights are reserved by the author.
+
+This code is provided for academic assessment purposes. No permission is granted
+for commercial use, redistribution, or derivative works without the author's
+explicit written consent.
+
+Third-party datasets used by this project retain their own licences:
+- CUAD: CC BY 4.0
+- ContractNLI: Apache 2.0
+- EDGAR-CORPUS, CFPB Complaints: public domain
+See reports/pinned_revisions.json and configs/regulatory_sources.yaml for the
+full list of external data sources and their terms.

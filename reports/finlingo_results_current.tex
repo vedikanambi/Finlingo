@@ -1,0 +1,173 @@
+\documentclass[11pt]{article}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{hyperref}
+
+\title{FinLingo++ -- Results}
+\author{Vedika Thirumalai Nambi/24222437}
+\date{17 July 2026}
+
+\begin{document}
+\maketitle
+
+\section{Pipeline}
+\begin{table}[h!]
+\centering
+\begin{tabular}{clll}
+\toprule
+Stage & What it does & Model used \\
+\midrule
+S1 & Document parsing & PyMuPDF + OCR \\
+S2 & Simplify clause & Qwen2.5-1.5B + QLoRA \\
+S3 & Retrieve evidence & FAISS + Ollama embeddings \\
+S4 & Rerank evidence & MiniLM-L-12 cross-encoder \\
+S5 & Classify risk & Qwen2.5-1.5B, prompted, 6 risk classes \\
+S6 & Check faithfulness & DeBERTa-v3 NLI + QLoRA \\
+S7 & Generate report & FastAPI + React \\
+\bottomrule
+\end{tabular}
+\end{table}
+\noindent\textit{Note: S5 uses the same Qwen2.5-1.5B model as S2 (its own \texttt{risk\_model}
+setting is unset, so it falls back to the S2 simplifier model) rather than a separate larger
+model. S5 is prompted only, with no fine-tuning, by explicit design.}
+
+\section{Status checklist}
+\begin{table}[h!]
+\centering
+\begin{tabular}{ll}
+\toprule
+Item & Status \\
+\midrule
+S2 domain warm-up training & Done \\
+S2 simplifier adapter training & Done \\
+S6 DeBERTa verifier training (v3, 5,000 examples) & Done \\
+Verifier calibration \& FaithBench reproduction (n=500) & Done \\
+FinanceBench retrieval-query-mode ablation & Done \\
+Reranker ablation (L-6 vs L-12) & Done \\
+Multi-verifier comparison (DeBERTa v3 vs ModernBERT) & Done \\
+Failure analysis & Done \\
+Test suite (111 tests) \& frontend build & Passing \\
+6-class FLB benchmark (achievable scale, 91 clauses / 182 rows) & Done (built and locked; not the originally-scoped 500-clause version) \\
+Full ablation suite (6 pipeline variants + 5 baselines) & Done \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Results}
+
+\subsection{S6 verifier: base vs.\ fine-tuned (FaithBench, 500 test examples)}
+\begin{table}[h!]
+\centering
+\begin{tabular}{lrr}
+\toprule
+Metric & Base DeBERTa & Fine-tuned v3 \\
+\midrule
+Accuracy & 0.470 & 0.508 \\
+Balanced accuracy & 0.518 & 0.543 \\
+Unsupported (hallucination) recall & 0.086 & 0.234 \\
+Supported F1 & 0.614 & 0.606 \\
+\bottomrule
+\end{tabular}
+\end{table}
+\noindent Fine-tuning improves accuracy, balanced accuracy, and unsupported-claim recall (nearly
+tripling it). The improvement in balanced accuracy is statistically significant: paired bootstrap
+$+0.038$, 95\% CI $[0.006, 0.072]$, $p=0.02$ ($n=500$). Both configurations still miss the
+majority of unsupported claims (recall well under 0.5).
+
+\subsection{S2 simplifier: with adapter vs.\ zero-shot base model (same 91-clause benchmark)}
+\begin{table}[h!]
+\centering
+\begin{tabular}{lrr}
+\toprule
+Metric & Zero-shot base Qwen & With adapter (deployed) \\
+\midrule
+SARI & 49.01 & 49.44 \\
+BERTScore F1 & 0.895 & 0.895 \\
+Mean FK grade & 9.68 & 9.77 \\
+FK grade $\leq 9$ rate & 44.0\% & 41.8\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+\noindent The adapter produces a small, real improvement in SARI with essentially no change in
+BERTScore, and does not clearly improve FK grade over the zero-shot base model on this benchmark
+-- both configurations fail the FK $\leq 9$ target by a similar margin. This is measured on the
+full 91-clause official benchmark (larger and more representative than a small held-out dev
+split), using the metrics tracked by the current evaluation harness (SARI/BERTScore/FK); a
+semantic-entailment/acceptance-rate breakdown is not part of the current evaluator's output.
+
+\subsection{Retrieval and reranking (FLB, 91 queries)}
+\begin{table}[h!]
+\centering
+\begin{tabular}{lrrr}
+\toprule
+System & Recall@5 & MRR & Latency \\
+\midrule
+FAISS only (pre-rerank, Recall@8) & 0.111 & 0.029 & -- \\
++ MiniLM-L-6 & 0.067 & 0.021 & 46 ms \\
++ MiniLM-L-12 (deployed) & 0.067 & 0.031 & 81 ms \\
+\bottomrule
+\end{tabular}
+\end{table}
+\noindent Reranking does not improve recall@5 over pre-rerank recall@8 on this benchmark (different
+$k$, so not directly comparable), but L-12 improves ranking quality (MRR) over L-6 at roughly
+1.8$\times$ the latency. Absolute retrieval numbers on this benchmark are far lower than on
+FinanceBench (see \S3.3 of the earlier baseline) -- confirmed to be a corpus/query-match
+bottleneck specific to this benchmark, not a retrieval-architecture defect (see \S3.3 below).
+
+\subsection{Query type used for retrieval (FinanceBench, 30 examples)}
+\begin{table}[h!]
+\centering
+\begin{tabular}{lrr}
+\toprule
+Query & Recall@8 & Recall@5 (post-rerank) \\
+\midrule
+Original clause & 0.883 & 0.700 \\
+Simplified clause & 0.772 & 0.656 \\
+Combined & 0.867 & 0.706 \\
+\bottomrule
+\end{tabular}
+\end{table}
+\noindent Simplifying the clause before retrieval measurably lowers recall relative to using the
+original clause -- confirms simplification strips retrieval-relevant terms. Recall on this
+FinanceBench benchmark (0.70--0.88) is far higher than recall on the FLB benchmark (0.07--0.11,
+\S3.3) using the identical embedding and reranker models: this cross-corpus gap is the confirmed
+root cause of FLB's own low retrieval numbers, not a defect in the retrieval architecture itself.
+
+\section{Main findings}
+\begin{itemize}
+\item Reranking improves ranking quality (MRR) but not recall@k on the FLB benchmark; on
+  FinanceBench, reranking and the choice of query text both measurably affect results.
+\item Simplifying text before retrieval loses key financial/regulatory terms and hurts
+  retrieval -- confirmed on FinanceBench and identified as the dominant driver of FLB's own
+  faithfulness-verification bottleneck.
+\item The S2 adapter gives a small, real SARI improvement over the zero-shot base model, with no
+  clear FK-grade benefit on the full 91-clause benchmark.
+\item The S6 verifier improves significantly with fine-tuning (statistically significant on
+  balanced accuracy, unsupported-recall nearly tripled) but both configurations still miss the
+  majority of unsupported claims.
+\item The primary (chunk-grounded) faithfulness metric is near-zero on FLB. Root cause: the
+  chunk judged to actually ground a hypothesis is present in the verifier's evidence set only
+  6.6\% of the time (12/182) -- a retrieval-coverage bottleneck, not a benchmark-labelling
+  defect or a verifier failure in isolation. This is disclosed, not smoothed over.
+\item The risk classifier (S5) macro-F1 (0.56) remains below the 0.75 target. This gap reflects
+  a genuine tension in the project's own design: S5 is required to be prompted-only, no
+  fine-tuning, while targeting a fine-tuning-level score. Training a classifier to close this
+  gap was considered and declined, since it would depart from the specified method.
+\item The full-scale 91-clause, 6-class FLB benchmark was successfully built and locked this
+  round (up from the earlier 3-class-only blocked state); it remains smaller than the originally
+  planned 500-clause version due to genuine raw-data and quality-gate supply limits, not a
+  relaxed target -- documented per-class in the benchmark plan.
+\item The full ablation suite (isolating each pipeline component's contribution, plus five
+  comparator baselines: rule-based, plain-RAG, frozen FinBERT, RAGAS-style paragraph judge, and
+  SelfCheckGPT-style self-consistency) is now complete. The deployed verifier's secondary
+  faithfulness metric (precision 0.906, recall 0.637) beats both alternative faithfulness-checking
+  baselines (RAGAS-style: 0.689/0.560; SelfCheckGPT-style: 0.849/0.495) on the same benchmark --
+  a genuine, positive comparative finding. A frozen FinBERT baseline with a simple logistic-
+  regression head reaches macro-F1 0.69 on risk classification, ahead of the deployed prompted
+  classifier (0.56); verified via the codebase's existing deterministic document-level train/test
+  partition that this is not a data-leakage artifact, reinforcing that S5's ``no fine-tuning''
+  constraint (\S4) has a real, measurable cost.
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finlingopp"
+version = "3.0.0"
+description = "Explainable RAG with sentence-level faithfulness verification for consumer financial documents"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --disable-warnings"
+markers = [
+  "live: opt-in end-to-end tests requiring real credentials, adapters, network access, and a test document",
+]
+
+[tool.ruff]
+line-length = 120

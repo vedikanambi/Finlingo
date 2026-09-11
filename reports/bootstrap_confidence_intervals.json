@@ -1,0 +1,51 @@
+{
+  "scope": {
+    "note": "This file's confidence intervals (rq2_macro_f1_ci, rq3_source_clause_precision_ci, rq3_source_clause_recall_ci) are computed over reports/evaluation_achievable_v2.json -- Configuration A (tau=0.75, reranker enabled, FAISS retrieval), kept here as a sensitivity analysis under that specific configuration, not the primary reported result.",
+    "configuration": "Configuration A (tau=0.75)",
+    "primary_rq3_interval_source": "reports/evaluation_trained_s5_frozen_e2e.json's rq3.source_clause_precision_recall_ci.clause_clustered block (tau=0.376, the deployed configuration) is the primary reported RQ3 confidence interval, not this file."
+  },
+  "official_run": "reports/evaluation_achievable_v2.json",
+  "supersedes": "previous bootstrap_confidence_intervals.json computed on the earlier 0.491 run -- retained below as historical_v1",
+  "rq2_macro_f1_ci": {
+    "point_estimate": 0.5627683843263553,
+    "bootstrap_mean": 0.5525151256978514,
+    "lower": 0.4463095238095238,
+    "upper": 0.6512651476361154
+  },
+  "rq3_source_clause_precision_ci": {
+    "point_estimate": 0.90625,
+    "bootstrap_mean": 0.9071356654978001,
+    "lower": 0.835820895522388,
+    "upper": 0.9692307692307692
+  },
+  "rq3_source_clause_recall_ci": {
+    "point_estimate": 0.6373626373626373,
+    "bootstrap_mean": 0.6379717158205234,
+    "lower": 0.5408163265306123,
+    "upper": 0.74
+  },
+  "method": "Non-parametric bootstrap (n=2000 resamples, seed=42) over per-record (true,pred) pairs reconstructed exactly from the confusion matrices in reports/evaluation_achievable_v2.json (rq2.confusion_matrix, orientation-verified against reported point estimates before use; rq3.source_clause_preservation_metrics.confusion_matrix likewise). Macro-F1 averaged over classes with nonzero true support in the full sample, matching the point-estimate computation.",
+  "note": "Regenerated 2026-07-17 to match the declared official run (v2). Reconstruction verified: reproduced point estimates match reported values to <0.01 before bootstrapping.",
+  "historical_v1": {
+    "rq2_macro_f1_ci": {
+      "point_estimate": 0.4908585858585858,
+      "bootstrap_mean": 0.4126631023328445,
+      "lower": 0.3276877927125669,
+      "upper": 0.49893764325645645
+    },
+    "rq3_source_clause_precision_ci": {
+      "point_estimate": 0.90625,
+      "bootstrap_mean": 0.9062710660747583,
+      "lower": 0.8275862068965517,
+      "upper": 0.9696969696969697
+    },
+    "rq3_source_clause_recall_ci": {
+      "point_estimate": 0.6373626373626373,
+      "bootstrap_mean": 0.6381705358166591,
+      "lower": 0.5360732695139911,
+      "upper": 0.7362637362637363
+    },
+    "method": "Non-parametric bootstrap (n=2000 resamples, seed=42) over per-record true/pred label pairs reconstructed exactly from the confusion matrices in reports/evaluation_achievable.json (rq2.confusion_matrix and rq3.source_clause_preservation_metrics.confusion_matrix). The confusion matrix fully determines the multiset of (true,pred) pairs; only the mapping back to specific source documents is lost, which does not affect resampling validity. Reconstruction verified against the exact reported point estimates before use.",
+    "note_on_rq2_gap": "RQ2 bootstrap mean (0.413) sits noticeably below the point estimate (0.491). This is expected, not an error: several classes have very small true-positive counts (Hidden Fee 1/18, Penalty Clause 4/10), so many bootstrap resamples exclude the single correct prediction for that class entirely, driving its F1 to 0 for that resample and pulling the macro-average down. The CI (0.328-0.499) still correctly brackets the true value and shows real uncertainty driven by small per-class sample sizes."
+  }
+}

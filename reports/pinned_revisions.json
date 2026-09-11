@@ -1,0 +1,27 @@
+{
+  "dataset_revisions": {
+    "dvgodoy/CUAD_v1_Contract_Understanding_clause_classification": "2647c92f634569acbdfbd694ad5488293c55b3f7",
+    "urialon/converted_contract_nli": "c8c6e2fa95912a7ce76409d5b007ce949edcf7b5",
+    "stanfordnlp/snli": "cdb5c3d5eed6ead6e5a341c8e56e669bb666725b",
+    "PatronusAI/financebench": "e04404e3a97f69f79c14d42f24981a1c9c3bcd18",
+    "Mouwiya/cfpb-consumer-complaints": "038f8f8b18879c9384abfee5d0b685b00c03b3cf",
+    "gbharti/finance-alpaca": "c88d3d5e7e2c7cab9f11a56f27bd5ba3ed68f075"
+  },
+  "model_revisions": {
+    "BAAI/bge-small-en-v1.5": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+    "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+    "ProsusAI/finbert": "4556d13015211d73dccd3fdd39d39232506f3e43",
+    "Qwen/Qwen2.5-1.5B-Instruct": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "Qwen/Qwen2.5-3B-Instruct": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "answerdotai/ModernBERT-large": "45bb4654a4d5aaff24dd11d4781fa46d39bf8c13",
+    "cross-encoder/ms-marco-MiniLM-L-12-v2": "7b0235231ca2674cb8ca8f022859a6eba2b1c968",
+    "cross-encoder/ms-marco-MiniLM-L-6-v2": "c5ee24cb16019beea0893ab7796b1df96625c6b8",
+    "roberta-large": "722cf37b1afa9454edce342e7895e588b6ff1d59",
+    "tasksource/ModernBERT-large-nli": "ca476cb923a8637073d4ceb0f19f7fc236e260d4"
+  },
+  "unresolved": {},
+  "env_lines": [
+    "DATASET_REVISIONS_JSON={\"dvgodoy/CUAD_v1_Contract_Understanding_clause_classification\": \"2647c92f634569acbdfbd694ad5488293c55b3f7\", \"urialon/converted_contract_nli\": \"c8c6e2fa95912a7ce76409d5b007ce949edcf7b5\", \"stanfordnlp/snli\": \"cdb5c3d5eed6ead6e5a341c8e56e669bb666725b\", \"PatronusAI/financebench\": \"e04404e3a97f69f79c14d42f24981a1c9c3bcd18\", \"Mouwiya/cfpb-consumer-complaints\": \"038f8f8b18879c9384abfee5d0b685b00c03b3cf\", \"gbharti/finance-alpaca\": \"c88d3d5e7e2c7cab9f11a56f27bd5ba3ed68f075\"}",
+    "MODEL_REVISIONS_JSON={\"BAAI/bge-small-en-v1.5\": \"5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\", \"MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli\": \"b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7\", \"ProsusAI/finbert\": \"4556d13015211d73dccd3fdd39d39232506f3e43\", \"Qwen/Qwen2.5-1.5B-Instruct\": \"989aa7980e4cf806f80c7fef2b1adb7bc71aa306\", \"Qwen/Qwen2.5-3B-Instruct\": \"aa8e72537993ba99e69dfaafa59ed015b17504d1\", \"answerdotai/ModernBERT-large\": \"45bb4654a4d5aaff24dd11d4781fa46d39bf8c13\", \"cross-encoder/ms-marco-MiniLM-L-12-v2\": \"7b0235231ca2674cb8ca8f022859a6eba2b1c968\", \"cross-encoder/ms-marco-MiniLM-L-6-v2\": \"c5ee24cb16019beea0893ab7796b1df96625c6b8\", \"roberta-large\": \"722cf37b1afa9454edce342e7895e588b6ff1d59\", \"tasksource/ModernBERT-large-nli\": \"ca476cb923a8637073d4ceb0f19f7fc236e260d4\"}"
+  ]
+}

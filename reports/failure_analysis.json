@@ -1,0 +1,92 @@
+{
+  "experiment": "FinLingo failure analysis",
+  "status": "complete",
+  "inputs": [
+    "reports/simplifier_baseline.json",
+    "reports/retrieval_query_ablation.json",
+    "reports/reranker_comparison.json"
+  ],
+  "failure_categories": [
+    {
+      "category": "semantic_preservation_degradation",
+      "evidence": {
+        "base_mean_entailment": null,
+        "fine_tuned_mean_entailment": 0.6332441676640883,
+        "entailment_change": null,
+        "base_semantic_pass_rate": null,
+        "fine_tuned_semantic_pass_rate": 0.55
+      },
+      "interpretation": "Fine-tuning improved readability and acceptance, but semantic preservation weakened. This indicates a readability-faithfulness trade-off.",
+      "mitigation": "Retain the independent semantic verifier, reject number or negation changes, and require entailment thresholds before accepting simplifications."
+    },
+    {
+      "category": "simplified_query_retrieval_loss",
+      "evidence": {
+        "original_faiss_recall_at_8": 0.8833333333333333,
+        "simplified_faiss_recall_at_8": 0.7555555555555554,
+        "combined_faiss_recall_at_8": 0.8333333333333334,
+        "original_faiss_ndcg_at_8": 0.5993910617477712,
+        "simplified_faiss_ndcg_at_8": 0.4831774228542834
+      },
+      "interpretation": "Simplified queries lost exact financial terminology, which reduced candidate retrieval quality.",
+      "mitigation": "Use original queries for retrieval, or preserve exact financial and legal terms during simplification."
+    },
+    {
+      "category": "combined_query_does_not_fully_recover",
+      "evidence": {
+        "original_recall_at_8": 0.8833333333333333,
+        "combined_recall_at_8": 0.8333333333333334,
+        "original_ndcg_at_8": 0.5993910617477712,
+        "combined_ndcg_at_8": 0.5604470958093039
+      },
+      "interpretation": "Combining original and simplified text recovered part of the lost retrieval performance but did not exceed the original query.",
+      "mitigation": "Prefer the original query as the primary retrieval query and use simplification only for presentation."
+    },
+    {
+      "category": "reranking_latency_tradeoff",
+      "evidence": {
+        "l6_mean_latency_ms": 49.552149001392536,
+        "l12_mean_latency_ms": 93.64185799873667,
+        "l6_ndcg_at_5": 0.5321742127087067,
+        "l12_ndcg_at_5": 0.5405877782473206
+      },
+      "interpretation": "The L-12 reranker produced the best ranking quality but required higher latency than L-6.",
+      "mitigation": "Use L-12 when ranking quality is more important and L-6 when response latency is the priority."
+    },
+    {
+      "category": "reranker_hit_at_1_not_improved",
+      "evidence": {
+        "faiss_hit_at_1": 0.36,
+        "l6_hit_at_1": 0.35,
+        "l12_hit_at_1": 0.36
+      },
+      "interpretation": "Reranking improved recall and nDCG, but did not improve the top-ranked hit rate over FAISS.",
+      "mitigation": "Evaluate domain-specific rerankers or add query-aware financial terminology features."
+    },
+    {
+      "category": "flb_data_shortage",
+      "evidence": {
+        "available_unique_documents": 48,
+        "available_unique_clauses": 243,
+        "required_balanced_size": 500,
+        "missing_or_underrepresented_classes": [
+          "Auto-Renewal",
+          "Data Sharing",
+          "Penalty Clause"
+        ]
+      },
+      "interpretation": "The final balanced FLB evaluation could not be built because several risk classes lacked enough unique source clauses.",
+      "mitigation": "Acquire additional source documents for the deficient classes rather than lowering quality thresholds or duplicating clauses."
+    }
+  ],
+  "summary": {
+    "n_failure_categories": 6,
+    "main_failure": "Simplification can improve readability while reducing semantic fidelity and retrieval effectiveness.",
+    "main_recommendation": "Use the original text for retrieval, simplify only for user presentation, and retain verifier-based gating."
+  },
+  "limitations": [
+    "The simplifier comparison used 20 held-out clauses.",
+    "The retrieval-query ablation used 30 FinanceBench examples.",
+    "The full balanced FLB evaluation remains infeasible due to class shortages."
+  ]
+}

@@ -1,0 +1,52 @@
+version: "1.1"
+
+mapping_mode: "exact_source_label"
+
+safe_label: "Safe"
+
+labels:
+  Auto-Renewal:
+    - Renewal Term
+    - Notice Period To Terminate Renewal
+    - Automatic Renewal
+    - Evergreen
+
+  Hidden Fee:
+    - Fees
+    - Payment And Fees
+    - Minimum Commitment
+    - Price Restrictions
+    - Termination Fee
+
+  Liability Waiver:
+    - Cap On Liability
+    - Uncapped Liability
+    - Limitation Of Liability
+    - Covenant Not To Sue
+    - Indemnification
+
+  Data Sharing:
+    - Data Privacy
+    - Data Security
+    - Use Of Customer Data
+    - Personal Information
+    - Customer Data Sharing
+
+  Penalty Clause:
+    - Liquidated Damages
+    - Default
+    - Late Payment Penalty
+    - Early Termination Penalty
+
+safe_policy: >-
+  Safe examples must be independently adjudicated as containing none of the
+  five target risks. Unmapped CUAD categories are excluded and must never be
+  silently converted to Safe.
+
+excluded_ambiguous_categories:
+  - Revenue/Profit Sharing
+  - Warranty Duration
+  - Non-Transferable License
+  - Termination For Convenience
+  - Change Of Control
+
